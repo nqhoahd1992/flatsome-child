@@ -1,0 +1,266 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: Quang Hoa
+Template: flatsome
+Version: 3.0
+Text Domain: shtheme
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.text-box .text {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible
+}
+.uni-breadcrumbs {
+	margin-bottom: 30px;
+}
+
+/*--------------------------------------------------------------
+## Widget 
+--------------------------------------------------------------*/
+/* Widget Information */
+.widget_information ul li {
+    padding: 3px 0 3px 22px;
+    position: relative;
+}
+.widget_information ul li + li {
+	border-top: none;
+}
+.widget_information li i {
+    font-size: 0.75rem;
+    position: absolute;
+    left: 0;
+    top: .8em;
+    width: 14px;
+    text-align: center;
+}
+.widget_information li.label-company {
+    padding-left: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.widget_information li.label-company i {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+## Shortcode 
+--------------------------------------------------------------*/
+/* Shortcode Blog */
+.sh-blog-shortcode .element .entry-thumb a {
+    overflow: hidden;
+    display: block;
+}
+.sh-blog-shortcode .element .entry-thumb a img {
+    width: 100%;
+    height: auto;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.sh-blog-shortcode .element .entry-thumb a img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+.sh-blog-shortcode .element .entry-content {
+    margin: 0;
+    font-size: 0.9375rem;
+}
+.sh-blog-shortcode .element .entry-content p {
+    margin-bottom: 10px;
+}
+.sh-blog-shortcode .element .entry-meta {
+    color: #888;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.sh-blog-shortcode .element .entry-meta i {
+    margin-right: 5px;
+}
+.sh-blog-shortcode .element .entry-title {
+    margin: 10px 0 5px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4em;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 2.8em;
+}
+.sh-blog-shortcode .element .entry-description {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 0.9375rem;
+}
+.sh-blog-shortcode.style-1 .entry-thumb {
+    float: left;
+    width: 25%;
+    margin-right: 15px;
+}
+.sh-blog-shortcode.style-1 .entry-title {
+    margin: 0 0 5px 0;
+}
+.sh-blog-shortcode.style-5 .entry-thumb {
+    float: left;
+    width: 110px;
+    margin-right: 15px;
+}
+.sh-blog-shortcode.style-5 .entry-title {
+    margin-top: 0;
+}
+.sh-blog-shortcode.style-6 .entry-thumb {
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+}
+.sh-blog-shortcode.style-6 .first-element-layout,
+.sh-blog-shortcode.style-6 .second-element-layout {
+    margin-bottom: 20px;
+}
+.sh-blog-shortcode.style-6 .first-element-layout .element {
+    margin-bottom: 0;
+}
+.sh-blog-shortcode.style-6 .second-element-layout .element:not(:last-child) {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.sh-blog-shortcode.style-6 .second-element-layout .element:last-child {
+    margin-bottom: 0;
+}
+.sh-blog-shortcode.style-6 .second-element-layout .entry-thumb {
+    float: left;
+    width: 110px;
+    margin-right: 15px;
+}
+.sh-blog-shortcode.style-6 .second-element-layout .entry-title {
+    margin-top: 0;
+}
+.sh-blog-shortcode.style-7 .first-element-layout .element .entry-thumb {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+.sh-blog-shortcode.style-7 .first-element-layout .element .entry-title {
+    margin: 0 0 5px 0;
+}
+.sh-blog-shortcode.style-7 .second-element-layout {
+    margin-bottom: 20px;
+}
+.sh-blog-shortcode.style-7 .second-element-layout .element {
+    margin-bottom: 5px;
+}
+.sh-blog-shortcode.style-7 .second-element-layout .element .entry-title {
+    margin: 0;
+}
+.sh-blog-shortcode.style-7 .second-element-layout .element .entry-title a:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #337ab7;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+.sh-blog-shortcode.style-8 .element .post-inner {
+    position: relative;
+}
+.sh-blog-shortcode.style-8 .element .entry-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+}
+.sh-blog-shortcode.style-8 .element .entry-title {
+    font-size: 0.875rem;
+    line-height: 20px;
+    margin: 0;
+}
+.sh-blog-shortcode.style-8 .element .entry-title a {
+    display: block;
+    color: #fff;
+    max-height: 40px;
+    overflow: hidden;
+}
+@media (max-width: 414px) {
+    .sh-blog-shortcode .element {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* Shortcode Title Product */
+.uni-titlepro ul li {
+    margin-left: 0;
+    display: block;
+}
+.uni-titlepro .open-subcat {
+    white-space: nowrap;
+    cursor: pointer;
+}
+@media (min-width: 850px) {
+    .uni-titlepro {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .uni-titlepro .open-subcat {
+        display: none;
+    }
+    .uni-titlepro ul li {
+        display: inline-block;
+    }
+    .uni-titlepro li + li {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 849.98px) {
+    .uni-titlepro__main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .uni-titlepro ul {
+        display: none;
+        overflow: hidden;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .uni-titlepro ul li {
+        float: left;
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .uni-titlepro ul li:last-child {
+        width: 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+## Responsive 
+--------------------------------------------------------------*/
+@media (max-width: 1199.98px) {
+	
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+@media (max-width: 767.98px) {
+    
+}
+
+@media (max-width: 575.98px) {
+    
+}
