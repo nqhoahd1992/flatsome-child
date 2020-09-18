@@ -21,7 +21,7 @@ function uni_ux_builder_uni_blog(){
                 'heading' => __('Total posts','shtheme'),
                 'default' => 15,
                 'max' => 50,
-                'min' => 5,
+                'min' => 1,
             ),
             'layout' => array(
                 'type' => 'select',
