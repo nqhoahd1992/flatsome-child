@@ -61,6 +61,7 @@ require PARENT_DIR . '/inc/shortcodes/shortcode-blog.php';
 // Load Ux Builder Shortcode
 require PARENT_DIR . '/inc/shortcodes/uni_custom_menu.php';
 require PARENT_DIR . '/inc/shortcodes/uni_blog.php';
+require PARENT_DIR . '/inc/shortcodes/uni_wg_information.php';
 if ( class_exists( 'WooCommerce' ) ) {
 	require PARENT_DIR . '/inc/shortcodes/uni_product.php';
 	require PARENT_DIR . '/inc/shortcodes/uni_title_product.php';
@@ -76,10 +77,10 @@ if ( class_exists( 'WooCommerce' ) ) {
 }
 
 // Load Widget
-// require PARENT_DIR . '/inc/widgets/wg-post-list.php';
-// require PARENT_DIR . '/inc/widgets/wg-support.php';
+require PARENT_DIR . '/inc/widgets/wg-post-list.php';
+require PARENT_DIR . '/inc/widgets/wg-support.php';
 require PARENT_DIR . '/inc/widgets/wg-fblikebox.php';
-// require PARENT_DIR . '/inc/widgets/wg-view-post-list.php';
+require PARENT_DIR . '/inc/widgets/wg-view-post-list.php';
 require PARENT_DIR . '/inc/widgets/wg-information.php';
 
 /**

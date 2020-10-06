@@ -1,5 +1,5 @@
 <?php  
-function uni_ux_builder_uni_title_products(){
+function uni_ux_builder_title_products(){
     add_ux_builder_shortcode('uni_title_products', array(
         'name'      => __('Uni Title Products','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
@@ -31,4 +31,4 @@ function uni_ux_builder_uni_title_products(){
         ),
     ));
 }
-add_action('ux_builder_setup', 'uni_ux_builder_uni_title_products');
+add_action('ux_builder_setup', 'uni_ux_builder_title_products');

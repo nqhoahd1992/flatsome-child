@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2020-09-14 14:05+0700\n"
+"POT-Creation-Date: 2020-10-06 10:56+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Primary Sidebar"
 msgstr ""
 
-#: functions.php:24 functions.php:34 inc/function-woo.php:15
+#: functions.php:24 functions.php:34
 msgid "Add widgets here."
 msgstr ""
 
@@ -41,6 +41,7 @@ msgstr ""
 #: inc/builder/shortcodes/uni_custom_menu.php:15
 #: inc/builder/shortcodes/uni_product.php:5
 #: inc/builder/shortcodes/uni_title_product.php:5
+#: inc/builder/shortcodes/uni_wg_information.php:5
 msgid "Uni Creation"
 msgstr ""
 
@@ -50,6 +51,7 @@ msgid "Total posts"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_blog.php:28
+#: inc/builder/shortcodes/uni_wg_information.php:50
 msgid "Style"
 msgstr ""
 
@@ -130,7 +132,7 @@ msgstr ""
 msgid "Columns"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_product.php:48 inc/widgets/wg-support.php:83
+#: inc/builder/shortcodes/uni_product.php:48 inc/widgets/wg-support.php:76
 msgid "Layout"
 msgstr ""
 
@@ -147,11 +149,12 @@ msgstr ""
 msgid "Category"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_product.php:69 inc/widgets/wg-fblikebox.php:45
-#: inc/widgets/wg-information.php:81 inc/widgets/wg-page.php:40
-#: inc/widgets/wg-post-list.php:95 inc/widgets/wg-product-slider.php:97
-#: inc/widgets/wg-social.php:69 inc/widgets/wg-support.php:68
-#: inc/widgets/wg-view-post-list.php:105
+#: inc/builder/shortcodes/uni_product.php:69
+#: inc/builder/shortcodes/uni_wg_information.php:9
+#: inc/widgets/wg-fblikebox.php:45 inc/widgets/wg-information.php:81
+#: inc/widgets/wg-page.php:40 inc/widgets/wg-post-list.php:95
+#: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-social.php:69
+#: inc/widgets/wg-support.php:61 inc/widgets/wg-view-post-list.php:105
 msgid "Title"
 msgstr ""
 
@@ -159,7 +162,7 @@ msgstr ""
 msgid "Rating"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:288
+#: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:103
 msgid "Price"
 msgstr ""
 
@@ -199,71 +202,109 @@ msgstr ""
 msgid "Uni Title Products"
 msgstr ""
 
-#: inc/function-woo.php:13
-msgid "Shop Sidebar"
+#: inc/builder/shortcodes/uni_wg_information.php:4
+#: inc/widgets/wg-information.php:14
+msgid "Uni - Information contact"
 msgstr ""
 
-#: inc/function-woo.php:169
+#: inc/builder/shortcodes/uni_wg_information.php:10
+#: inc/shortcodes/uni_wg_information.php:5
+msgid "Information contact"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:15
+#: inc/widgets/wg-information.php:85
+msgid "Company"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:20
+#: inc/shortcodes/uni_wg_information.php:32 inc/widgets/wg-information.php:36
+#: inc/widgets/wg-information.php:89
+msgid "Address"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:25
+#: inc/shortcodes/uni_wg_information.php:35 inc/widgets/wg-information.php:39
+#: inc/widgets/wg-information.php:93
+msgid "Telephone"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:30
+#: inc/shortcodes/uni_wg_information.php:38 inc/widgets/wg-information.php:42
+#: inc/widgets/wg-information.php:97
+msgid "Hotline"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:35
+#: inc/shortcodes/uni_wg_information.php:41 inc/widgets/wg-information.php:45
+#: inc/widgets/wg-information.php:101
+msgid "Fax"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:40
+#: inc/shortcodes/uni_wg_information.php:44 inc/widgets/wg-information.php:48
+#: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
+#: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
+msgid "Email"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:45
+#: inc/shortcodes/uni_wg_information.php:47 inc/widgets/wg-information.php:51
+#: inc/widgets/wg-information.php:109
+msgid "Website"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:54
+#: inc/widgets/wg-information.php:114
+msgid "Hide label"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:59
+#: inc/widgets/wg-information.php:118
+msgid "Hide icon"
+msgstr ""
+
+#: inc/function-woo.php:22
 msgid "Continue Shopping"
 msgstr ""
 
-#: inc/function-woo.php:225
+#: inc/function-woo.php:51
 msgid "Information"
 msgstr ""
 
-#: inc/function-woo.php:226
+#: inc/function-woo.php:52
 msgid "Gallery"
 msgstr ""
 
-#: inc/function-woo.php:227
+#: inc/function-woo.php:53
 msgid "Video"
 msgstr ""
 
-#: inc/function-woo.php:228
+#: inc/function-woo.php:54
 msgid "Attachments"
 msgstr ""
 
-#: inc/function-woo.php:256
+#: inc/function-woo.php:71
 msgid "Add to cart"
 msgstr ""
 
-#: inc/function-woo.php:266
+#: inc/function-woo.php:81
 msgid "Quick buy"
 msgstr ""
 
-#: inc/function-woo.php:302
+#: inc/function-woo.php:117
 msgid "Discount"
 msgstr ""
 
-#: inc/function-woo.php:310
+#: inc/function-woo.php:125
 msgid "Contact"
 msgstr ""
 
-#: inc/function-woo.php:354
+#: inc/function-woo.php:169
 msgid "Choose quantity"
 msgstr ""
 
-#: inc/function-woo.php:371
-msgid "Category:"
-msgid_plural "Categories:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/function-woo.php:373
-msgid "Tag:"
-msgid_plural "Tags:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/function-woo.php:494 inc/function-woo.php:522
-msgid "Cart"
-msgstr ""
-
-#: inc/function-woo.php:495 inc/function-woo.php:523
-msgid "Close"
-msgstr ""
-
-#: inc/function-woo.php:551 inc/function-woo.php:552
+#: inc/function-woo.php:185 inc/function-woo.php:186
 msgid "View detail"
 msgstr ""
 
@@ -366,50 +407,8 @@ msgstr ""
 msgid "Link Fanpage"
 msgstr ""
 
-#: inc/widgets/wg-information.php:14
-msgid "Uni - Information contact"
-msgstr ""
-
 #: inc/widgets/wg-information.php:16
 msgid "Display information contact"
-msgstr ""
-
-#: inc/widgets/wg-information.php:36 inc/widgets/wg-information.php:89
-msgid "Address"
-msgstr ""
-
-#: inc/widgets/wg-information.php:39 inc/widgets/wg-information.php:93
-msgid "Telephone"
-msgstr ""
-
-#: inc/widgets/wg-information.php:42 inc/widgets/wg-information.php:97
-msgid "Hotline"
-msgstr ""
-
-#: inc/widgets/wg-information.php:45 inc/widgets/wg-information.php:101
-msgid "Fax"
-msgstr ""
-
-#: inc/widgets/wg-information.php:48 inc/widgets/wg-information.php:105
-#: inc/widgets/wg-support.php:94 inc/widgets/wg-support.php:125
-#: inc/widgets/wg-support.php:248
-msgid "Email"
-msgstr ""
-
-#: inc/widgets/wg-information.php:51 inc/widgets/wg-information.php:109
-msgid "Website"
-msgstr ""
-
-#: inc/widgets/wg-information.php:85
-msgid "Company"
-msgstr ""
-
-#: inc/widgets/wg-information.php:114
-msgid "Hide label"
-msgstr ""
-
-#: inc/widgets/wg-information.php:118
-msgid "Hide icon"
 msgstr ""
 
 #: inc/widgets/wg-page.php:14
@@ -557,47 +556,47 @@ msgid ""
 "strong></p>"
 msgstr ""
 
-#: inc/widgets/wg-support.php:13
+#: inc/widgets/wg-support.php:12
 msgid "Uni - Support"
 msgstr ""
 
-#: inc/widgets/wg-support.php:15
+#: inc/widgets/wg-support.php:14
 msgid "Display list support for website"
 msgstr ""
 
-#: inc/widgets/wg-support.php:41
+#: inc/widgets/wg-support.php:39
 msgid "Support Online"
 msgstr ""
 
-#: inc/widgets/wg-support.php:73 inc/widgets/wg-support.php:106
+#: inc/widgets/wg-support.php:66 inc/widgets/wg-support.php:95
 msgid "Number supporter"
 msgstr ""
 
-#: inc/widgets/wg-support.php:79
+#: inc/widgets/wg-support.php:72
 msgid "Appearance"
 msgstr ""
 
-#: inc/widgets/wg-support.php:88
+#: inc/widgets/wg-support.php:81
 msgid "Save change"
 msgstr ""
 
-#: inc/widgets/wg-support.php:110
+#: inc/widgets/wg-support.php:98
 msgid "Name"
 msgstr ""
 
-#: inc/widgets/wg-support.php:117
+#: inc/widgets/wg-support.php:104
 msgid "Phone"
 msgstr ""
 
-#: inc/widgets/wg-support.php:133
+#: inc/widgets/wg-support.php:118
 msgid "Skype"
 msgstr ""
 
-#: inc/widgets/wg-support.php:141
+#: inc/widgets/wg-support.php:125
 msgid "Zalo"
 msgstr ""
 
-#: inc/widgets/wg-support.php:147
+#: inc/widgets/wg-support.php:131
 msgid "Viber"
 msgstr ""
 

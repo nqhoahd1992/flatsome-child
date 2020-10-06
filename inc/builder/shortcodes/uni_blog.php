@@ -1,5 +1,5 @@
 <?php  
-function uni_ux_builder_uni_blog(){
+function uni_ux_builder_blog(){
     add_ux_builder_shortcode('uni_blog', array(
         'name'      => __('Uni Blog','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
@@ -100,4 +100,4 @@ function uni_ux_builder_uni_blog(){
         ),
     ));
 }
-add_action('ux_builder_setup', 'uni_ux_builder_uni_blog');
+add_action('ux_builder_setup', 'uni_ux_builder_blog');

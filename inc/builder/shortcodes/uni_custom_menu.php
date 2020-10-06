@@ -1,5 +1,5 @@
 <?php  
-function uni_ux_builder_uni_custom_menu(){
+function uni_ux_builder_custom_menu(){
 
     $options = array(
         '' => 'Select...',
@@ -42,4 +42,4 @@ function uni_ux_builder_uni_custom_menu(){
         ),
     ));
 }
-add_action('ux_builder_setup', 'uni_ux_builder_uni_custom_menu');
+add_action('ux_builder_setup', 'uni_ux_builder_custom_menu');

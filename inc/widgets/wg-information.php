@@ -27,28 +27,28 @@ class Uni_Information_Widget extends WP_Widget {
         ?>
         <ul>
             <?php
-            $hide_label = ! empty( $instance['hide_label'] ) ? 'd-none' : '';
-            $hide_icon  = ! empty( $instance['hide_icon'] ) ? 'd-none' : '';
+            $hide_label = ! empty( $instance['hide_label'] ) ? 'hidden' : '';
+            $hide_icon  = ! empty( $instance['hide_icon'] ) ? 'hidden_icon' : '';
             if( $instance['company'] ) {
-                echo '<li class="label-company"><i class="'. $hide_icon .' fab fa-windows"></i>'. $instance['company'] .'</li>';
+                echo '<li class="label-company"><i class="fab fa-windows"></i>'. $instance['company'] .'</li>';
             }
             if( $instance['address'] ) {
-                echo '<li><i class="'. $hide_icon .' far fa-map-marker-alt"></i><span class="'. $hide_label .'">'. __( 'Address', 'shtheme' ) .':</span> '. $instance['address'] .'</li>';
+                echo '<li class="'. $hide_icon .'"><i class="far fa-map-marker-alt"></i><span class="'. $hide_label .'">'. __( 'Address', 'shtheme' ) .':</span> '. $instance['address'] .'</li>';
             }
             if( $instance['tel'] ) {
-                echo '<li><i class="'. $hide_icon .' far fa-phone"></i><span class="'. $hide_label .'">'. __( 'Telephone', 'shtheme' ) .':</span> '. $instance['tel'] .'</li>';
+                echo '<li class="'. $hide_icon .'"><i class="fas fa-phone-alt"></i><span class="'. $hide_label .'">'. __( 'Telephone', 'shtheme' ) .':</span> '. $instance['tel'] .'</li>';
             }
             if( $instance['hotline'] ) {
-                echo '<li><i class="'. $hide_icon .' far fa-mobile-alt"></i><span class="'. $hide_label .'">'. __( 'Hotline', 'shtheme' ) .':</span> '. $instance['hotline'] .'</li>';
+                echo '<li class="'. $hide_icon .'"><i class="far fa-mobile-alt"></i><span class="'. $hide_label .'">'. __( 'Hotline', 'shtheme' ) .':</span> '. $instance['hotline'] .'</li>';
             }
             if( $instance['fax'] ) {
-                echo '<li><i class="'. $hide_icon .' far fa-fax"></i><span class="'. $hide_label .'">'. __( 'Fax', 'shtheme' ) .':</span> '. $instance['fax'] .'</li>';
+                echo '<li class="'. $hide_icon .'"><i class="far fa-fax"></i><span class="'. $hide_label .'">'. __( 'Fax', 'shtheme' ) .':</span> '. $instance['fax'] .'</li>';
             }
             if( $instance['email'] ) {
-                echo '<li><i class="'. $hide_icon .' far fa-envelope"></i><span class="'. $hide_label .'">'. __( 'Email', 'shtheme' ) .':</span> '. $instance['email'] .'</li>';
+                echo '<li class="'. $hide_icon .'"><i class="far fa-envelope"></i><span class="'. $hide_label .'">'. __( 'Email', 'shtheme' ) .':</span> '. $instance['email'] .'</li>';
             }
             if( $instance['website'] ) {
-                echo '<li><i class="'. $hide_icon .' far fa-globe"></i><span class="'. $hide_label .'">'. __( 'Website', 'shtheme' ) .':</span> '. $instance['website'] .'</li>';
+                echo '<li class="'. $hide_icon .'"><i class="far fa-globe"></i><span class="'. $hide_label .'">'. __( 'Website', 'shtheme' ) .':</span> '. $instance['website'] .'</li>';
             }
             ?>
         </ul>
@@ -64,8 +64,8 @@ class Uni_Information_Widget extends WP_Widget {
     function form($instance) {
         $instance = wp_parse_args( 
         	(array)$instance, array(
+                'title'      => '',
                 'company'    => '',
-        		'title' 	 => '', 
         		'address'    => '',  
         		'tel' 	     => '',
                 'hotline'    => '',

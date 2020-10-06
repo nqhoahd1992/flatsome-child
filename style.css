@@ -19,6 +19,44 @@ Text Domain: shtheme
 /*--------------------------------------------------------------
 ## Widget 
 --------------------------------------------------------------*/
+/* Widget Recent Posts */
+.sidebar .widget_recent_entries ul li { padding: 5px 10px; border-bottom: 1px solid #cccccc; }
+.sidebar .widget_recent_entries ul li:last-child { border-bottom: none; }
+.sidebar .widget_recent_entries ul li .post-date { display: block; }
+
+/* Widget Recent Posts */
+.widget .list-post-item li { margin-bottom: 10px; }
+.widget .list-post-item li:last-child { margin-bottom: 0; }
+.widget .list-post-item .post:after { clear: both; }
+.widget .list-post-item .alignleft { width: 100px; margin-right: 10px; }
+.widget .list-post-item .alignright { width: 100px; margin-left: 10px; }
+.widget .list-post-item .aligncenter { text-align: center; }
+.widget .list-post-item h3 { margin: 0 0 5px 0; font-size: 0.875rem; font-weight: 500; line-height: 1.2; }
+.widget .list-post-item h3 a { color: inherit; }
+.widget .list-post-item .entry-content { padding: 0; }
+
+/* Widget Support */
+@media (min-width: 1200px) { .widget_supports .list-supporter { padding-top: 190px; background-image: url(assets/img/bg-support.png); background-repeat: no-repeat; background-position: top center; background-size: contain; } }
+.widget_supports .list-supporter .email { padding: 5px 10px; font-weight: 600; line-height: 20px; }
+.widget_supports .phone { font-size: 1.25rem; color: #ff0000; font-weight: bold; }
+.widget_supports .support-style-1 { background-color: #FFF; }
+.widget_supports .support-style-1 .supporter { padding: 0 10px 10px 10px; }
+.widget_supports .support-style-1 li { padding: 5px 0; font-size: 0.875rem; color: #333333; border-top: 1px solid #333; }
+.widget_supports .support-style-1 li:first-child { border-top: none; }
+.widget_supports .support-style-1 li:last-child { border-bottom: none; }
+.widget_supports .support-style-1 i { width: 22px; margin-right: 12px; }
+.widget_supports .support-style-2 .supporter { margin: 0 8px; padding: 5px 8px 5px 50px; border-top: 1px solid #dddddd; background: url(lib/images/ic-phone.png) 7px 10px no-repeat; position: relative; }
+.widget_supports .support-style-2 .supporter:first-child { border-top: none; }
+.widget_supports .support-style-2 .name { font-weight: 600; }
+.widget_supports .support-style-2 .skype { position: absolute; right: 7px; bottom: 10px; z-index: 1; }
+.widget_supports .support-style-2 .email a { color: #333333; }
+.widget_supports .support-style-3 .supporter:not(:last-child) { border-bottom: 1px solid #dfdfdf; }
+.widget_supports .support-style-3 ul { position: relative; padding: 8px 10px; }
+.widget_supports .support-style-3 .name { font-size: 0.75rem; color: #333333; }
+.widget_supports .support-style-3 .phone { line-height: 24px; }
+.widget_supports .support-style-3 .social { position: absolute; bottom: 10px; right: 8px; z-index: 1; }
+.widget_supports .support-style-3 .social a { display: inline-block; margin-left: 4px; }
+
 /* Widget Information */
 .widget_information ul li {
     padding: 3px 0 3px 22px;
@@ -26,6 +64,12 @@ Text Domain: shtheme
 }
 .widget_information ul li + li {
 	border-top: none;
+}
+.widget_information ul li.hidden_icon {
+    padding-left: 0;
+}
+.widget_information ul li.hidden_icon i {
+    display: none;
 }
 .widget_information li i {
     font-size: 0.75rem;
@@ -244,6 +288,10 @@ Text Domain: shtheme
     .uni-titlepro ul li:last-child {
         width: 100%;
     }
+}
+/* Shortcode Custom Menu */
+.uni_custom_menu ul.menu li {
+    border: none;
 }
 
 /*--------------------------------------------------------------

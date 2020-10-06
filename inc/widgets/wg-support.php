@@ -6,7 +6,6 @@ function register_gtid_support() {
 }
 
 class Uni_Support_Online extends WP_Widget {
-
 	function __construct() {
         parent::__construct(
             'supports',
@@ -36,19 +35,15 @@ class Uni_Support_Online extends WP_Widget {
 	}
 
 	function form($instance) {
-		
 		$default_support = array(
 			'title' 			=> __( 'Support Online', 'shtheme' ),
             'number_supporter' 	=> 1,
             'data_style' 		=> '',
 		);
-
 		$args_support = array();
-
 		if( empty( $instance['number_supporter'] ) ) {
 			$instance['number_supporter'] = 1;
 		}
-
 		for( $i = 1;$i<=$instance['number_supporter'];$i++ ) {
 			$args_support['supporter_'.$i.'_name'] = '';
 			$args_support['supporter_'.$i.'_phone'] = '';
@@ -57,11 +52,9 @@ class Uni_Support_Online extends WP_Widget {
 			$args_support['supporter_'.$i.'_skype'] = '';
 			$args_support['supporter_'.$i.'_viber'] = '';
 		}
-
 		$instance = wp_parse_args( 
 			(array)$instance, array_merge( $default_support, $args_support )
 		);
-
 		$style =  $instance['data_style'];
 		?>
 		<p>
@@ -87,7 +80,6 @@ class Uni_Support_Online extends WP_Widget {
 	    <p>
 	        <input type="submit" name="savewidget" id="savewidget" class="button-primary widget-control-save" value="<?php _e('Save change', 'shtheme'); ?>" />
     	</p>
-
     	<?php if( $style == '2' || $style == '3' ) { ?>
     		<p>
 				<label for="<?php echo $this->get_field_id('supporter_email_general'); ?>">
@@ -96,29 +88,23 @@ class Uni_Support_Online extends WP_Widget {
 	    		<input class="widefat" type="text" id="<?php echo $this->get_field_id('supporter_email_general'); ?>" name="<?php echo $this->get_field_name('supporter_email_general'); ?>" value="<?php echo esc_attr( $instance['supporter_email_general'] ); ?>" />
 			</p>
     	<?php } ?>
-
         <?php 
-        
         for( $i = 1;$i<=$instance['number_supporter'];$i++ ) {
     	?>
             <div style="background: #eee;padding: 10px 10px;margin-bottom: 10px;">
-         	
 	            <strong><?php echo __('Number supporter', 'shtheme').' '.$i;?></strong>
-	           	
 	           	<p>
 					<label for="<?php echo $this->get_field_id('supporter_'.$i.'_name'); ?>">
 						<?php _e('Name', 'shtheme'); ?>:
 					</label>
 		    		<input class="widefat" type="text" id="<?php echo $this->get_field_id('supporter_'.$i.'_name'); ?>" name="<?php echo $this->get_field_name('supporter_'.$i.'_name'); ?>" value="<?php echo esc_attr( $instance['supporter_'.$i.'_name'] ); ?>" />
 	    		</p>
-
 	    		<p>
 	    			<label for="<?php echo $this->get_field_id('supporter_'.$i.'_phone'); ?>">
 	    				<?php _e('Phone', 'shtheme'); ?>:
 	    			</label>
 	    			<input class="widefat" type="tel" id="<?php echo $this->get_field_id('supporter_'.$i.'_phone'); ?>" name="<?php echo $this->get_field_name('supporter_'.$i.'_phone'); ?>" value="<?php echo esc_attr( $instance['supporter_'.$i.'_phone'] ); ?>" />
 	    		</p>
-
 	    		<?php if( $style == '1' ) : ?>
 		    		<p>
 			        	<label for="<?php echo $this->get_field_id('supporter_'.$i.'_email'); ?>">
@@ -127,14 +113,12 @@ class Uni_Support_Online extends WP_Widget {
 						<input class="widefat" type="text" id="<?php echo $this->get_field_id('supporter_'.$i.'_email'); ?>" name="<?php echo $this->get_field_name('supporter_'.$i.'_email'); ?>" value="<?php echo esc_attr( $instance['supporter_'.$i.'_email'] ); ?>" />
 					</p>
 				<?php endif;?>
-
 		    		<p>
 		            	<label for="<?php echo $this->get_field_id('supporter_'.$i.'_skype'); ?>">
 		            		<?php _e('Skype', 'shtheme'); ?>:
 		            	</label>
 		    			<input class="widefat" type="text" id="<?php echo $this->get_field_id('supporter_'.$i.'_skype'); ?>" name="<?php echo $this->get_field_name('supporter_'.$i.'_skype'); ?>" value="<?php echo esc_attr( $instance['supporter_'.$i.'_skype'] ); ?>" />
 		    		</p>
-
 	    		<?php if( $style == '3' ) : ?>
 	    			<p>
 		            	<label for="<?php echo $this->get_field_id('supporter_'.$i.'_zalo'); ?>">
@@ -149,7 +133,6 @@ class Uni_Support_Online extends WP_Widget {
 		    			<input class="widefat" type="text" id="<?php echo $this->get_field_id('supporter_'.$i.'_viber'); ?>" name="<?php echo $this->get_field_name('supporter_'.$i.'_viber'); ?>" value="<?php echo esc_attr( $instance['supporter_'.$i.'_viber'] ); ?>" />
 		    		</p>
 	    		<?php endif;?>
-    		
             </div>
 		<?php
 		}
@@ -157,15 +140,12 @@ class Uni_Support_Online extends WP_Widget {
 }
 
 function get_layout_support($instance, $j = 1) {
-
 	$instance = wp_parse_args( (array)$instance, array(
         'number_supporter' => 1,
 	) );
-
 	if( $j == '2' || $j == '3' ) {
 		$email_general 	= 	$instance['supporter_email_general'];
 	}
-
 	for( $i = 1; $i <= $instance['number_supporter']; $i++ ) {
 		$name 	= 	$instance['supporter_'.$i.'_name'];
 		$phone 	= 	$instance['supporter_'.$i.'_phone'];
@@ -206,7 +186,7 @@ function get_layout_support($instance, $j = 1) {
 							echo '<li class="phone">' .$phone. '</li>';
 						}
 						if( $skype ) {
-							echo '<li class="skype"><a href="skype:'.$skype.'?chat"><img src="'.get_stylesheet_directory_uri().'/lib/images/ic-skype.png"></a></li>';
+							echo '<li class="skype"><a href="skype:'.$skype.'?chat"><img src="'.get_stylesheet_directory_uri().'/assets/img/ic-skype.png"></a></li>';
 						}
 					echo '</ul>';
 					break;
@@ -220,33 +200,30 @@ function get_layout_support($instance, $j = 1) {
 						}
 						echo '<div class="social">';
 							if( ! empty( $zalo ) ) {
-								echo '<a target="_blank" href="https://zalo.me/'.$zalo.'"><img src="'. get_stylesheet_directory_uri() .'/lib/images/icon-zalo2.png"></a>';
+								echo '<a target="_blank" href="https://zalo.me/'.$zalo.'"><img src="'. get_stylesheet_directory_uri() .'/assets/img/icon-zalo2.png"></a>';
 							}
 							if( ! empty( $skype ) ) {
-								echo '<a target="_blank" href="skype:'.$skype.'?chat"><img src="'. get_stylesheet_directory_uri() .'/lib/images/icon-skype.png"></a>';
+								echo '<a target="_blank" href="skype:'.$skype.'?chat"><img src="'. get_stylesheet_directory_uri() .'/assets/img/icon-skype.png"></a>';
 							}
 							if( ! empty( $viber ) ) {
-								echo '<a target="_blank" href="viber://chat?number='.$viber.'"><img src="'. get_stylesheet_directory_uri() .'/lib/images/icon-viber.png"></a>';
+								echo '<a target="_blank" href="viber://chat?number='.$viber.'"><img src="'. get_stylesheet_directory_uri() .'/assets/img/icon-viber.png"></a>';
 							}
 						echo '</div>';
 					echo '</ul>';
 					break;
 				case '4':
-					
 					break;
 				case '5':
-					
 					break;
 			}
 			?>
 		</div>
 		<?php
 	}
-
+	
 	if( $j == '2' || $j == '3' ) {
 		if( $email_general ) {
 			echo '<div class="email">'. __('Email', 'shtheme') .' <a href="mailto:'. $email_general .'">'. $email_general .'</a></div>';
 		}
 	}
-
 }

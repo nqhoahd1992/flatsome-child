@@ -1,5 +1,5 @@
 <?php  
-function uni_ux_builder_uni_product(){
+function uni_ux_builder_product(){
     add_ux_builder_shortcode('uni_product', array(
         'name'      => __('Uni Product','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
@@ -146,4 +146,4 @@ function uni_ux_builder_uni_product(){
         ),
     ));
 }
-add_action('ux_builder_setup', 'uni_ux_builder_uni_product');
+add_action('ux_builder_setup', 'uni_ux_builder_product');

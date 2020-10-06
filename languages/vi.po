@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2020-09-14 14:06+0700\n"
-"PO-Revision-Date: 2020-09-14 14:09+0700\n"
+"POT-Creation-Date: 2020-10-06 10:56+0700\n"
+"PO-Revision-Date: 2020-10-06 10:57+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Primary Sidebar"
 msgstr "Primary Sidebar"
 
-#: functions.php:24 functions.php:34 inc/function-woo.php:15
+#: functions.php:24 functions.php:34
 msgid "Add widgets here."
 msgstr "Thêm widgets tại đây."
 
@@ -41,6 +41,7 @@ msgstr "Uni - Blog"
 #: inc/builder/shortcodes/uni_custom_menu.php:15
 #: inc/builder/shortcodes/uni_product.php:5
 #: inc/builder/shortcodes/uni_title_product.php:5
+#: inc/builder/shortcodes/uni_wg_information.php:5
 msgid "Uni Creation"
 msgstr "Uni Creation"
 
@@ -50,6 +51,7 @@ msgid "Total posts"
 msgstr "Số bài viết"
 
 #: inc/builder/shortcodes/uni_blog.php:28
+#: inc/builder/shortcodes/uni_wg_information.php:50
 msgid "Style"
 msgstr "Giao diện"
 
@@ -130,7 +132,7 @@ msgstr "Column Spacing"
 msgid "Columns"
 msgstr "Columns"
 
-#: inc/builder/shortcodes/uni_product.php:48 inc/widgets/wg-support.php:83
+#: inc/builder/shortcodes/uni_product.php:48 inc/widgets/wg-support.php:76
 msgid "Layout"
 msgstr "Layout"
 
@@ -147,11 +149,12 @@ msgstr "Box"
 msgid "Category"
 msgstr "Category"
 
-#: inc/builder/shortcodes/uni_product.php:69 inc/widgets/wg-fblikebox.php:45
-#: inc/widgets/wg-information.php:81 inc/widgets/wg-page.php:40
-#: inc/widgets/wg-post-list.php:95 inc/widgets/wg-product-slider.php:97
-#: inc/widgets/wg-social.php:69 inc/widgets/wg-support.php:68
-#: inc/widgets/wg-view-post-list.php:105
+#: inc/builder/shortcodes/uni_product.php:69
+#: inc/builder/shortcodes/uni_wg_information.php:9
+#: inc/widgets/wg-fblikebox.php:45 inc/widgets/wg-information.php:81
+#: inc/widgets/wg-page.php:40 inc/widgets/wg-post-list.php:95
+#: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-social.php:69
+#: inc/widgets/wg-support.php:61 inc/widgets/wg-view-post-list.php:105
 msgid "Title"
 msgstr "Title"
 
@@ -159,7 +162,7 @@ msgstr "Title"
 msgid "Rating"
 msgstr "Rating"
 
-#: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:288
+#: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:103
 msgid "Price"
 msgstr "Price"
 
@@ -199,69 +202,109 @@ msgstr "Out Of Stock"
 msgid "Uni Title Products"
 msgstr "Uni Title Products"
 
-#: inc/function-woo.php:13
-msgid "Shop Sidebar"
-msgstr "Shop Sidebar"
+#: inc/builder/shortcodes/uni_wg_information.php:4
+#: inc/widgets/wg-information.php:14
+msgid "Uni - Information contact"
+msgstr "Uni - Thông tin liên hệ"
 
-#: inc/function-woo.php:169
+#: inc/builder/shortcodes/uni_wg_information.php:10
+#: inc/shortcodes/uni_wg_information.php:5
+msgid "Information contact"
+msgstr "Thông tin liên hệ"
+
+#: inc/builder/shortcodes/uni_wg_information.php:15
+#: inc/widgets/wg-information.php:85
+msgid "Company"
+msgstr "Công ty"
+
+#: inc/builder/shortcodes/uni_wg_information.php:20
+#: inc/shortcodes/uni_wg_information.php:32 inc/widgets/wg-information.php:36
+#: inc/widgets/wg-information.php:89
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: inc/builder/shortcodes/uni_wg_information.php:25
+#: inc/shortcodes/uni_wg_information.php:35 inc/widgets/wg-information.php:39
+#: inc/widgets/wg-information.php:93
+msgid "Telephone"
+msgstr "Số điện thoại"
+
+#: inc/builder/shortcodes/uni_wg_information.php:30
+#: inc/shortcodes/uni_wg_information.php:38 inc/widgets/wg-information.php:42
+#: inc/widgets/wg-information.php:97
+msgid "Hotline"
+msgstr "Hotline"
+
+#: inc/builder/shortcodes/uni_wg_information.php:35
+#: inc/shortcodes/uni_wg_information.php:41 inc/widgets/wg-information.php:45
+#: inc/widgets/wg-information.php:101
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/builder/shortcodes/uni_wg_information.php:40
+#: inc/shortcodes/uni_wg_information.php:44 inc/widgets/wg-information.php:48
+#: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
+#: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
+msgid "Email"
+msgstr "Email"
+
+#: inc/builder/shortcodes/uni_wg_information.php:45
+#: inc/shortcodes/uni_wg_information.php:47 inc/widgets/wg-information.php:51
+#: inc/widgets/wg-information.php:109
+msgid "Website"
+msgstr "Website"
+
+#: inc/builder/shortcodes/uni_wg_information.php:54
+#: inc/widgets/wg-information.php:114
+msgid "Hide label"
+msgstr "Không hiển thị nhãn"
+
+#: inc/builder/shortcodes/uni_wg_information.php:59
+#: inc/widgets/wg-information.php:118
+msgid "Hide icon"
+msgstr "Không hiển thị biểu tượng"
+
+#: inc/function-woo.php:22
 msgid "Continue Shopping"
 msgstr "Tiếp tục mua hàng"
 
-#: inc/function-woo.php:225
+#: inc/function-woo.php:51
 msgid "Information"
 msgstr "Thông tin"
 
-#: inc/function-woo.php:226
+#: inc/function-woo.php:52
 msgid "Gallery"
 msgstr "Thư viện ảnh"
 
-#: inc/function-woo.php:227
+#: inc/function-woo.php:53
 msgid "Video"
 msgstr "Video"
 
-#: inc/function-woo.php:228
+#: inc/function-woo.php:54
 msgid "Attachments"
 msgstr "Tệp đính kèm"
 
-#: inc/function-woo.php:256
+#: inc/function-woo.php:71
 msgid "Add to cart"
 msgstr "Thêm vào giỏ"
 
-#: inc/function-woo.php:266
+#: inc/function-woo.php:81
 msgid "Quick buy"
 msgstr "Mua ngay"
 
-#: inc/function-woo.php:302
+#: inc/function-woo.php:117
 msgid "Discount"
 msgstr "Giảm"
 
-#: inc/function-woo.php:310
+#: inc/function-woo.php:125
 msgid "Contact"
 msgstr "Liên hệ"
 
-#: inc/function-woo.php:354
+#: inc/function-woo.php:169
 msgid "Choose quantity"
 msgstr "Chọn số lượng"
 
-#: inc/function-woo.php:371
-msgid "Category:"
-msgid_plural "Categories:"
-msgstr[0] "Danh mục:"
-
-#: inc/function-woo.php:373
-msgid "Tag:"
-msgid_plural "Tags:"
-msgstr[0] "Tag:"
-
-#: inc/function-woo.php:494 inc/function-woo.php:522
-msgid "Cart"
-msgstr "Giỏ hàng"
-
-#: inc/function-woo.php:495 inc/function-woo.php:523
-msgid "Close"
-msgstr "Đóng"
-
-#: inc/function-woo.php:551 inc/function-woo.php:552
+#: inc/function-woo.php:185 inc/function-woo.php:186
 msgid "View detail"
 msgstr "Xem chi tiết"
 
@@ -364,51 +407,9 @@ msgstr "Like Facebook"
 msgid "Link Fanpage"
 msgstr "Link Fanpage"
 
-#: inc/widgets/wg-information.php:14
-msgid "Uni - Information contact"
-msgstr "Uni - Thông tin liên hệ"
-
 #: inc/widgets/wg-information.php:16
 msgid "Display information contact"
 msgstr "Hiển thị thông tin liên hệ"
-
-#: inc/widgets/wg-information.php:36 inc/widgets/wg-information.php:89
-msgid "Address"
-msgstr "Địa chỉ"
-
-#: inc/widgets/wg-information.php:39 inc/widgets/wg-information.php:93
-msgid "Telephone"
-msgstr "Số điện thoại"
-
-#: inc/widgets/wg-information.php:42 inc/widgets/wg-information.php:97
-msgid "Hotline"
-msgstr "Hotline"
-
-#: inc/widgets/wg-information.php:45 inc/widgets/wg-information.php:101
-msgid "Fax"
-msgstr "Fax"
-
-#: inc/widgets/wg-information.php:48 inc/widgets/wg-information.php:105
-#: inc/widgets/wg-support.php:94 inc/widgets/wg-support.php:125
-#: inc/widgets/wg-support.php:248
-msgid "Email"
-msgstr "Email"
-
-#: inc/widgets/wg-information.php:51 inc/widgets/wg-information.php:109
-msgid "Website"
-msgstr "Website"
-
-#: inc/widgets/wg-information.php:85
-msgid "Company"
-msgstr "Công ty"
-
-#: inc/widgets/wg-information.php:114
-msgid "Hide label"
-msgstr "Không hiển thị nhãn"
-
-#: inc/widgets/wg-information.php:118
-msgid "Hide icon"
-msgstr "Không hiển thị biểu tượng"
 
 #: inc/widgets/wg-page.php:14
 msgid "Uni - Featured Page"
@@ -557,47 +558,47 @@ msgstr ""
 "<p>Nội dung widget này được hiển thị từ mục <strong>Theme Options -> Social</"
 "strong></p>"
 
-#: inc/widgets/wg-support.php:13
+#: inc/widgets/wg-support.php:12
 msgid "Uni - Support"
 msgstr "Uni - Hỗ trợ trực tuyến"
 
-#: inc/widgets/wg-support.php:15
+#: inc/widgets/wg-support.php:14
 msgid "Display list support for website"
 msgstr "Hiển thị danh sách hỗ trợ trực tuyến"
 
-#: inc/widgets/wg-support.php:41
+#: inc/widgets/wg-support.php:39
 msgid "Support Online"
 msgstr "Hỗ trợ trực tuyến"
 
-#: inc/widgets/wg-support.php:73 inc/widgets/wg-support.php:106
+#: inc/widgets/wg-support.php:66 inc/widgets/wg-support.php:95
 msgid "Number supporter"
 msgstr "Số hỗ trợ trực tuyến"
 
-#: inc/widgets/wg-support.php:79
+#: inc/widgets/wg-support.php:72
 msgid "Appearance"
 msgstr "Giao diện"
 
-#: inc/widgets/wg-support.php:88
+#: inc/widgets/wg-support.php:81
 msgid "Save change"
 msgstr "Lưu thay đổi"
 
-#: inc/widgets/wg-support.php:110
+#: inc/widgets/wg-support.php:98
 msgid "Name"
 msgstr "Tên"
 
-#: inc/widgets/wg-support.php:117
+#: inc/widgets/wg-support.php:104
 msgid "Phone"
 msgstr "Số điện thoại"
 
-#: inc/widgets/wg-support.php:133
+#: inc/widgets/wg-support.php:118
 msgid "Skype"
 msgstr "Skype"
 
-#: inc/widgets/wg-support.php:141
+#: inc/widgets/wg-support.php:125
 msgid "Zalo"
 msgstr "Zalo"
 
-#: inc/widgets/wg-support.php:147
+#: inc/widgets/wg-support.php:131
 msgid "Viber"
 msgstr "Viber"
 
@@ -628,6 +629,23 @@ msgstr "This is a child theme for Flatsome Theme"
 #. Author of the plugin/theme
 msgid "Quang Hoa"
 msgstr "Quang Hoa"
+
+#~ msgid "Shop Sidebar"
+#~ msgstr "Shop Sidebar"
+
+#~ msgid "Category:"
+#~ msgid_plural "Categories:"
+#~ msgstr[0] "Danh mục:"
+
+#~ msgid "Tag:"
+#~ msgid_plural "Tags:"
+#~ msgstr[0] "Tag:"
+
+#~ msgid "Cart"
+#~ msgstr "Giỏ hàng"
+
+#~ msgid "Close"
+#~ msgstr "Đóng"
 
 #~ msgid "Uni Title News"
 #~ msgstr "Uni Title News"
