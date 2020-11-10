@@ -1,5 +1,6 @@
 /*
 Theme Name: Flatsome Child
+Theme URI: univn.vn
 Description: This is a child theme for Flatsome Theme
 Author: Quang Hoa
 Template: flatsome
@@ -25,11 +26,13 @@ Text Domain: shtheme
 .sidebar .widget_recent_entries ul li .post-date { display: block; }
 
 /* Widget Recent Posts */
-.widget .list-post-item li { margin-bottom: 10px; }
+.widget .list-post-item li { margin-bottom: 10px; border: none; }
 .widget .list-post-item li:last-child { margin-bottom: 0; }
+.widget .list-post-item li a { padding: 0; }
 .widget .list-post-item .post:after { clear: both; }
-.widget .list-post-item .alignleft { width: 100px; margin-right: 10px; }
-.widget .list-post-item .alignright { width: 100px; margin-left: 10px; }
+.widget .list-post-item .alignleft { float: left; margin-right: 10px; }
+.widget .list-post-item .alignright { float: right; margin-left: 10px; }
+.widget .list-post-item .alignleft, .widget .list-post-item .alignright { width: 100px; }
 .widget .list-post-item .aligncenter { text-align: center; }
 .widget .list-post-item h3 { margin: 0 0 5px 0; font-size: 0.875rem; font-weight: 500; line-height: 1.2; }
 .widget .list-post-item h3 a { color: inherit; }
@@ -128,6 +131,7 @@ Text Domain: shtheme
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.4em;
+    color: #000000;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -135,6 +139,9 @@ Text Domain: shtheme
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     max-height: 2.8em;
+}
+.sh-blog-shortcode .element .entry-title a {
+    color: inherit;
 }
 .sh-blog-shortcode .element .entry-description {
     text-align: justify;
