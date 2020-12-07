@@ -8,7 +8,7 @@ function uni_ux_builder_blog(){
                 'type'          => 'select',
                 'heading'       => 'Categories',
                 'config'        => array(
-                    'multiple'      => true,
+                    'multiple'      => false,
                     'placeholder'   => 'Select...',
                     'termSelect'    => array(
                         // 'post_type'     => 'category',

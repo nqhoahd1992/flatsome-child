@@ -240,3 +240,13 @@ function uni_duplicate_post_link( $actions, $post ) {
 
 add_filter( 'post_row_actions', 'uni_duplicate_post_link', 10, 2 );
 add_filter('page_row_actions', 'uni_duplicate_post_link', 10, 2);
+
+function create_uni_copyright_shortcode( $atts, $content ) {
+	extract( shortcode_atts( array(
+		'name'   => '',
+	), $atts ) );
+    $content .= '©' . do_shortcode( '[ux_current_year]' ).' ';
+    $content .= 'Bản quyền thuộc về '. $name .' - <a href="https://univn.vn/thiet-ke-website-tron-goi/" target="_blank" rel="nofollow">Thiết kế website</a> bởi <a href="https://univn.vn/" target="_blank" rel="nofollow">Uni Creation</a>';
+	return $content;
+}
+add_shortcode('uni_copyright', 'create_uni_copyright_shortcode');

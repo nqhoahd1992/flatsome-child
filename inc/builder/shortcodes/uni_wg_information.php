@@ -7,7 +7,7 @@ function uni_ux_builder_wg_information(){
             'title' => array(
                 'type'       => 'textfield',
                 'heading'    => __( 'Title', 'shtheme' ),
-                'default'    => __( 'Information contact', 'shtheme' ),
+                'default'    => '',
                 'auto_focus' => true,
             ),
             'company' => array(

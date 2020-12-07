@@ -353,11 +353,11 @@ class uni_blog_shortcode {
 			if ( $i == 1 ) {
 				$image_size 					= 'thumb300x200';
 				
-				$html .= '<div class="col medium-12 first-element-layout">';
+				$html .= '<div class="col medium-6 first-element-layout">';
 				$html .= $this->sh_general_post_html( $post_class, $atts, $image_size );
 				$html .= '</div>';
 				if( $atts['posts_per_page'] > 1 ) {
-					$html .= '<div class="col medium-12 second-element-layout"><div class="row">';
+					$html .= '<div class="col medium-6 second-element-layout"><div class="row">';
 				}
 			} else {
 				$image_size 			= 'thumb300x200';
