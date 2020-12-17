@@ -2,15 +2,15 @@
 function shortcode_uni_custom_menu($atts, $content = null, $tag) {
 
     extract(shortcode_atts(array(
-        'text' => '',
-        'tag_name' => 'h3',
+        'title' => '',
+        'tag_name' => 'h4',
         'nav_menu' => '',
     ), $atts));
     
     ob_start();
 
     echo '<div class="uni_custom_menu">';
-    if( $text ) echo '<'. $tag_name . ' class="section-title"><span>'.$text.'</span></' . $tag_name .'>';
+    if( $title ) echo '<'. $tag_name . ' class="widget-title"><span>'.$title.'</span></' . $tag_name .'>';
 
     // Get menu.
     $nav_menu = ! empty( $nav_menu ) ? wp_get_nav_menu_object( $nav_menu ) : false;

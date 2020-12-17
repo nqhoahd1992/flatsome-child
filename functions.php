@@ -62,6 +62,7 @@ require PARENT_DIR . '/inc/shortcodes/shortcode-blog.php';
 require PARENT_DIR . '/inc/shortcodes/uni_custom_menu.php';
 require PARENT_DIR . '/inc/shortcodes/uni_blog.php';
 require PARENT_DIR . '/inc/shortcodes/uni_wg_information.php';
+require PARENT_DIR . '/inc/shortcodes/uni_wg_fb.php';
 if ( class_exists( 'WooCommerce' ) ) {
 	require PARENT_DIR . '/inc/shortcodes/uni_product.php';
 	require PARENT_DIR . '/inc/shortcodes/uni_title_product.php';

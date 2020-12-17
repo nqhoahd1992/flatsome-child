@@ -2,7 +2,8 @@
 function shortcode_uni_wg_information($atts, $content = null, $tag) {
 
     extract(shortcode_atts(array(
-        'title'      => __( 'Information contact', 'shtheme' ),
+        'title'      => '',
+        'tag_name'   => 'h4',
         'company'    => '',
         'address'    => '',  
         'tel'        => '',
@@ -22,7 +23,7 @@ function shortcode_uni_wg_information($atts, $content = null, $tag) {
 
     $html .= '<div class="widget widget_information">';
         
-        if( $title ) : $html .= '<h4 class="widget-title">'. $title .'</h4>';endif;
+        if( $title ) $html .= '<'. $tag_name . ' class="widget-title"><span>'.$title.'</span></' . $tag_name .'>';
 
         $html .= '<ul>';
             if( $company ) {

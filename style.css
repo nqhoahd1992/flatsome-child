@@ -81,7 +81,7 @@ Text Domain: shtheme
 .widget .list-post-item .alignright { float: right; margin-left: 10px; }
 .widget .list-post-item .alignleft, .widget .list-post-item .alignright { width: 100px; }
 .widget .list-post-item .aligncenter { text-align: center; }
-.widget .list-post-item h3 { margin: 0 0 5px 0; font-size: 14px; font-weight: 500; line-height: 1.2; }
+.widget .list-post-item h3 { margin: 0 0 5px 0; font-size: 14px; font-weight: 500; line-height: 1.2; width: auto; }
 .widget .list-post-item h3 a { color: inherit; }
 .widget .list-post-item .entry-content { padding: 0; }
 
@@ -89,6 +89,7 @@ Text Domain: shtheme
 @media (min-width: 1200px) { .widget_supports .list-supporter { padding-top: 190px; background-image: url(assets/img/bg-support.png); background-repeat: no-repeat; background-position: top center; background-size: contain; } }
 .widget_supports .list-supporter .email { padding: 5px 10px; font-weight: 600; line-height: 20px; }
 .widget_supports .phone { font-size: 1.25rem; color: #ff0000; font-weight: bold; }
+.widget_supports .list-supporter li { margin: 0; }
 .widget_supports .support-style-1 { background-color: #FFF; }
 .widget_supports .support-style-1 .supporter { padding: 0 10px 10px 10px; }
 .widget_supports .support-style-1 li { padding: 5px 0; font-size: 14px; color: #333333; border-top: 1px solid #333; }
@@ -147,24 +148,12 @@ Text Domain: shtheme
 ## Shortcode 
 --------------------------------------------------------------*/
 /* Shortcode Blog */
-.sh-blog-shortcode .element .entry-thumb a {
-    overflow: hidden;
-    display: block;
-}
-.sh-blog-shortcode .element .entry-thumb a img {
-    width: 100%;
-    height: auto;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-.sh-blog-shortcode .element .entry-thumb a img:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
+.sh-blog-shortcode .element .entry-thumb .image-zoom {
+    padding-top: 56%;
 }
 .sh-blog-shortcode .element .entry-content {
     margin: 0;
+    padding: 0;
     font-size: 0.9375rem;
 }
 .sh-blog-shortcode .element .entry-content p {
@@ -174,6 +163,7 @@ Text Domain: shtheme
     color: #888;
     font-style: italic;
     margin-bottom: 5px;
+    font-size: 14px;
 }
 .sh-blog-shortcode .element .entry-meta i {
     margin-right: 5px;
@@ -191,6 +181,7 @@ Text Domain: shtheme
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     max-height: 2.8em;
+    width: auto;
 }
 .sh-blog-shortcode .element .entry-title a {
     color: inherit;
@@ -199,6 +190,7 @@ Text Domain: shtheme
     text-align: justify;
     line-height: 1.4;
     font-size: 0.9375rem;
+    color: #999999;
 }
 .sh-blog-shortcode.style-1 .entry-thumb {
     float: left;
@@ -210,16 +202,11 @@ Text Domain: shtheme
 }
 .sh-blog-shortcode.style-5 .entry-thumb {
     float: left;
-    width: 110px;
+    width: 30%;
     margin-right: 15px;
 }
 .sh-blog-shortcode.style-5 .entry-title {
     margin-top: 0;
-}
-.sh-blog-shortcode.style-6 .entry-thumb {
-    padding: 3px;
-    background: #fff;
-    border: 1px solid #cdcdcd;
 }
 .sh-blog-shortcode.style-6 .first-element-layout,
 .sh-blog-shortcode.style-6 .second-element-layout {
@@ -228,18 +215,25 @@ Text Domain: shtheme
 .sh-blog-shortcode.style-6 .first-element-layout .element {
     margin-bottom: 0;
 }
+.sh-blog-shortcode.style-6 .first-element-layout .entry-title {
+    margin: 15px 0 10px 0;
+}
 .sh-blog-shortcode.style-6 .second-element-layout .element:not(:last-child) {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 15px;
 }
 .sh-blog-shortcode.style-6 .second-element-layout .element:last-child {
     margin-bottom: 0;
 }
+.sh-blog-shortcode.style-6 .second-element-layout .post-inner {
+    overflow: hidden;
+}
 .sh-blog-shortcode.style-6 .second-element-layout .entry-thumb {
     float: left;
-    width: 110px;
+    width: 30%;
     margin-right: 15px;
+}
+.sh-blog-shortcode.style-6 .second-element-layout .entry-thumb .image-zoom {
+    padding-top: 62%;
 }
 .sh-blog-shortcode.style-6 .second-element-layout .entry-title {
     margin-top: 0;

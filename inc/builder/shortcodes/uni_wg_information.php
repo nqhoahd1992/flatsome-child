@@ -8,7 +8,20 @@ function uni_ux_builder_wg_information(){
                 'type'       => 'textfield',
                 'heading'    => __( 'Title', 'shtheme' ),
                 'default'    => '',
-                'auto_focus' => true,
+                // 'auto_focus' => true,
+            ),
+            'tag_name' => array(
+                'type'    => 'select',
+                'heading' => 'Tag',
+                'default' => 'h4',
+                'options' => array(
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6',
+                ),
             ),
             'company' => array(
                 'type'       => 'textfield',
@@ -47,7 +60,7 @@ function uni_ux_builder_wg_information(){
             ),
             'style_options' => array(
                 'type'    => 'group',
-                'heading' => __( 'Style' ),
+                'heading' => __( 'Advanced', 'shtheme' ),
                 'options' => array(
                     'hide_label' => array(
                         'type'    => 'checkbox',

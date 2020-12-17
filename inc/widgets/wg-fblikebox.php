@@ -25,10 +25,7 @@ class Uni_Like_Box_Facebook extends WP_Widget {
 
 		if( $page_url ): ?>
 			<div id="fb-root"></div>
-			<?php global $lib_fb;if( $lib_fb != 1 ) : ?>
-				<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?php _e('en_US','shtheme');?>/sdk.js#xfbml=1&version=v5.0"></script>
-			<?php endif;?>
-
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/<?php _e('en_US','shtheme');?>/sdk.js#xfbml=1&version=v9.0" nonce="hZjUcokj"></script>
 			<div class="fb-page" data-href="<?php echo $page_url; ?>" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
 		<?php endif;
 		echo $after_widget;
@@ -55,7 +52,5 @@ class Uni_Like_Box_Facebook extends WP_Widget {
     function update($new_instance, $old_instance) {
         return $new_instance;
     }
-
-    
     
 }

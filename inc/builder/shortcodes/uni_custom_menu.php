@@ -14,7 +14,7 @@ function uni_ux_builder_custom_menu(){
         'name'      => __('Uni Custom Menu','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
         'options'   => array(
-            'text' => array(
+            'title' => array(
                 'type'       => 'textfield',
                 'heading'    => 'Title',
                 'default'    => '',
@@ -23,7 +23,7 @@ function uni_ux_builder_custom_menu(){
             'tag_name' => array(
                 'type'    => 'select',
                 'heading' => 'Tag',
-                'default' => 'h3',
+                'default' => 'h4',
                 'options' => array(
                     'h1' => 'H1',
                     'h2' => 'H2',
