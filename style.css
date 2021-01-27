@@ -25,6 +25,9 @@ Text Domain: shtheme
 /*--------------------------------------------------------------
 ## Header 
 --------------------------------------------------------------*/
+.nav-uppercase>li>a {
+    letter-spacing: 0;
+}
 .nav-dropdown-has-arrow li.has-dropdown:before {
 	border-width: 12px;
 }
@@ -365,6 +368,9 @@ Text Domain: shtheme
 /* Footer */
 .footer-wrapper .widget {
     margin-bottom: 0;
+}
+.absolute-footer {
+    padding: 10px 0 10px;
 }
 
 /*--------------------------------------------------------------

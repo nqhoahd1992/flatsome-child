@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2020-10-06 10:56+0700\n"
+"POT-Creation-Date: 2021-01-27 10:26+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -41,6 +41,7 @@ msgstr ""
 #: inc/builder/shortcodes/uni_custom_menu.php:15
 #: inc/builder/shortcodes/uni_product.php:5
 #: inc/builder/shortcodes/uni_title_product.php:5
+#: inc/builder/shortcodes/uni_wg_fb.php:5
 #: inc/builder/shortcodes/uni_wg_information.php:5
 msgid "Uni Creation"
 msgstr ""
@@ -51,7 +52,6 @@ msgid "Total posts"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_blog.php:28
-#: inc/builder/shortcodes/uni_wg_information.php:50
 msgid "Style"
 msgstr ""
 
@@ -98,9 +98,10 @@ msgstr ""
 #: inc/builder/shortcodes/uni_blog.php:63
 #: inc/shortcodes/shortcode-blog-slide.php:42
 #: inc/shortcodes/shortcode-blog-slide.php:104
-#: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:390
-#: inc/shortcodes/shortcode-blog.php:458 inc/shortcodes/uni_blog.php:8
-#: inc/widgets/wg-post-list.php:59
+#: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:389
+#: inc/shortcodes/uni_blog.php:8 inc/widgets/wg-post-list.php:59
+#: template-parts/posts/archive-2-col.php:24
+#: template-parts/posts/archive-3-col.php:24
 msgid "Read more"
 msgstr ""
 
@@ -150,11 +151,12 @@ msgid "Category"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_product.php:69
+#: inc/builder/shortcodes/uni_wg_fb.php:9
 #: inc/builder/shortcodes/uni_wg_information.php:9
-#: inc/widgets/wg-fblikebox.php:45 inc/widgets/wg-information.php:81
+#: inc/widgets/wg-fblikebox.php:42 inc/widgets/wg-information.php:81
 #: inc/widgets/wg-page.php:40 inc/widgets/wg-post-list.php:95
-#: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-social.php:69
-#: inc/widgets/wg-support.php:61 inc/widgets/wg-view-post-list.php:105
+#: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-support.php:61
+#: inc/widgets/wg-view-post-list.php:105
 msgid "Title"
 msgstr ""
 
@@ -199,7 +201,24 @@ msgid "Out Of Stock"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_title_product.php:4
-msgid "Uni Title Products"
+msgid "Uni - Title Products"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:4
+msgid "Uni - Fanpage Facebook"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:27 inc/widgets/wg-fblikebox.php:46
+msgid "Link Fanpage"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:33
+#: inc/builder/shortcodes/uni_wg_information.php:63
+msgid "Advanced"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:37
+msgid "Include root"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_wg_information.php:4
@@ -207,59 +226,54 @@ msgstr ""
 msgid "Uni - Information contact"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:10
-#: inc/shortcodes/uni_wg_information.php:5
-msgid "Information contact"
-msgstr ""
-
-#: inc/builder/shortcodes/uni_wg_information.php:15
+#: inc/builder/shortcodes/uni_wg_information.php:28
 #: inc/widgets/wg-information.php:85
 msgid "Company"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:20
-#: inc/shortcodes/uni_wg_information.php:32 inc/widgets/wg-information.php:36
+#: inc/builder/shortcodes/uni_wg_information.php:33
+#: inc/shortcodes/uni_wg_information.php:33 inc/widgets/wg-information.php:36
 #: inc/widgets/wg-information.php:89
 msgid "Address"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:25
-#: inc/shortcodes/uni_wg_information.php:35 inc/widgets/wg-information.php:39
+#: inc/builder/shortcodes/uni_wg_information.php:38
+#: inc/shortcodes/uni_wg_information.php:36 inc/widgets/wg-information.php:39
 #: inc/widgets/wg-information.php:93
 msgid "Telephone"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:30
-#: inc/shortcodes/uni_wg_information.php:38 inc/widgets/wg-information.php:42
+#: inc/builder/shortcodes/uni_wg_information.php:43
+#: inc/shortcodes/uni_wg_information.php:39 inc/widgets/wg-information.php:42
 #: inc/widgets/wg-information.php:97
 msgid "Hotline"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:35
-#: inc/shortcodes/uni_wg_information.php:41 inc/widgets/wg-information.php:45
+#: inc/builder/shortcodes/uni_wg_information.php:48
+#: inc/shortcodes/uni_wg_information.php:42 inc/widgets/wg-information.php:45
 #: inc/widgets/wg-information.php:101
 msgid "Fax"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:40
-#: inc/shortcodes/uni_wg_information.php:44 inc/widgets/wg-information.php:48
+#: inc/builder/shortcodes/uni_wg_information.php:53
+#: inc/shortcodes/uni_wg_information.php:45 inc/widgets/wg-information.php:48
 #: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
 #: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
 msgid "Email"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:45
-#: inc/shortcodes/uni_wg_information.php:47 inc/widgets/wg-information.php:51
+#: inc/builder/shortcodes/uni_wg_information.php:58
+#: inc/shortcodes/uni_wg_information.php:48 inc/widgets/wg-information.php:51
 #: inc/widgets/wg-information.php:109
 msgid "Website"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:54
+#: inc/builder/shortcodes/uni_wg_information.php:67
 #: inc/widgets/wg-information.php:114
 msgid "Hide label"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_wg_information.php:59
+#: inc/builder/shortcodes/uni_wg_information.php:72
 #: inc/widgets/wg-information.php:118
 msgid "Hide icon"
 msgstr ""
@@ -308,12 +322,28 @@ msgstr ""
 msgid "View detail"
 msgstr ""
 
-#: inc/shortcodes/uni_title_product.php:25
+#: inc/shortcodes/uni_title_product.php:26
 msgid "View all"
 msgstr ""
 
-#: inc/shortcodes/uni_title_product.php:31
+#: inc/shortcodes/uni_title_product.php:32
 msgid "Categories"
+msgstr ""
+
+#: inc/shortcodes/uni_wg_fb.php:24 inc/widgets/wg-fblikebox.php:28
+msgid "en_US"
+msgstr ""
+
+#: inc/template-functions/breadcrumbs.php:12
+msgid "Search for keyword"
+msgstr ""
+
+#: inc/template-functions/breadcrumbs.php:14
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/template-functions/breadcrumbs.php:18
+msgid "Products"
 msgstr ""
 
 #: inc/template-functions/cpt/cpt.php:43
@@ -382,6 +412,15 @@ msgstr ""
 msgid "Duplicate"
 msgstr ""
 
+#: inc/template-functions/init.php:249
+#, php-format
+msgid ""
+"Copyright belong to <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
+"website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Design</a> by <a "
+"href=\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</"
+"a>"
+msgstr ""
+
 #: inc/template-functions/taxonomies/khach-hang-cat.php:17
 #: inc/template-functions/taxonomies/khach-hang-cat.php:18
 msgid "Danh mục"
@@ -395,16 +434,8 @@ msgstr ""
 msgid "Display like box fanpage Facebook"
 msgstr ""
 
-#: inc/widgets/wg-fblikebox.php:29
-msgid "en_US"
-msgstr ""
-
-#: inc/widgets/wg-fblikebox.php:39
+#: inc/widgets/wg-fblikebox.php:36
 msgid "Like Facebook"
-msgstr ""
-
-#: inc/widgets/wg-fblikebox.php:49
-msgid "Link Fanpage"
 msgstr ""
 
 #: inc/widgets/wg-information.php:16
@@ -542,20 +573,6 @@ msgstr ""
 msgid "Enter the product number in the view"
 msgstr ""
 
-#: inc/widgets/wg-social.php:14
-msgid "Uni - Social"
-msgstr ""
-
-#: inc/widgets/wg-social.php:16
-msgid "Display information social"
-msgstr ""
-
-#: inc/widgets/wg-social.php:72
-msgid ""
-"<p>This widget content is displayed from <strong>Theme Options -> Social</"
-"strong></p>"
-msgstr ""
-
 #: inc/widgets/wg-support.php:12
 msgid "Uni - Support"
 msgstr ""
@@ -618,6 +635,10 @@ msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Flatsome Child"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "univn.vn"
 msgstr ""
 
 #. Description of the plugin/theme

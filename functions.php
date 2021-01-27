@@ -71,9 +71,6 @@ require PARENT_DIR . '/inc/builder/shortcodes.php';
 
 // Load Woocomerce
 if ( class_exists( 'WooCommerce' ) ) {
-// 	require PARENT_DIR . '/inc/shortcode/shortcode-product.php';
-// 	require PARENT_DIR . '/inc/shortcode/shortcode-product-slide.php';
-// 	require PARENT_DIR . '/inc/widgets/wg-product-slider.php';
 	require PARENT_DIR . '/inc/function-woo.php';
 }
 

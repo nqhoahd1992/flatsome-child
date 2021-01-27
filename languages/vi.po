@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2020-10-06 10:56+0700\n"
-"PO-Revision-Date: 2020-10-06 10:57+0700\n"
+"POT-Creation-Date: 2021-01-27 10:23+0700\n"
+"PO-Revision-Date: 2021-01-27 10:26+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -35,12 +35,13 @@ msgstr "Secondary Sidebar"
 
 #: inc/builder/shortcodes/uni_blog.php:4
 msgid "Uni Blog"
-msgstr "Uni - Blog"
+msgstr "Uni Blog"
 
 #: inc/builder/shortcodes/uni_blog.php:5
 #: inc/builder/shortcodes/uni_custom_menu.php:15
 #: inc/builder/shortcodes/uni_product.php:5
 #: inc/builder/shortcodes/uni_title_product.php:5
+#: inc/builder/shortcodes/uni_wg_fb.php:5
 #: inc/builder/shortcodes/uni_wg_information.php:5
 msgid "Uni Creation"
 msgstr "Uni Creation"
@@ -51,7 +52,6 @@ msgid "Total posts"
 msgstr "Số bài viết"
 
 #: inc/builder/shortcodes/uni_blog.php:28
-#: inc/builder/shortcodes/uni_wg_information.php:50
 msgid "Style"
 msgstr "Giao diện"
 
@@ -98,9 +98,10 @@ msgstr "Hiển thị nút xem thêm"
 #: inc/builder/shortcodes/uni_blog.php:63
 #: inc/shortcodes/shortcode-blog-slide.php:42
 #: inc/shortcodes/shortcode-blog-slide.php:104
-#: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:390
-#: inc/shortcodes/shortcode-blog.php:458 inc/shortcodes/uni_blog.php:8
-#: inc/widgets/wg-post-list.php:59
+#: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:389
+#: inc/shortcodes/uni_blog.php:8 inc/widgets/wg-post-list.php:59
+#: template-parts/posts/archive-2-col.php:24
+#: template-parts/posts/archive-3-col.php:24
 msgid "Read more"
 msgstr "Xem thêm"
 
@@ -126,19 +127,19 @@ msgstr "Uni - Sản phẩm"
 
 #: inc/builder/shortcodes/uni_product.php:28
 msgid "Column Spacing"
-msgstr "Column Spacing"
+msgstr "Khoảng cách giữa các cột"
 
 #: inc/builder/shortcodes/uni_product.php:40
 msgid "Columns"
-msgstr "Columns"
+msgstr "Số cột"
 
 #: inc/builder/shortcodes/uni_product.php:48 inc/widgets/wg-support.php:76
 msgid "Layout"
-msgstr "Layout"
+msgstr "Giao diện"
 
 #: inc/builder/shortcodes/uni_product.php:52
 msgid "Animate"
-msgstr "Animate"
+msgstr "Hiệu ứng"
 
 #: inc/builder/shortcodes/uni_product.php:60
 msgid "Box"
@@ -147,32 +148,33 @@ msgstr "Box"
 #: inc/builder/shortcodes/uni_product.php:64 inc/widgets/wg-post-list.php:105
 #: inc/widgets/wg-product-slider.php:122
 msgid "Category"
-msgstr "Category"
+msgstr "Chuyên mục"
 
 #: inc/builder/shortcodes/uni_product.php:69
+#: inc/builder/shortcodes/uni_wg_fb.php:9
 #: inc/builder/shortcodes/uni_wg_information.php:9
-#: inc/widgets/wg-fblikebox.php:45 inc/widgets/wg-information.php:81
+#: inc/widgets/wg-fblikebox.php:42 inc/widgets/wg-information.php:81
 #: inc/widgets/wg-page.php:40 inc/widgets/wg-post-list.php:95
-#: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-social.php:69
-#: inc/widgets/wg-support.php:61 inc/widgets/wg-view-post-list.php:105
+#: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-support.php:61
+#: inc/widgets/wg-view-post-list.php:105
 msgid "Title"
-msgstr "Title"
+msgstr "Tiêu đề"
 
 #: inc/builder/shortcodes/uni_product.php:74
 msgid "Rating"
-msgstr "Rating"
+msgstr "Đánh giá"
 
 #: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:103
 msgid "Price"
-msgstr "Price"
+msgstr "Giá"
 
 #: inc/builder/shortcodes/uni_product.php:84
 msgid "Add To Cart"
-msgstr "Add To Cart"
+msgstr "Thêm vào giỏ"
 
 #: inc/builder/shortcodes/uni_product.php:89
 msgid "Quick View"
-msgstr "Quick View"
+msgstr "Xem nhanh"
 
 #: inc/builder/shortcodes/uni_product.php:94
 msgid "Equalize Items"
@@ -180,86 +182,98 @@ msgstr "Equalize Items"
 
 #: inc/builder/shortcodes/uni_product.php:101
 msgid "Filter Posts"
-msgstr "Filter Posts"
+msgstr "Lọc bài viết"
 
 #: inc/builder/shortcodes/uni_product.php:106
 msgid "Order By"
-msgstr "Order By"
+msgstr "Sắp xếp theo"
 
 #: inc/builder/shortcodes/uni_product.php:118
 msgid "Order"
-msgstr "Order"
+msgstr "Sắp xếp theo thứ tự"
 
 #: inc/builder/shortcodes/uni_product.php:127
 msgid "Show"
-msgstr "Show"
+msgstr "Hiển thị"
 
 #: inc/builder/shortcodes/uni_product.php:137
 msgid "Out Of Stock"
-msgstr "Out Of Stock"
+msgstr "Hết hàng"
 
 #: inc/builder/shortcodes/uni_title_product.php:4
-msgid "Uni Title Products"
-msgstr "Uni Title Products"
+msgid "Uni - Title Products"
+msgstr "Uni - Tiêu đề sản phẩm"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:4
+msgid "Uni - Fanpage Facebook"
+msgstr "Uni - Fanpage Facebook"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:27 inc/widgets/wg-fblikebox.php:46
+msgid "Link Fanpage"
+msgstr "Link Fanpage"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:33
+#: inc/builder/shortcodes/uni_wg_information.php:63
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:37
+msgid "Include root"
+msgstr "Bao gồm phần tử root"
 
 #: inc/builder/shortcodes/uni_wg_information.php:4
 #: inc/widgets/wg-information.php:14
 msgid "Uni - Information contact"
 msgstr "Uni - Thông tin liên hệ"
 
-#: inc/builder/shortcodes/uni_wg_information.php:10
-#: inc/shortcodes/uni_wg_information.php:5
-msgid "Information contact"
-msgstr "Thông tin liên hệ"
-
-#: inc/builder/shortcodes/uni_wg_information.php:15
+#: inc/builder/shortcodes/uni_wg_information.php:28
 #: inc/widgets/wg-information.php:85
 msgid "Company"
 msgstr "Công ty"
 
-#: inc/builder/shortcodes/uni_wg_information.php:20
-#: inc/shortcodes/uni_wg_information.php:32 inc/widgets/wg-information.php:36
+#: inc/builder/shortcodes/uni_wg_information.php:33
+#: inc/shortcodes/uni_wg_information.php:33 inc/widgets/wg-information.php:36
 #: inc/widgets/wg-information.php:89
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: inc/builder/shortcodes/uni_wg_information.php:25
-#: inc/shortcodes/uni_wg_information.php:35 inc/widgets/wg-information.php:39
+#: inc/builder/shortcodes/uni_wg_information.php:38
+#: inc/shortcodes/uni_wg_information.php:36 inc/widgets/wg-information.php:39
 #: inc/widgets/wg-information.php:93
 msgid "Telephone"
 msgstr "Số điện thoại"
 
-#: inc/builder/shortcodes/uni_wg_information.php:30
-#: inc/shortcodes/uni_wg_information.php:38 inc/widgets/wg-information.php:42
+#: inc/builder/shortcodes/uni_wg_information.php:43
+#: inc/shortcodes/uni_wg_information.php:39 inc/widgets/wg-information.php:42
 #: inc/widgets/wg-information.php:97
 msgid "Hotline"
 msgstr "Hotline"
 
-#: inc/builder/shortcodes/uni_wg_information.php:35
-#: inc/shortcodes/uni_wg_information.php:41 inc/widgets/wg-information.php:45
+#: inc/builder/shortcodes/uni_wg_information.php:48
+#: inc/shortcodes/uni_wg_information.php:42 inc/widgets/wg-information.php:45
 #: inc/widgets/wg-information.php:101
 msgid "Fax"
 msgstr "Fax"
 
-#: inc/builder/shortcodes/uni_wg_information.php:40
-#: inc/shortcodes/uni_wg_information.php:44 inc/widgets/wg-information.php:48
+#: inc/builder/shortcodes/uni_wg_information.php:53
+#: inc/shortcodes/uni_wg_information.php:45 inc/widgets/wg-information.php:48
 #: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
 #: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
 msgid "Email"
 msgstr "Email"
 
-#: inc/builder/shortcodes/uni_wg_information.php:45
-#: inc/shortcodes/uni_wg_information.php:47 inc/widgets/wg-information.php:51
+#: inc/builder/shortcodes/uni_wg_information.php:58
+#: inc/shortcodes/uni_wg_information.php:48 inc/widgets/wg-information.php:51
 #: inc/widgets/wg-information.php:109
 msgid "Website"
 msgstr "Website"
 
-#: inc/builder/shortcodes/uni_wg_information.php:54
+#: inc/builder/shortcodes/uni_wg_information.php:67
 #: inc/widgets/wg-information.php:114
 msgid "Hide label"
 msgstr "Không hiển thị nhãn"
 
-#: inc/builder/shortcodes/uni_wg_information.php:59
+#: inc/builder/shortcodes/uni_wg_information.php:72
 #: inc/widgets/wg-information.php:118
 msgid "Hide icon"
 msgstr "Không hiển thị biểu tượng"
@@ -308,13 +322,29 @@ msgstr "Chọn số lượng"
 msgid "View detail"
 msgstr "Xem chi tiết"
 
-#: inc/shortcodes/uni_title_product.php:25
+#: inc/shortcodes/uni_title_product.php:26
 msgid "View all"
 msgstr "Xem tất cả"
 
-#: inc/shortcodes/uni_title_product.php:31
+#: inc/shortcodes/uni_title_product.php:32
 msgid "Categories"
 msgstr "Chuyên mục"
+
+#: inc/shortcodes/uni_wg_fb.php:24 inc/widgets/wg-fblikebox.php:28
+msgid "en_US"
+msgstr "vi_VN"
+
+#: inc/template-functions/breadcrumbs.php:12
+msgid "Search for keyword"
+msgstr "Tìm kiếm cho từ khóa"
+
+#: inc/template-functions/breadcrumbs.php:14
+msgid "404 Not Found"
+msgstr "404 - Trang không tồn tại"
+
+#: inc/template-functions/breadcrumbs.php:18
+msgid "Products"
+msgstr "Sản phẩm"
 
 #: inc/template-functions/cpt/cpt.php:43
 #, php-format
@@ -382,6 +412,18 @@ msgstr "Nhân đôi bài viết này"
 msgid "Duplicate"
 msgstr "Nhân đôi bài viết"
 
+#: inc/template-functions/init.php:249
+#, php-format
+msgid ""
+"Copyright belong to <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
+"website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Design</a> by <a href="
+"\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</a>"
+msgstr ""
+"Bản quyền thuộc về <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
+"website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Thiết kế</a> bởi <a "
+"href=\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</"
+"a>"
+
 #: inc/template-functions/taxonomies/khach-hang-cat.php:17
 #: inc/template-functions/taxonomies/khach-hang-cat.php:18
 msgid "Danh mục"
@@ -395,17 +437,9 @@ msgstr "Uni - Facebook Like Box"
 msgid "Display like box fanpage Facebook"
 msgstr "Hiển thị Like Box Facebook"
 
-#: inc/widgets/wg-fblikebox.php:29
-msgid "en_US"
-msgstr "vi_VN"
-
-#: inc/widgets/wg-fblikebox.php:39
+#: inc/widgets/wg-fblikebox.php:36
 msgid "Like Facebook"
 msgstr "Like Facebook"
-
-#: inc/widgets/wg-fblikebox.php:49
-msgid "Link Fanpage"
-msgstr "Link Fanpage"
 
 #: inc/widgets/wg-information.php:16
 msgid "Display information contact"
@@ -542,22 +576,6 @@ msgstr "Slider chạy ngang"
 msgid "Enter the product number in the view"
 msgstr "Nhập số sản phẩm trong khung nhìn"
 
-#: inc/widgets/wg-social.php:14
-msgid "Uni - Social"
-msgstr "Uni - Mạng xã hội"
-
-#: inc/widgets/wg-social.php:16
-msgid "Display information social"
-msgstr "Hiển thị thông tin mạng xã hội"
-
-#: inc/widgets/wg-social.php:72
-msgid ""
-"<p>This widget content is displayed from <strong>Theme Options -> Social</"
-"strong></p>"
-msgstr ""
-"<p>Nội dung widget này được hiển thị từ mục <strong>Theme Options -> Social</"
-"strong></p>"
-
 #: inc/widgets/wg-support.php:12
 msgid "Uni - Support"
 msgstr "Uni - Hỗ trợ trực tuyến"
@@ -622,6 +640,10 @@ msgstr "Ngày đăng bài"
 msgid "Flatsome Child"
 msgstr "Flatsome Child"
 
+#. Theme URI of the plugin/theme
+msgid "univn.vn"
+msgstr "univn.vn"
+
 #. Description of the plugin/theme
 msgid "This is a child theme for Flatsome Theme"
 msgstr "This is a child theme for Flatsome Theme"
@@ -629,6 +651,22 @@ msgstr "This is a child theme for Flatsome Theme"
 #. Author of the plugin/theme
 msgid "Quang Hoa"
 msgstr "Quang Hoa"
+
+#~ msgid "Uni - Social"
+#~ msgstr "Uni - Mạng xã hội"
+
+#~ msgid "Display information social"
+#~ msgstr "Hiển thị thông tin mạng xã hội"
+
+#~ msgid ""
+#~ "<p>This widget content is displayed from <strong>Theme Options -> Social</"
+#~ "strong></p>"
+#~ msgstr ""
+#~ "<p>Nội dung widget này được hiển thị từ mục <strong>Theme Options -> "
+#~ "Social</strong></p>"
+
+#~ msgid "Information contact"
+#~ msgstr "Thông tin liên hệ"
 
 #~ msgid "Shop Sidebar"
 #~ msgstr "Shop Sidebar"
@@ -793,9 +831,6 @@ msgstr "Quang Hoa"
 
 #~ msgid "Photo list"
 #~ msgstr "Danh sách ảnh"
-
-#~ msgid "Advanced Options"
-#~ msgstr "Cài đặt nâng cao"
 
 #~ msgid "Slider autoplay"
 #~ msgstr "Tự động chạy"
@@ -1013,15 +1048,6 @@ msgstr "Quang Hoa"
 #~ "<p class=\"description\">Đây là một phần được tạo ra bằng cách thêm một "
 #~ "bộ lọc vào mảng các phần. Có thể được sử dụng bởi các chủ đề con để "
 #~ "thêm / gỡ bỏ các phần từ các tùy chọn.</p>"
-
-#~ msgid "Search for keyword"
-#~ msgstr "Tìm kiếm cho từ khóa"
-
-#~ msgid "404 Not Found"
-#~ msgstr "404 - Trang không tồn tại"
-
-#~ msgid "Products"
-#~ msgstr "Sản phẩm"
 
 #~ msgid "Unauthorized access is denied!"
 #~ msgstr "Truy cập bị từ chối!"
