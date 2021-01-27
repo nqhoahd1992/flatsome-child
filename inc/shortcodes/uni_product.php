@@ -2,7 +2,7 @@
 function shortcode_uni_product($atts, $content = null, $tag) {
 
     extract(shortcode_atts(array(
-        'ids'           => '',
+        'cat'           => '',
         'col_spacing'   => 'normal',
         'columns'	    => '4',
         'cat'           => '',
@@ -31,7 +31,7 @@ function shortcode_uni_product($atts, $content = null, $tag) {
         // 'image_hover' => '',
         // 'image_hover_alt' => '',
         // 'image_overlay' => '',
-        'show_cat' => 'true',
+        'show_cat' => 'false',
         'show_title' => 'true',
         'show_rating' => 'true',
         'show_price' => 'true',
@@ -40,14 +40,13 @@ function shortcode_uni_product($atts, $content = null, $tag) {
     ), $atts));
     
     ob_start();
-    $array_ids = explode(',', $ids);
+
+    $html = '';
     
-    if( is_array($array_ids) ) {
-        foreach ($array_ids as $key => $idpost) {
-            echo '<h2 class="heading"><a title="'. get_dm_name( $idpost, 'product_cat' ) .'" href="'. get_dm_link( $idpost, 'product_cat' ) .'">'. get_dm_name( $idpost, 'product_cat' ) .'</a></h2>';
-            echo do_shortcode('[ux_products style="normal" col_spacing="'. $col_spacing .'" columns="' . $columns . '" animate="'. $animate .'" show_cat="'. $show_cat .'" show_title="'. $show_title .'" show_rating="'. $show_rating .'" show_price="'. $show_price .'" show_add_to_cart="'. $show_add_to_cart .'" show_quick_view="'. $show_quick_view .'" equalize_box="'. $equalize_box .'" cat="' . $idpost . '"products="' . $products . '" orderby="' . $orderby . '" order="' . $order . '" ]');
-        }
-    }
+    $html .= '<h2 class="heading"><a title="'. get_dm_name( $cat, 'product_cat' ) .'" href="'. get_dm_link( $cat, 'product_cat' ) .'">'. get_dm_name( $cat, 'product_cat' ) .'</a></h2>';
+    $html .= do_shortcode('[ux_products style="normal" col_spacing="'. $col_spacing .'" columns="' . $columns . '" animate="'. $animate .'" show_cat="'. $show_cat .'" show_title="'. $show_title .'" show_rating="'. $show_rating .'" show_price="'. $show_price .'" show_add_to_cart="'. $show_add_to_cart .'" show_quick_view="'. $show_quick_view .'" equalize_box="'. $equalize_box .'" cat="' . $cat . '"products="' . $products . '" orderby="' . $orderby . '" order="' . $order . '" ]');
+
+    echo $html;
 
     $content = ob_get_contents();
     ob_end_clean();

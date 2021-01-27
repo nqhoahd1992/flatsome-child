@@ -1,7 +1,7 @@
 <?php  
 function uni_ux_builder_title_products(){
     add_ux_builder_shortcode('uni_title_products', array(
-        'name'      => __('Uni Title Products','shtheme'),
+        'name'      => __('Uni - Title Products','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
         'options'   => array(
             'id' => array(

@@ -13,6 +13,7 @@ function shortcode_uni_title_products($atts, $content = null, $tag) {
         'taxonomy'      => 'product_cat',
         'include'       => $sub_ids,
         'hide_empty'	=> false,
+        'orderby'       => 'include',
     );
     $product_categories = get_terms( $args );
     $html_cat .= '<ul class="ul-reset">';

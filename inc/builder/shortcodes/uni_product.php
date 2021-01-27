@@ -4,11 +4,11 @@ function uni_ux_builder_product(){
         'name'      => __('Uni Product','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
         'options'   => array(
-            'ids' => array(
+            'cat' => array(
                 'type'          => 'select',
                 'heading'       => 'Categories',
                 'config'        => array(
-                    'multiple'      => true,
+                    'multiple'      => false,
                     'placeholder'   => 'Select...',
                     'termSelect'    => array(
                         // 'post_type'     => 'product',

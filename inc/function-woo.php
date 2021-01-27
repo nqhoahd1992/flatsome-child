@@ -9,7 +9,7 @@ function woocommerce_category_image( $products ) {
     if ( $image ) {
 	    $image_category = '<img src="' . $image . '" alt="" />';
 	} else {
-		$image_category = '<img src="'. get_stylesheet_directory_uri() .'/lib/images/img-not-available.jpg" alt="" />';
+		$image_category = '<img src="'. get_stylesheet_directory_uri() .'/assets/img/img-not-available.jpg" alt="" />';
 	}
 	return $image_category;
 }
