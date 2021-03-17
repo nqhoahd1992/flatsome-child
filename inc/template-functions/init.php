@@ -110,28 +110,6 @@ function get_dm_link( $category, $taxonomy ) {
 	return $category;
 }
 
-/**
- * Responsive Video Youtube In Content
- *
- * @since 0.1.0
- *
- * @param string $content 
- */
-function div_wrapper_video($content) {
-   // match any iframes
-   /*$pattern = '~<iframe.*</iframe>|<embed.*</embed>~'; // Add it if all iframe*/
-   $pattern = '~<iframe.*src=".*(youtube.com|youtu.be).*</iframe>|<embed.*</embed>~'; //only iframe youtube
-   preg_match_all($pattern, $content, $matches);
-   foreach ($matches[0] as $match) {
-     // wrap matched iframe with div
-     $wrappedframe = '<div class="embed-responsive embed-responsive-16by9">' . $match . '</div>';
-     //replace original iframe with new in content
-     $content = str_replace($match, $wrappedframe, $content);
-   }
-   return $content; 
-}
-add_filter('the_content', 'div_wrapper_video');
-
 /*
  * Dupplicate Post - Page
  */

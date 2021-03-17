@@ -63,10 +63,6 @@ require PARENT_DIR . '/inc/shortcodes/uni_custom_menu.php';
 require PARENT_DIR . '/inc/shortcodes/uni_blog.php';
 require PARENT_DIR . '/inc/shortcodes/uni_wg_information.php';
 require PARENT_DIR . '/inc/shortcodes/uni_wg_fb.php';
-if ( class_exists( 'WooCommerce' ) ) {
-	require PARENT_DIR . '/inc/shortcodes/uni_product.php';
-	require PARENT_DIR . '/inc/shortcodes/uni_title_product.php';
-}
 require PARENT_DIR . '/inc/builder/shortcodes.php';
 
 // Load Woocomerce
@@ -81,6 +77,9 @@ require PARENT_DIR . '/inc/widgets/wg-fblikebox.php';
 require PARENT_DIR . '/inc/widgets/wg-view-post-list.php';
 require PARENT_DIR . '/inc/widgets/wg-information.php';
 
+// Disable Gutenberg editor.
+add_filter('use_block_editor_for_post_type', '__return_false', 10);
+
 /**
  * Loads the child theme textdomain.
  */
@@ -90,6 +89,9 @@ function uni_child_theme_setup() {
 add_action( 'after_setup_theme', 'uni_child_theme_setup' );
 
 function uni_lib_scripts(){
+
+	wp_dequeue_style( 'wp-block-library' );
+	wp_dequeue_style( 'wp-block-library-theme' );
 
 	// Font Awesome
 	wp_enqueue_style( 'fontawesome-style', UNI_DIR .'/assets/css/font-awesome-all.css' );

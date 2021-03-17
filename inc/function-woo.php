@@ -1,4 +1,12 @@
 <?php
+require PARENT_DIR . '/inc/shortcodes/uni_product.php';
+require PARENT_DIR . '/inc/shortcodes/uni_title_product.php';
+
+function uni_wc_lib_scripts(){
+	wp_dequeue_style( 'wc-block-style' );
+}
+add_action( 'wp_enqueue_scripts', 'uni_wc_lib_scripts', 1 );
+
 /**
  * Display feature image of category product
  */

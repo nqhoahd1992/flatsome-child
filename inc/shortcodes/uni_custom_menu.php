@@ -46,7 +46,7 @@ function shortcode_uni_custom_menu($atts, $content = null, $tag) {
                 'menu'        => $nav_menu,
             );
         }
-        wp_nav_menu( apply_filters( 'widget_nav_menu_args', $nav_menu_args, $nav_menu, $args, $instance ) );
+        wp_nav_menu( apply_filters( 'widget_nav_menu_args', $nav_menu_args, $nav_menu ) );
     }
 
     echo '</div>';
