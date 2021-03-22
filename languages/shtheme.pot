@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-01-27 10:26+0700\n"
+"POT-Creation-Date: 2021-03-22 10:50+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -164,7 +164,8 @@ msgstr ""
 msgid "Rating"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:103
+#: inc/builder/shortcodes/uni_product.php:79
+#: inc/woocommerce/function-woo.php:113
 msgid "Price"
 msgstr ""
 
@@ -278,50 +279,6 @@ msgstr ""
 msgid "Hide icon"
 msgstr ""
 
-#: inc/function-woo.php:22
-msgid "Continue Shopping"
-msgstr ""
-
-#: inc/function-woo.php:51
-msgid "Information"
-msgstr ""
-
-#: inc/function-woo.php:52
-msgid "Gallery"
-msgstr ""
-
-#: inc/function-woo.php:53
-msgid "Video"
-msgstr ""
-
-#: inc/function-woo.php:54
-msgid "Attachments"
-msgstr ""
-
-#: inc/function-woo.php:71
-msgid "Add to cart"
-msgstr ""
-
-#: inc/function-woo.php:81
-msgid "Quick buy"
-msgstr ""
-
-#: inc/function-woo.php:117
-msgid "Discount"
-msgstr ""
-
-#: inc/function-woo.php:125
-msgid "Contact"
-msgstr ""
-
-#: inc/function-woo.php:169
-msgid "Choose quantity"
-msgstr ""
-
-#: inc/function-woo.php:185 inc/function-woo.php:186
-msgid "View detail"
-msgstr ""
-
 #: inc/shortcodes/uni_title_product.php:26
 msgid "View all"
 msgstr ""
@@ -404,15 +361,15 @@ msgstr ""
 msgid "views"
 msgstr ""
 
-#: inc/template-functions/init.php:236
+#: inc/template-functions/init.php:214
 msgid "Duplicate this item"
 msgstr ""
 
-#: inc/template-functions/init.php:236
+#: inc/template-functions/init.php:214
 msgid "Duplicate"
 msgstr ""
 
-#: inc/template-functions/init.php:249
+#: inc/template-functions/init.php:227
 #, php-format
 msgid ""
 "Copyright belong to <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
@@ -631,6 +588,58 @@ msgstr ""
 
 #: inc/widgets/wg-view-post-list.php:115
 msgid "Post date"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:32
+msgid "Continue Shopping"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:61
+msgid "Information"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:62
+msgid "Gallery"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:63
+msgid "Video"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:64
+msgid "Attachments"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:81
+msgid "Add to cart"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:91
+msgid "Quick buy"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:127
+msgid "Discount"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:135
+msgid "Contact"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:179
+msgid "Choose quantity"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:195 inc/woocommerce/function-woo.php:196
+msgid "View detail"
+msgstr ""
+
+#: inc/woocommerce/grid-list-toggle.php:39
+msgid "Grid view"
+msgstr ""
+
+#: inc/woocommerce/grid-list-toggle.php:40
+msgid "List view"
 msgstr ""
 
 #. Theme Name of the plugin/theme

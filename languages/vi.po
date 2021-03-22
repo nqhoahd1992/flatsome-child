@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-01-27 10:23+0700\n"
-"PO-Revision-Date: 2021-01-27 10:26+0700\n"
+"POT-Creation-Date: 2021-03-22 10:50+0700\n"
+"PO-Revision-Date: 2021-03-22 10:51+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -164,7 +164,8 @@ msgstr "Tiêu đề"
 msgid "Rating"
 msgstr "Đánh giá"
 
-#: inc/builder/shortcodes/uni_product.php:79 inc/function-woo.php:103
+#: inc/builder/shortcodes/uni_product.php:79
+#: inc/woocommerce/function-woo.php:113
 msgid "Price"
 msgstr "Giá"
 
@@ -278,50 +279,6 @@ msgstr "Không hiển thị nhãn"
 msgid "Hide icon"
 msgstr "Không hiển thị biểu tượng"
 
-#: inc/function-woo.php:22
-msgid "Continue Shopping"
-msgstr "Tiếp tục mua hàng"
-
-#: inc/function-woo.php:51
-msgid "Information"
-msgstr "Thông tin"
-
-#: inc/function-woo.php:52
-msgid "Gallery"
-msgstr "Thư viện ảnh"
-
-#: inc/function-woo.php:53
-msgid "Video"
-msgstr "Video"
-
-#: inc/function-woo.php:54
-msgid "Attachments"
-msgstr "Tệp đính kèm"
-
-#: inc/function-woo.php:71
-msgid "Add to cart"
-msgstr "Thêm vào giỏ"
-
-#: inc/function-woo.php:81
-msgid "Quick buy"
-msgstr "Mua ngay"
-
-#: inc/function-woo.php:117
-msgid "Discount"
-msgstr "Giảm"
-
-#: inc/function-woo.php:125
-msgid "Contact"
-msgstr "Liên hệ"
-
-#: inc/function-woo.php:169
-msgid "Choose quantity"
-msgstr "Chọn số lượng"
-
-#: inc/function-woo.php:185 inc/function-woo.php:186
-msgid "View detail"
-msgstr "Xem chi tiết"
-
 #: inc/shortcodes/uni_title_product.php:26
 msgid "View all"
 msgstr "Xem tất cả"
@@ -404,15 +361,15 @@ msgstr "Khách hàng"
 msgid "views"
 msgstr "lượt xem"
 
-#: inc/template-functions/init.php:236
+#: inc/template-functions/init.php:214
 msgid "Duplicate this item"
 msgstr "Nhân đôi bài viết này"
 
-#: inc/template-functions/init.php:236
+#: inc/template-functions/init.php:214
 msgid "Duplicate"
 msgstr "Nhân đôi bài viết"
 
-#: inc/template-functions/init.php:249
+#: inc/template-functions/init.php:227
 #, php-format
 msgid ""
 "Copyright belong to <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
@@ -635,6 +592,58 @@ msgstr "Xem thêm"
 #: inc/widgets/wg-view-post-list.php:115
 msgid "Post date"
 msgstr "Ngày đăng bài"
+
+#: inc/woocommerce/function-woo.php:32
+msgid "Continue Shopping"
+msgstr "Tiếp tục mua hàng"
+
+#: inc/woocommerce/function-woo.php:61
+msgid "Information"
+msgstr "Thông tin"
+
+#: inc/woocommerce/function-woo.php:62
+msgid "Gallery"
+msgstr "Thư viện ảnh"
+
+#: inc/woocommerce/function-woo.php:63
+msgid "Video"
+msgstr "Video"
+
+#: inc/woocommerce/function-woo.php:64
+msgid "Attachments"
+msgstr "Tệp đính kèm"
+
+#: inc/woocommerce/function-woo.php:81
+msgid "Add to cart"
+msgstr "Thêm vào giỏ"
+
+#: inc/woocommerce/function-woo.php:91
+msgid "Quick buy"
+msgstr "Mua ngay"
+
+#: inc/woocommerce/function-woo.php:127
+msgid "Discount"
+msgstr "Giảm"
+
+#: inc/woocommerce/function-woo.php:135
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: inc/woocommerce/function-woo.php:179
+msgid "Choose quantity"
+msgstr "Chọn số lượng"
+
+#: inc/woocommerce/function-woo.php:195 inc/woocommerce/function-woo.php:196
+msgid "View detail"
+msgstr "Xem chi tiết"
+
+#: inc/woocommerce/grid-list-toggle.php:39
+msgid "Grid view"
+msgstr "Hiển thị dạng lưới"
+
+#: inc/woocommerce/grid-list-toggle.php:40
+msgid "List view"
+msgstr "Hiển thị dạng danh sách"
 
 #. Theme Name of the plugin/theme
 msgid "Flatsome Child"
@@ -1708,12 +1717,6 @@ msgstr "Quang Hoa"
 
 #~ msgid "Number Column on Mobile"
 #~ msgstr "Số cột trên màn Mobile"
-
-#~ msgid "Grid view"
-#~ msgstr "Hiển thị dạng lưới"
-
-#~ msgid "List view"
-#~ msgstr "Hiển thị dạng danh sách"
 
 #~ msgid "Search for keyword: %s"
 #~ msgstr "Tìm kiếm cho từ khóa: %s"

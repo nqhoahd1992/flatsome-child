@@ -67,7 +67,7 @@ require PARENT_DIR . '/inc/builder/shortcodes.php';
 
 // Load Woocomerce
 if ( class_exists( 'WooCommerce' ) ) {
-	require PARENT_DIR . '/inc/function-woo.php';
+	require PARENT_DIR . '/inc/woocommerce/function-woo.php';
 }
 
 // Load Widget

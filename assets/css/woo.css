@@ -1,0 +1,28 @@
+.columns-list>.col {
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+.uni-toolbox .view-mode-switcher a {
+    color: #222222;
+}
+.uni-toolbox .woocommerce-ordering, 
+.uni-toolbox .woocommerce-ordering select {
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+.uni-toolbox .woocommerce-result-count {
+    margin-right: 0;
+    font-size: 14px;
+}
+@media (min-width: 550px) {
+    .uni-ordering {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+.woocommerce-loop-product__title {
+    font-size: 1rem;
+}

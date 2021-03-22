@@ -1,9 +1,12 @@
 <?php
+require PARENT_DIR . '/inc/woocommerce/grid-list-toggle.php';
+// Shortcode woocommerce
 require PARENT_DIR . '/inc/shortcodes/uni_product.php';
 require PARENT_DIR . '/inc/shortcodes/uni_title_product.php';
 
 function uni_wc_lib_scripts(){
 	wp_dequeue_style( 'wc-block-style' );
+	wp_enqueue_style( 'woo-style', UNI_DIR .'/assets/css/woo.css' );
 }
 add_action( 'wp_enqueue_scripts', 'uni_wc_lib_scripts', 1 );
 
