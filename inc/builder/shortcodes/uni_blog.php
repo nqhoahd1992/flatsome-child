@@ -1,7 +1,7 @@
 <?php  
 function uni_ux_builder_blog(){
     add_ux_builder_shortcode('uni_blog', array(
-        'name'      => __('Uni Blog','shtheme'),
+        'name'      => __('Uni - Blog','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
         'options'   => array(
             'ids' => array(
@@ -10,10 +10,12 @@ function uni_ux_builder_blog(){
                 'config'        => array(
                     'multiple'      => false,
                     'placeholder'   => 'Select...',
+                    // 'postSelect' => array(
+                    //     'post_type' => 'post',
+                    // ),
                     'termSelect'    => array(
-                        // 'post_type'     => 'category',
                         'taxonomies'    => 'category'
-                    )
+                    ),
                 )
             ),
             'number' => array(

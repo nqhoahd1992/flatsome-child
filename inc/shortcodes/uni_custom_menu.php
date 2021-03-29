@@ -5,11 +5,27 @@ function shortcode_uni_custom_menu($atts, $content = null, $tag) {
         'title' => '',
         'tag_name' => 'h4',
         'nav_menu' => '',
+        'class' => '',
+        'visibility' => '',
     ), $atts));
     
+    if($visibility == 'hidden') return;
+
     ob_start();
 
-    echo '<div class="uni_custom_menu">';
+    // Add Button Classes.
+    $classes   = array();
+    $classes[] = 'uni_custom_menu';
+    if ( $class ) {
+        $classes[] = $class;
+    }
+    if ( $visibility ) {
+        $classes[] = $visibility;
+    }
+    $attributes['class'] = $classes;
+    $attributes          = flatsome_html_atts( $attributes );
+
+    echo '<div '. $attributes .'>';
     if( $title ) echo '<'. $tag_name . ' class="widget-title"><span>'.$title.'</span></' . $tag_name .'>';
 
     // Get menu.
@@ -48,7 +64,6 @@ function shortcode_uni_custom_menu($atts, $content = null, $tag) {
         }
         wp_nav_menu( apply_filters( 'widget_nav_menu_args', $nav_menu_args, $nav_menu ) );
     }
-
     echo '</div>';
 
     $content = ob_get_contents();

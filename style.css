@@ -365,6 +365,10 @@ Text Domain: shtheme
 .uni_custom_menu ul.menu li {
     border: none;
 }
+/* Single */
+.entry-header .entry-title {
+    font-size: 1.25rem;
+}
 /* Footer */
 .footer-wrapper .widget {
     margin-bottom: 0;

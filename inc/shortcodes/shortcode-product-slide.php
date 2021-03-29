@@ -63,28 +63,19 @@ class uni_product_slide_shortcode {
 
 	        echo '<div class="sh-product-shortcode sh-product-slider-shortcode">';
 		    	echo '<div class="slick-carousel product-slider list-products" data-item="'. $items_desktop_large .'" data-item_md="'. $items_desktop .'" data-item_sm="'. $items_tablets .'" data-item_mb="'. $items_mobile .'" data-row="'. $number_row .'" data-dots="'. $data_dots .'" data-arrows="'. $data_arrows .'" data-vertical="false">';
-	                
 	                while ( $the_query->have_posts() ) { 
 	                	$the_query->the_post();
-
 	                    /**
 	                     * Hook: woocommerce_shop_loop.
 	                     *
 	                     * @hooked WC_Structured_Data::generate_product_data() - 10
 	                     */
 	                    do_action( 'woocommerce_shop_loop' );
-
 	                    wc_get_template_part( 'content', 'product' );
-	                    
 	                }
 	                wp_reset_postdata();
-
 	            echo '</div>';
-
-
-
 	        echo '</div>';
-
 		}
 		
 	}
