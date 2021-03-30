@@ -46,6 +46,7 @@ Text Domain: shtheme
 .menu-item-design-default > .nav-dropdown.nav-dropdown-default>li.image-column {
     display: block;
     width: 100%;
+    border-right: none;
 }
 .menu-item-design-default > .nav-dropdown.nav-dropdown-default li {
     position: relative;
@@ -58,9 +59,12 @@ Text Domain: shtheme
     color: inherit;
     text-transform: none;
 }
+.menu-item-design-default > .nav-dropdown.nav-dropdown-default {
+    min-width: 210px;
+}
 .menu-item-design-default > .nav-dropdown.nav-dropdown-default ul { 
     background-color: #fff;
-    min-width: 210px; 
+    min-width: 210px;
     top: -1px;
     border: 1px solid #ddd;
     left: 100%; 
