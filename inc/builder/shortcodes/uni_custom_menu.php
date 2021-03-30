@@ -11,7 +11,7 @@ function uni_ux_builder_custom_menu(){
     endforeach;
 
     add_ux_builder_shortcode('uni_custom_menu', array(
-        'name'      => __('Uni Custom Menu','shtheme'),
+        'name'      => __('Uni - Custom Menu','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
         'options'   => array(
             'title' => array(

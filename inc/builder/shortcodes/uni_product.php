@@ -1,7 +1,7 @@
 <?php  
 function uni_ux_builder_product(){
     add_ux_builder_shortcode('uni_product', array(
-        'name'      => __('Uni Product','shtheme'),
+        'name'      => __('Uni - Product','shtheme'),
         'category'  => __('Uni Creation','shtheme'),
         'options'   => array(
             'cat' => array(
@@ -142,7 +142,8 @@ function uni_ux_builder_product(){
                          ),
                      ),
                 )
-            )
+            ),
+            'advanced_options' => require get_template_directory() . '/inc/builder/shortcodes/commons/advanced.php',
         ),
     ));
 }

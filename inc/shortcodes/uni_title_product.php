@@ -1,14 +1,27 @@
 <?php  
-function shortcode_uni_title_products($atts, $content = null, $tag) {
+function shortcode_uni_title_products($atts, $content = null, $html_cat = null) {
 
     extract(shortcode_atts(array(
+        'class' => '',
+        'visibility' => '',
         'id'       => '',
         'sub_ids'  => '',
     ), $atts));
     
-    ob_start();
+    if($visibility == 'hidden') return;
 
-    $html = $html_cat = '';
+    // Add Button Classes.
+    $classes   = array();
+    $classes[] = 'uni-titlepro';
+    if ( $class ) {
+        $classes[] = $class;
+    }
+    if ( $visibility ) {
+        $classes[] = $visibility;
+    }
+    $attributes['class'] = $classes;
+    $attributes          = flatsome_html_atts( $attributes );
+    
     $args = array(
         'taxonomy'      => 'product_cat',
         'include'       => $sub_ids,
@@ -26,25 +39,21 @@ function shortcode_uni_title_products($atts, $content = null, $tag) {
     $html_cat .= '<li><a class="viewall" href="'. get_dm_link($id,'product_cat') .'">'. __('View all','shtheme') .' <i class="fas fa-arrow-circle-right"></i></a></li>';
     $html_cat .= '</ul>';
 
-    $html .= '<div class="uni-titlepro">';
-    	$html .= '<div class="uni-titlepro__main">';
-		    $html .= '<h2 class="heading"><a href="'. get_dm_link($id,'product_cat') .'" title="'. get_dm_name($id,'product_cat') .'">'. get_dm_name($id,'product_cat') .'</a></h2>';
-		    $html .= '<div class="open-subcat">'. __('Categories','shtheme') .' <i class="fas fa-caret-down"></i></div>';
-	    $html .= '</div>';
-	    $html .= $html_cat;
-    $html .= '</div>';
-    echo $html;
-   	?>
-   	<script type="text/javascript">
-   		jQuery(document).ready(function($) {
-   			jQuery('.open-subcat').on('click',function(){
-		        jQuery(this).parents('.uni-titlepro').find('ul').slideToggle();
-		    })
-   		});	
-   	</script>
-   	<?php
-    $content = ob_get_contents();
-    ob_end_clean();
+    $content .= '<div '. $attributes .'>';
+    	$content .= '<div class="uni-titlepro__main">';
+		    $content .= '<h2 class="heading"><a href="'. get_dm_link($id,'product_cat') .'" title="'. get_dm_name($id,'product_cat') .'">'. get_dm_name($id,'product_cat') .'</a></h2>';
+		    $content .= '<div class="open-subcat">'. __('Categories','shtheme') .' <i class="fas fa-caret-down"></i></div>';
+	    $content .= '</div>';
+	    $content .= $html_cat;
+    $content .= '</div>';
+    $content .= '<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            jQuery(".open-subcat").on("click",function(){
+                jQuery(this).parents(".uni-titlepro").find("ul").slideToggle();
+            })
+        }); 
+    </script>';
+
     return $content;
 }
 

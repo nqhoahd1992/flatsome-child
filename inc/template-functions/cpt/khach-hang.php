@@ -13,6 +13,7 @@ class Khach_Hang extends CPT_Abstract
 			'rewrite'		=> [ 'slug' => 'khach-hang'],
 			'menu_position'	=> 6,
 			// 'has_archive'	=> false,
+			// 'publicly_queryable' => false,
 		));
 		$cpt->set_no_slug_post_type( 'khach-hang' );
 		//$cpt->set_no_gutenberg_post_types('khach-hang);

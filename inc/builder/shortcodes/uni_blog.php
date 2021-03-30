@@ -99,6 +99,7 @@ function uni_ux_builder_blog(){
                 'max' => 500,
                 'min' => 10,
             ),
+            'advanced_options' => require get_template_directory() . '/inc/builder/shortcodes/commons/advanced.php',
         ),
     ));
 }

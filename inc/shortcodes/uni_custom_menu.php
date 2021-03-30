@@ -1,12 +1,12 @@
 <?php  
-function shortcode_uni_custom_menu($atts, $content = null, $tag) {
+function shortcode_uni_custom_menu($atts, $content = null) {
 
     extract(shortcode_atts(array(
+        'class' => '',
+        'visibility' => '',
         'title' => '',
         'tag_name' => 'h4',
         'nav_menu' => '',
-        'class' => '',
-        'visibility' => '',
     ), $atts));
     
     if($visibility == 'hidden') return;

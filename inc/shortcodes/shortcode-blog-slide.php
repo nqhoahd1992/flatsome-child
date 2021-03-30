@@ -23,8 +23,8 @@ class uni_blog_slide_shortcode {
 	 * @param  string $content Content between shortcode
 	 * @return string		  HTML output
 	 */
-	function render( $atts, $content = '') {
-		$html = $css_class = $el_class = '';
+	function render( $atts, $content = null) {
+		$css_class = $el_class = '';
 
 		extract(shortcode_atts(array(
 		    // 'style'             => '1',
@@ -70,24 +70,24 @@ class uni_blog_slide_shortcode {
 		    wp_enqueue_style( 'slick-style' );
 		    wp_enqueue_style( 'slick-theme-style' );
 
-	        $html .= '<div class="sh-blog-shortcode sh-blog-slide-shortcode">';
+	        $content .= '<div class="sh-blog-shortcode sh-blog-slide-shortcode">';
 
-		        $html .= '<div class="slick-carousel blog-slider" data-item="'. $item .'" data-item_lg="'. $item_lg .'" data-item_md="'. $item_md .'" data-item_sm="'. $item_sm .'" data-item_mb="'. $item_mb .'" data-row="'. $number_row .'" data-dots="'. $data_dots .'" data-arrows="'. $data_arrows .'" data-vertical="false">';
+		        $content .= '<div class="slick-carousel blog-slider" data-item="'. $item .'" data-item_lg="'. $item_lg .'" data-item_md="'. $item_md .'" data-item_sm="'. $item_sm .'" data-item_mb="'. $item_mb .'" data-row="'. $number_row .'" data-dots="'. $data_dots .'" data-arrows="'. $data_arrows .'" data-vertical="false">';
 
 	                while ( $the_query->have_posts() ) { $the_query->the_post();
 
-	                    $html .= $this->sh_general_post_html( $post_class, $atts, $image_size );
+	                    $content .= $this->sh_general_post_content( $post_class, $atts, $image_size );
 
 	                }
 	                wp_reset_postdata();
 
-	            $html .= '</div>';
+	            $content .= '</div>';
 
-	        $html .= '</div>';
+	        $content .= '</div>';
 
 		}
 
-		return $html;
+		return $content;
 		
 	}
 

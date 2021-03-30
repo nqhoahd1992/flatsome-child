@@ -23,8 +23,8 @@ class uni_blog_shortcode {
 	 * @param  string $content Content between shortcode
 	 * @return string		  HTML output
 	 */
-	function render( $atts, $content = '') {
-		$html = $css_class = $el_class = '';
+	function render( $atts, $content = null) {
+		$css_class = $el_class = '';
 
 		extract( shortcode_atts( array(
 			'style'   						=> '1',
@@ -55,41 +55,41 @@ class uni_blog_shortcode {
 		// The Loop
 		if ( $the_query->have_posts() ) {
 
-			$html .= '<div class="sh-blog-shortcode style-'. $style .' '. $css_class .' '. $el_class .'">';
+			$content .= '<div class="sh-blog-shortcode style-'. $style .' '. $css_class .' '. $el_class .'">';
 			switch ( $style ) {
 				case '1':
-					$html .= $this->sh_blog_style_1( $the_query, $atts );
+					$content .= $this->sh_blog_style_1( $the_query, $atts );
 					break;
 				case '2':
-					$html .= $this->sh_blog_style_2( $the_query, $atts );
+					$content .= $this->sh_blog_style_2( $the_query, $atts );
 					break;
 				case '3':
-					$html .= $this->sh_blog_style_3( $the_query, $atts );
+					$content .= $this->sh_blog_style_3( $the_query, $atts );
 					break;
 				case '4':
-					$html .= $this->sh_blog_style_4( $the_query, $atts );
+					$content .= $this->sh_blog_style_4( $the_query, $atts );
 					break;
 				case '5':
-					$html .= $this->sh_blog_style_5( $the_query, $atts );
+					$content .= $this->sh_blog_style_5( $the_query, $atts );
 					break;
 				case '6':
-					$html .= $this->sh_blog_style_6( $the_query, $atts );
+					$content .= $this->sh_blog_style_6( $the_query, $atts );
 					break;
 				case '7':
-					$html .= $this->sh_blog_style_7( $the_query, $atts );
+					$content .= $this->sh_blog_style_7( $the_query, $atts );
 					break;
 				case '8':
-					$html .= $this->sh_blog_style_8( $the_query, $atts );
+					$content .= $this->sh_blog_style_8( $the_query, $atts );
 					break;
 				default:
-					$html .= $this->sh_general_post_html( $the_query, $atts );
+					$content .= $this->sh_general_post_html( $the_query, $atts );
 					break;
 			}
-			$html .= '</div>';
+			$content .= '</div>';
 
 		}
 
-		return $html;
+		return $content;
 		
 	}
 

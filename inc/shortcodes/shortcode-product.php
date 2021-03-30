@@ -23,8 +23,7 @@ class uni_product_shortcode {
 	 * @param  string $content Content between shortcode
 	 * @return string		  HTML output
 	 */
-	function render( $atts, $content = '') {
-		$html = '';
+	function render( $atts, $content = null) {
 
 		extract( shortcode_atts( array(
 			'categories'		=> '',
@@ -52,7 +51,7 @@ class uni_product_shortcode {
 
 			// $post_class_homepage = get_column_product($numcol);
 
-			$html .= '<div class="sh-product-shortcode column-'. $numcol .'"><ul class="row list-products">';
+			$content .= '<div class="sh-product-shortcode column-'. $numcol .'"><ul class="row list-products">';
 
 			ob_start();
 			while ( $the_query->have_posts() ) {
@@ -71,13 +70,13 @@ class uni_product_shortcode {
 			}
 
 			wp_reset_postdata();
-			$html .= ob_get_contents();
+			$content .= ob_get_contents();
 			ob_end_clean();
-			$html .= '</ul></div>';
+			$content .= '</ul></div>';
 
 		}
 
-		return $html;
+		return $content;
 		
 	}
 

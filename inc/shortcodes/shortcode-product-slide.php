@@ -23,7 +23,7 @@ class uni_product_slide_shortcode {
 	 * @param  string $content Content between shortcode
 	 * @return string		  HTML output
 	 */
-	function render( $atts, $content = '') {
+	function render( $atts, $content = null) {
 
 		extract( shortcode_atts( array(
 			// 'style'             => '1',
@@ -61,6 +61,8 @@ class uni_product_slide_shortcode {
 		    wp_enqueue_style( 'slick-style' );
 		    wp_enqueue_style( 'slick-theme-style' );
 
+		    ob_start();
+
 	        echo '<div class="sh-product-shortcode sh-product-slider-shortcode">';
 		    	echo '<div class="slick-carousel product-slider list-products" data-item="'. $items_desktop_large .'" data-item_md="'. $items_desktop .'" data-item_sm="'. $items_tablets .'" data-item_mb="'. $items_mobile .'" data-row="'. $number_row .'" data-dots="'. $data_dots .'" data-arrows="'. $data_arrows .'" data-vertical="false">';
 	                while ( $the_query->have_posts() ) { 
@@ -76,7 +78,12 @@ class uni_product_slide_shortcode {
 	                wp_reset_postdata();
 	            echo '</div>';
 	        echo '</div>';
+
+	        $content = ob_get_contents();
+			ob_end_clean();
 		}
+
+		return $content;
 		
 	}
 

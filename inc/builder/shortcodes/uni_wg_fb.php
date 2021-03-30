@@ -39,6 +39,7 @@ function uni_ux_builder_wg_fb(){
                     ),
                 ),
             ),
+            'advanced_options' => require get_template_directory() . '/inc/builder/shortcodes/commons/advanced.php',
         ),
     ));
 }
