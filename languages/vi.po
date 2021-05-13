@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-03-22 10:50+0700\n"
-"PO-Revision-Date: 2021-03-22 10:51+0700\n"
+"POT-Creation-Date: 2021-05-13 09:51+0700\n"
+"PO-Revision-Date: 2021-05-13 09:57+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -34,8 +34,8 @@ msgid "Secondary Sidebar"
 msgstr "Secondary Sidebar"
 
 #: inc/builder/shortcodes/uni_blog.php:4
-msgid "Uni Blog"
-msgstr "Uni Blog"
+msgid "Uni - Blog"
+msgstr "Uni - Blog"
 
 #: inc/builder/shortcodes/uni_blog.php:5
 #: inc/builder/shortcodes/uni_custom_menu.php:15
@@ -46,83 +46,83 @@ msgstr "Uni Blog"
 msgid "Uni Creation"
 msgstr "Uni Creation"
 
-#: inc/builder/shortcodes/uni_blog.php:21
+#: inc/builder/shortcodes/uni_blog.php:23
 #: inc/builder/shortcodes/uni_product.php:21
 msgid "Total posts"
 msgstr "Số bài viết"
 
-#: inc/builder/shortcodes/uni_blog.php:28
+#: inc/builder/shortcodes/uni_blog.php:30
 msgid "Style"
 msgstr "Giao diện"
 
-#: inc/builder/shortcodes/uni_blog.php:31
+#: inc/builder/shortcodes/uni_blog.php:33
 msgid "Style 1"
 msgstr "Giao diện 1"
 
-#: inc/builder/shortcodes/uni_blog.php:32
+#: inc/builder/shortcodes/uni_blog.php:34
 msgid "Style 2"
 msgstr "Giao diện 2"
 
-#: inc/builder/shortcodes/uni_blog.php:33
+#: inc/builder/shortcodes/uni_blog.php:35
 msgid "Style 3"
 msgstr "Giao diện 3"
 
-#: inc/builder/shortcodes/uni_blog.php:34
+#: inc/builder/shortcodes/uni_blog.php:36
 msgid "Style 4"
 msgstr "Giao diện 4"
 
-#: inc/builder/shortcodes/uni_blog.php:35
+#: inc/builder/shortcodes/uni_blog.php:37
 msgid "Style 5"
 msgstr "Giao diện 5"
 
-#: inc/builder/shortcodes/uni_blog.php:36
+#: inc/builder/shortcodes/uni_blog.php:38
 msgid "Style 6"
 msgstr "Giao diện 6"
 
-#: inc/builder/shortcodes/uni_blog.php:37
+#: inc/builder/shortcodes/uni_blog.php:39
 msgid "Style 7"
 msgstr "Giao diện 7"
 
-#: inc/builder/shortcodes/uni_blog.php:38
+#: inc/builder/shortcodes/uni_blog.php:40
 msgid "Style 8"
 msgstr "Giao diện 8"
 
-#: inc/builder/shortcodes/uni_blog.php:43
+#: inc/builder/shortcodes/uni_blog.php:45
 msgid "Show categories"
 msgstr "Hiển thị chuyên mục"
 
-#: inc/builder/shortcodes/uni_blog.php:52
+#: inc/builder/shortcodes/uni_blog.php:54
 msgid "Show button viewmore"
 msgstr "Hiển thị nút xem thêm"
 
-#: inc/builder/shortcodes/uni_blog.php:63
+#: inc/builder/shortcodes/uni_blog.php:65
 #: inc/shortcodes/shortcode-blog-slide.php:42
 #: inc/shortcodes/shortcode-blog-slide.php:104
 #: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:389
-#: inc/shortcodes/uni_blog.php:8 inc/widgets/wg-post-list.php:59
+#: inc/shortcodes/uni_blog.php:10 inc/widgets/wg-post-list.php:59
 #: template-parts/posts/archive-2-col.php:24
 #: template-parts/posts/archive-3-col.php:24
 msgid "Read more"
 msgstr "Xem thêm"
 
-#: inc/builder/shortcodes/uni_blog.php:67
+#: inc/builder/shortcodes/uni_blog.php:69
 msgid "Show meta"
 msgstr "Hiển thị ngày tháng đăng bài"
 
-#: inc/builder/shortcodes/uni_blog.php:76
+#: inc/builder/shortcodes/uni_blog.php:78
 msgid "Show thumbnail"
 msgstr "Hiển thị ảnh đại diện"
 
-#: inc/builder/shortcodes/uni_blog.php:85
+#: inc/builder/shortcodes/uni_blog.php:87
 msgid "Show description"
 msgstr "Hiển thị nội dung"
 
 #: inc/builder/shortcodes/uni_custom_menu.php:14
-msgid "Uni Custom Menu"
+msgid "Uni - Custom Menu"
 msgstr "Uni - Thanh điều hướng"
 
 #: inc/builder/shortcodes/uni_product.php:4
-msgid "Uni Product"
+msgid "Uni - Product"
 msgstr "Uni - Sản phẩm"
 
 #: inc/builder/shortcodes/uni_product.php:28
@@ -165,7 +165,7 @@ msgid "Rating"
 msgstr "Đánh giá"
 
 #: inc/builder/shortcodes/uni_product.php:79
-#: inc/woocommerce/function-woo.php:113
+#: inc/woocommerce/function-woo.php:114
 msgid "Price"
 msgstr "Giá"
 
@@ -233,38 +233,38 @@ msgid "Company"
 msgstr "Công ty"
 
 #: inc/builder/shortcodes/uni_wg_information.php:33
-#: inc/shortcodes/uni_wg_information.php:33 inc/widgets/wg-information.php:36
+#: inc/shortcodes/uni_wg_information.php:46 inc/widgets/wg-information.php:36
 #: inc/widgets/wg-information.php:89
 msgid "Address"
 msgstr "Địa chỉ"
 
 #: inc/builder/shortcodes/uni_wg_information.php:38
-#: inc/shortcodes/uni_wg_information.php:36 inc/widgets/wg-information.php:39
+#: inc/shortcodes/uni_wg_information.php:49 inc/widgets/wg-information.php:39
 #: inc/widgets/wg-information.php:93
 msgid "Telephone"
 msgstr "Số điện thoại"
 
 #: inc/builder/shortcodes/uni_wg_information.php:43
-#: inc/shortcodes/uni_wg_information.php:39 inc/widgets/wg-information.php:42
+#: inc/shortcodes/uni_wg_information.php:52 inc/widgets/wg-information.php:42
 #: inc/widgets/wg-information.php:97
 msgid "Hotline"
 msgstr "Hotline"
 
 #: inc/builder/shortcodes/uni_wg_information.php:48
-#: inc/shortcodes/uni_wg_information.php:42 inc/widgets/wg-information.php:45
+#: inc/shortcodes/uni_wg_information.php:55 inc/widgets/wg-information.php:45
 #: inc/widgets/wg-information.php:101
 msgid "Fax"
 msgstr "Fax"
 
 #: inc/builder/shortcodes/uni_wg_information.php:53
-#: inc/shortcodes/uni_wg_information.php:45 inc/widgets/wg-information.php:48
+#: inc/shortcodes/uni_wg_information.php:58 inc/widgets/wg-information.php:48
 #: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
 #: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
 msgid "Email"
 msgstr "Email"
 
 #: inc/builder/shortcodes/uni_wg_information.php:58
-#: inc/shortcodes/uni_wg_information.php:48 inc/widgets/wg-information.php:51
+#: inc/shortcodes/uni_wg_information.php:61 inc/widgets/wg-information.php:51
 #: inc/widgets/wg-information.php:109
 msgid "Website"
 msgstr "Website"
@@ -279,15 +279,15 @@ msgstr "Không hiển thị nhãn"
 msgid "Hide icon"
 msgstr "Không hiển thị biểu tượng"
 
-#: inc/shortcodes/uni_title_product.php:26
+#: inc/shortcodes/uni_title_product.php:39
 msgid "View all"
 msgstr "Xem tất cả"
 
-#: inc/shortcodes/uni_title_product.php:32
+#: inc/shortcodes/uni_title_product.php:45
 msgid "Categories"
 msgstr "Chuyên mục"
 
-#: inc/shortcodes/uni_wg_fb.php:24 inc/widgets/wg-fblikebox.php:28
+#: inc/shortcodes/uni_wg_fb.php:35 inc/widgets/wg-fblikebox.php:28
 msgid "en_US"
 msgstr "vi_VN"
 
@@ -372,11 +372,13 @@ msgstr "Nhân đôi bài viết"
 #: inc/template-functions/init.php:227
 #, php-format
 msgid ""
-"Copyright belong to <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
+"Copyright belong to <span>%s</span><span class=\"hide-for-medium\"> - </"
+"span><br class=\"show-for-medium\"><a href=\"https://univn.vn/thiet-ke-"
 "website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Design</a> by <a href="
 "\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</a>"
 msgstr ""
-"Bản quyền thuộc về <span>%s</span> - <a href=\"https://univn.vn/thiet-ke-"
+"Bản quyền thuộc về <span>%s</span><span class=\"hide-for-medium\"> - </"
+"span><br class=\"show-for-medium\"><a href=\"https://univn.vn/thiet-ke-"
 "website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Thiết kế</a> bởi <a "
 "href=\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</"
 "a>"
@@ -593,47 +595,49 @@ msgstr "Xem thêm"
 msgid "Post date"
 msgstr "Ngày đăng bài"
 
-#: inc/woocommerce/function-woo.php:32
+#: inc/woocommerce/function-woo.php:33
 msgid "Continue Shopping"
 msgstr "Tiếp tục mua hàng"
 
-#: inc/woocommerce/function-woo.php:61
+#: inc/woocommerce/function-woo.php:62
 msgid "Information"
 msgstr "Thông tin"
 
-#: inc/woocommerce/function-woo.php:62
+#: inc/woocommerce/function-woo.php:63
 msgid "Gallery"
 msgstr "Thư viện ảnh"
 
-#: inc/woocommerce/function-woo.php:63
+#: inc/woocommerce/function-woo.php:64
 msgid "Video"
 msgstr "Video"
 
-#: inc/woocommerce/function-woo.php:64
+#: inc/woocommerce/function-woo.php:65
 msgid "Attachments"
 msgstr "Tệp đính kèm"
 
-#: inc/woocommerce/function-woo.php:81
+#: inc/woocommerce/function-woo.php:82
 msgid "Add to cart"
 msgstr "Thêm vào giỏ"
 
-#: inc/woocommerce/function-woo.php:91
+#: inc/woocommerce/function-woo.php:92
 msgid "Quick buy"
 msgstr "Mua ngay"
 
-#: inc/woocommerce/function-woo.php:127
+#: inc/woocommerce/function-woo.php:128
 msgid "Discount"
 msgstr "Giảm"
 
-#: inc/woocommerce/function-woo.php:135
+#: inc/woocommerce/function-woo.php:136
+#: template-parts/header/partials/element-contact-mobile.php:39
+#: template-parts/header/partials/element-contact.php:36
 msgid "Contact"
 msgstr "Liên hệ"
 
-#: inc/woocommerce/function-woo.php:179
+#: inc/woocommerce/function-woo.php:180
 msgid "Choose quantity"
 msgstr "Chọn số lượng"
 
-#: inc/woocommerce/function-woo.php:195 inc/woocommerce/function-woo.php:196
+#: inc/woocommerce/function-woo.php:196 inc/woocommerce/function-woo.php:197
 msgid "View detail"
 msgstr "Xem chi tiết"
 
@@ -645,6 +649,35 @@ msgstr "Hiển thị dạng lưới"
 msgid "List view"
 msgstr "Hiển thị dạng danh sách"
 
+#: template-parts/header/partials/element-contact-mobile.php:48
+#: template-parts/header/partials/element-contact.php:53
+msgid "Location"
+msgstr "Vị trí"
+
+#: template-parts/posts/content-single.php:13
+msgid "Share&#58;"
+msgstr "Chia sẻ&#58;"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/posts/content-single.php:22
+#: template-parts/posts/content-single.php:25
+msgid ", "
+msgstr ", "
+
+#: template-parts/posts/content-single.php:30
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Bài này đã được đăng trong %1$s và được gắn thẻ %2$s."
+
+#: template-parts/posts/content-single.php:32
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Bài này đã được đăng trong %1$s. Đánh dấu trang <a href=\"%3$s\" title="
+"\"Liên kết tới %4$s\" rel=\"bookmark\">liên kết </a> này ."
+
 #. Theme Name of the plugin/theme
 msgid "Flatsome Child"
 msgstr "Flatsome Child"
@@ -655,7 +688,7 @@ msgstr "univn.vn"
 
 #. Description of the plugin/theme
 msgid "This is a child theme for Flatsome Theme"
-msgstr "This is a child theme for Flatsome Theme"
+msgstr "Đây là một chủ đề con cho Flatsome Theme"
 
 #. Author of the plugin/theme
 msgid "Quang Hoa"

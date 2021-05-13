@@ -12,7 +12,9 @@
 	<?php
 	echo flatsome_apply_shortcode( 'blog_posts', array(
 		'type'        => 'row',
-		'image_width' => '40',
+		'image_size'  => 'large',
+		'image_hover' => 'zoom',
+		'image_width' => '30',
 		'depth'       => get_theme_mod( 'blog_posts_depth', 0 ),
 		'depth_hover' => get_theme_mod( 'blog_posts_depth_hover', 0 ),
 		'text_align'  => get_theme_mod( 'blog_posts_title_align', 'center' ),
@@ -20,9 +22,6 @@
 		'columns'     => '1',
 		'show_date'   => get_theme_mod( 'blog_badge', 1 ) ? 'true' : 'false',
 		'ids'         => $ids,
-		'image_size'  => 'large',
-		'image_hover' => 'zoom',
-		'image_width' => '30',
 	) );
 	?>
 

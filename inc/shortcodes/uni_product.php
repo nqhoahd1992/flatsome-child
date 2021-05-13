@@ -4,7 +4,6 @@ function shortcode_uni_product($atts, $content = null) {
     extract(shortcode_atts(array(
         'class' => '',
         'visibility' => '',
-        'cat'           => '',
         'col_spacing'   => 'normal',
         'columns'	    => '4',
         'cat'           => '',

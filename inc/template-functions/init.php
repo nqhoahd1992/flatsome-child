@@ -224,7 +224,7 @@ function create_uni_copyright_shortcode( $atts, $content ) {
 		'name'   => '',
 	), $atts ) );
     $content .= '©' . do_shortcode( '[ux_current_year]' ).' ';
-    $content .= sprintf( __('Copyright belong to <span>%s</span> - <a href="https://univn.vn/thiet-ke-website-tron-goi/" target="_blank" rel="nofollow">Design</a> by <a href="https://univn.vn/" target="_blank" rel="nofollow">Uni Creation</a>','shtheme'),$name );
+    $content .= sprintf( __('Copyright belong to <span>%s</span><span class="hide-for-medium"> - </span><br class="show-for-medium"><a href="https://univn.vn/thiet-ke-website-tron-goi/" target="_blank" rel="nofollow">Design</a> by <a href="https://univn.vn/" target="_blank" rel="nofollow">Uni Creation</a>','shtheme'),$name );
 	return $content;
 }
 add_shortcode('uni_copyright', 'create_uni_copyright_shortcode');
