@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-05-13 09:51+0700\n"
+"POT-Creation-Date: 2021-07-09 10:11+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -670,6 +670,56 @@ msgstr ""
 msgid ""
 "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
 "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:11
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:21
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:32
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:38
+msgid "Asides"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:41
+msgid "Images"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:44
+msgid "Videos"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Quotes"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Links"
 msgstr ""
 
 #. Theme Name of the plugin/theme

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-05-13 09:51+0700\n"
-"PO-Revision-Date: 2021-05-13 09:57+0700\n"
+"POT-Creation-Date: 2021-07-09 10:11+0700\n"
+"PO-Revision-Date: 2021-07-09 10:11+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -677,6 +677,56 @@ msgid ""
 msgstr ""
 "Bài này đã được đăng trong %1$s. Đánh dấu trang <a href=\"%3$s\" title="
 "\"Liên kết tới %4$s\" rel=\"bookmark\">liên kết </a> này ."
+
+#: template-parts/posts/partials/archive-title.php:11
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag: %s"
+
+#: template-parts/posts/partials/archive-title.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: template-parts/posts/partials/archive-title.php:21
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Lưu trữ tác giả: %s"
+
+#: template-parts/posts/partials/archive-title.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: template-parts/posts/partials/archive-title.php:32
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#: template-parts/posts/partials/archive-title.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ hàng năm: %s"
+
+#: template-parts/posts/partials/archive-title.php:38
+msgid "Asides"
+msgstr "Asides"
+
+#: template-parts/posts/partials/archive-title.php:41
+msgid "Images"
+msgstr "Các ảnh"
+
+#: template-parts/posts/partials/archive-title.php:44
+msgid "Videos"
+msgstr "Videos"
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Quotes"
+msgstr "Quotes"
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Links"
+msgstr "Liên kết"
 
 #. Theme Name of the plugin/theme
 msgid "Flatsome Child"
@@ -1575,9 +1625,6 @@ msgstr "Quang Hoa"
 #~ msgid "Show one carousel images"
 #~ msgstr "Hiển thị một slide ảnh"
 
-#~ msgid "Images"
-#~ msgstr "Các ảnh"
-
 #~ msgid "Select images from media library."
 #~ msgstr "Chọn hình ảnh từ thư viện phương tiện."
 
@@ -1690,9 +1737,6 @@ msgstr "Quang Hoa"
 #~ msgid "Apply link to:"
 #~ msgstr "Đặt link tới:"
 
-#~ msgid "No Link"
-#~ msgstr "No Link"
-
 #~ msgid "Complete Box"
 #~ msgstr "Complete Box"
 
@@ -1750,9 +1794,6 @@ msgstr "Quang Hoa"
 
 #~ msgid "Number Column on Mobile"
 #~ msgstr "Số cột trên màn Mobile"
-
-#~ msgid "Search for keyword: %s"
-#~ msgstr "Tìm kiếm cho từ khóa: %s"
 
 #~ msgid "Nothing Found"
 #~ msgstr "Không tìm thấy"
