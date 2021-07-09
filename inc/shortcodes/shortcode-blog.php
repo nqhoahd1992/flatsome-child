@@ -105,7 +105,7 @@ class uni_blog_shortcode {
 
 		$image_size 			= 'medium';	
 		$post_class 			= array( 'element', 'hentry', 'post-item' );
-		$post_class[] 			= 'col';
+		$post_class[] 			= 'col pb-0';
 
 		$html = '';
 		$html .= '<div class="row">';
@@ -132,7 +132,7 @@ class uni_blog_shortcode {
 
 		$image_size 			= 'large';
 		$post_class 			= array( 'element', 'hentry', 'post-item' );
-		$post_class[] 			= 'col medium-6';
+		$post_class[] 			= 'col medium-6 pb-0';
 		$atts['hide_category'] 	= '0';
 		$atts['hide_meta']		= '1';
 
@@ -161,7 +161,7 @@ class uni_blog_shortcode {
 		
 		$image_size 			= 'medium_large';
 		$post_class 			= array( 'element', 'hentry', 'post-item' );
-		$post_class[] 			= 'col medium-6 small-12 large-4';
+		$post_class[] 			= 'col medium-6 small-12 large-4 pb-0';
 		$atts['hide_category'] 	= '0';
 		$atts['hide_meta']		= '1';
 		
@@ -189,7 +189,7 @@ class uni_blog_shortcode {
 
 		$image_size 			= 'medium';
 		$post_class 			= array( 'element', 'hentry', 'post-item' );
-		$post_class[] 			= 'col medium-6 small-12 large-3';
+		$post_class[] 			= 'col medium-6 small-12 large-3 pb-0';
 		$atts['hide_category'] 	= '0';
 		$atts['hide_meta']		= '1';
 
@@ -217,7 +217,7 @@ class uni_blog_shortcode {
 		
 		$image_size 			= 'medium';
 		$post_class 			= array( 'element', 'hentry', 'post-item' );
-		$post_class[] 			= 'col medium-6';
+		$post_class[] 			= 'col medium-6 pb-0';
 		$atts['hide_category'] 	= '0';
 		$atts['hide_meta']		= '1';
 
@@ -339,28 +339,28 @@ class uni_blog_shortcode {
 
 		$i = 0;
 		$image_size 			= 'medium';
-		$post_class 			= array( 'element', 'hentry', 'post-item' );
+		$post_class 			= array( 'element', 'hentry', 'post-item', 'dark' );
 		$atts['hide_category'] 	= '0';
-		$atts['hide_meta'] 		= '0';
+		$atts['hide_meta'] 		= '1';
 		$atts['btn_viewmore'] 	= '0';
 		$atts['hide_desc'] 		= '0';
 
 		$html = '';
-		$html .= '<div class="row">';
+		$html .= '<div class="row row-small">';
 		while ( $the_query->have_posts() ) { $the_query->the_post(); $i++;
 
 			if ( $i == 1 ) {
 				$image_size 			= 'large';
 				
-				$html .= '<div class="col medium-6 first-element-layout">';
+				$html .= '<div class="col medium-12 first-element-layout">';
 				$html .= $this->sh_general_post_html( $post_class, $atts, $image_size );
 				$html .= '</div>';
 				if( $atts['posts_per_page'] > 1 ) {
-					$html .= '<div class="col medium-6 second-element-layout"><div class="row">';
+					$html .= '<div class="col medium-12 second-element-layout pb-0"><div class="row row-small">';
 				}
 			} else {
 				$image_size 			= 'medium';
-				$post_class[] 			= 'col small-12';
+				$post_class[] 			= 'col medium-6 small-12 large-4';
 				
 				$html .= $this->sh_general_post_html( $post_class, $atts, $image_size );
 			}

@@ -25,6 +25,15 @@ Text Domain: shtheme
 /*--------------------------------------------------------------
 ## Header 
 --------------------------------------------------------------*/
+.nav-dark .is-outline, .dark .nav>li>a, .dark .nav>li.html, .dark .nav-vertical li li.menu-item-has-children>a, .dark .nav-vertical>li>ul li a, .nav-dropdown.dark>li>a, .nav-dropdown.dark .nav-column>li>a, .nav-dark .nav>li>a, .nav-dark .nav>li>button {
+    color: #FFF;
+}
+.nav>li>a {
+    font-size: .875rem;
+}
+.header-top .nav-uppercase>li>a {
+    text-transform: none;
+}
 .nav-uppercase>li>a {
     letter-spacing: 0;
 }
@@ -104,7 +113,7 @@ Text Domain: shtheme
 .widget .list-post-item .alignright { float: right; margin-left: 10px; }
 .widget .list-post-item .alignleft, .widget .list-post-item .alignright { width: 100px; }
 .widget .list-post-item .aligncenter { text-align: center; }
-.widget .list-post-item h3 { margin: 0 0 5px 0; font-size: 14px; font-weight: 500; line-height: 1.2; width: auto; }
+.widget .list-post-item h3 { margin: 0 0 5px 0; font-size: .875rem; font-weight: bold; line-height: 1.4; width: auto; white-space: normal;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;max-height: 2.8em;width: auto;}
 .widget .list-post-item h3 a { color: inherit; }
 .widget .list-post-item .entry-content { padding: 0; }
 
@@ -115,7 +124,7 @@ Text Domain: shtheme
 .widget_supports .list-supporter li { margin: 0; }
 .widget_supports .support-style-1 { background-color: #FFF; }
 .widget_supports .support-style-1 .supporter { padding: 0 10px 10px 10px; }
-.widget_supports .support-style-1 li { padding: 5px 0; font-size: 14px; color: #333333; border-top: 1px solid #333; }
+.widget_supports .support-style-1 li { padding: 5px 0; font-size: .875rem; color: #333333; border-top: 1px solid #333; }
 .widget_supports .support-style-1 li:first-child { border-top: none; }
 .widget_supports .support-style-1 li:last-child { border-bottom: none; }
 .widget_supports .support-style-1 i { width: 22px; margin-right: 12px; }
@@ -183,20 +192,19 @@ Text Domain: shtheme
     margin-bottom: 10px;
 }
 .sh-blog-shortcode .element .entry-meta {
-    color: #888;
+    opacity: .7;
     font-style: italic;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: .875rem;
 }
 .sh-blog-shortcode .element .entry-meta i {
     margin-right: 5px;
 }
 .sh-blog-shortcode .element .entry-title {
-    margin: 10px 0 5px 0;
+    margin: .5em 0 .5em;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.4em;
-    color: #000000;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -253,13 +261,14 @@ Text Domain: shtheme
 .sh-blog-shortcode.style-6 .second-element-layout .entry-thumb {
     float: left;
     width: 30%;
-    margin-right: 15px;
+    margin-right: 1em;
 }
 .sh-blog-shortcode.style-6 .second-element-layout .entry-thumb .image-zoom {
     padding-top: 62%;
 }
 .sh-blog-shortcode.style-6 .second-element-layout .entry-title {
     margin-top: 0;
+    font-size: .875rem;
 }
 .sh-blog-shortcode.style-7 .first-element-layout .element .entry-thumb {
     float: left;
@@ -302,15 +311,12 @@ Text Domain: shtheme
     padding: 10px 10px;
 }
 .sh-blog-shortcode.style-8 .element .entry-title {
-    font-size: 14px;
+    font-size: .875rem;
     line-height: 20px;
     margin: 0;
 }
 .sh-blog-shortcode.style-8 .element .entry-title a {
     display: block;
-    color: #fff;
-    max-height: 40px;
-    overflow: hidden;
 }
 @media (max-width: 414px) {
     .sh-blog-shortcode .element {
@@ -369,9 +375,32 @@ Text Domain: shtheme
 .uni_custom_menu ul.menu li {
     border: none;
 }
+/* UX Shortcode */
+.blog-post-inner .post-title {
+    font-size: 1rem;
+    margin: .5em 0 1em;
+}
+.blog-post-inner .is-divider {
+    display: none;
+}
 /* Single */
-.entry-header .entry-title {
-    font-size: 1.25rem;
+.entry-header h1.entry-title {
+    font-size: 1.5rem;
+}
+.entry-header h1.entry-title + .is-divider {
+    display: none;
+}
+.entry-header-text-top {
+    padding-bottom: 0
+}
+ul.links li {
+    margin: 0 .4em !important;
+}
+.nav-pagination>li>span, .nav-pagination>li>a {
+    border: none;
+    border-radius: 6px;
+    height: 2.25em;
+    line-height: 2.25em;
 }
 /* Footer */
 .footer-wrapper .widget {
