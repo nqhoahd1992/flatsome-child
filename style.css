@@ -9,6 +9,12 @@ Text Domain: shtheme
 */
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
+.uppercase, h6, th, span.widget-title {
+    letter-spacing: 0;
+}
+td {
+    color: inherit;
+}
 .text-box .text {
     -webkit-backface-visibility: visible;
     backface-visibility: visible
@@ -21,12 +27,35 @@ Text Domain: shtheme
     display: block;
     margin: 0 auto;
 }
+.button, input[type=submit], input[type=submit].button, input[type=reset].button, input[type=button].button {
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.button.is-outline, input[type=submit].is-outline, input[type=reset].is-outline, input[type=button].is-outline {
+    border-width: 1px;
+}
+.button.is-outline {
+    line-height: calc( 2.5em - 2px );
+}
+.box-text {
+    font-size: 1em;
+}
+.breadcrumbs {
+    font-size: .875rem;
+    text-transform: none;
+}
+.breadcrumbs a {
+    color: inherit;
+}
 
 /*--------------------------------------------------------------
 ## Header 
 --------------------------------------------------------------*/
 .nav-dark .is-outline, .dark .nav>li>a, .dark .nav>li.html, .dark .nav-vertical li li.menu-item-has-children>a, .dark .nav-vertical>li>ul li a, .nav-dropdown.dark>li>a, .nav-dropdown.dark .nav-column>li>a, .nav-dark .nav>li>a, .nav-dark .nav>li>button {
     color: #FFF;
+}
+.nav>li>a, .nav-dropdown>li>a, .nav-column>li>a {
+    color: inherit;
 }
 .nav>li>a {
     font-size: .875rem;
@@ -239,13 +268,6 @@ Text Domain: shtheme
 .sh-blog-shortcode.style-5 .entry-title {
     margin-top: 0;
 }
-.sh-blog-shortcode.style-6 .first-element-layout,
-.sh-blog-shortcode.style-6 .second-element-layout {
-    margin-bottom: 20px;
-}
-.sh-blog-shortcode.style-6 .first-element-layout .element {
-    margin-bottom: 0;
-}
 .sh-blog-shortcode.style-6 .first-element-layout .entry-title {
     margin: 15px 0 10px 0;
 }
@@ -318,13 +340,6 @@ Text Domain: shtheme
 .sh-blog-shortcode.style-8 .element .entry-title a {
     display: block;
 }
-@media (max-width: 414px) {
-    .sh-blog-shortcode .element {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
 /* Shortcode Title Product */
 .uni-titlepro ul li {
     margin-left: 0;
@@ -383,6 +398,9 @@ Text Domain: shtheme
 .blog-post-inner .is-divider {
     display: none;
 }
+.ux-menu-link__link {
+    min-height: unset;
+}
 /* Single */
 .entry-header h1.entry-title {
     font-size: 1.5rem;
@@ -402,12 +420,34 @@ ul.links li {
     height: 2.25em;
     line-height: 2.25em;
 }
+/* Wpcf7 */
+.wpcf7-form {
+    margin-bottom: 0;
+}
+.wpcf7 .button {
+    min-width: 100px;
+    margin-bottom: 0;
+}
+
+li.cart-item > a {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+li.cart-item span+.image-icon {
+    margin-left: 0;
+    margin-right: 10px;
+}
 /* Footer */
 .footer-wrapper .widget {
     margin-bottom: 0;
 }
 .absolute-footer {
     padding: 10px 0 10px;
+}
+@media (min-width: 850px) {
+    .footer-secondary {
+        padding: 0;
+    }
 }
 
 /*--------------------------------------------------------------

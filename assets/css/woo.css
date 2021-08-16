@@ -1,7 +1,7 @@
 .columns-list>.col {
-    max-width: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    max-width: 100% !important;
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important;
 }
 .uni-toolbox .view-mode-switcher a {
     color: #222222;
@@ -23,6 +23,83 @@
         justify-content: flex-end;
     }
 }
-.woocommerce-loop-product__title {
+/**/
+.price {
+    display: flex !important;
+}
+.price ins {
+    order: -1;
+}
+span.amount {
+    color: #BD9D6C;
+}
+.price del span.amount {
+    opacity: .5;
+    color: #111;
+    font-size: .7em;
+    margin-right: 0;
+    margin-left: 1em;
+}
+.box-text.box-text-products {
+    padding-bottom: 0;
+}
+.box-text-products .woocommerce-loop-product__title {
     font-size: 1rem;
+    margin: .5em 0 1em !important;
+}
+.box-text-products .woocommerce-loop-product__title a.woocommerce-LoopProduct-link {
+    margin: 0;
+    line-height: 1.4;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 2.8em;
+    width: auto;
+}
+.product .badge-container {
+    margin-top: 0;
+}
+.product-title.product_title.entry-title {
+    font-size: 1.5rem;
+}
+.product-info .price {
+    font-size: 1.875rem;
+}
+.product-info .woocommerce-product-attributes {
+    display: block;
+    margin-bottom: .5em;
+}
+.product-info .woocommerce-product-attributes * {
+    display: inline-block;
+}
+.product-info .woocommerce-product-attributes tbody,
+.product-info .woocommerce-product-attributes tr {
+    display: block;
+}
+.product-info .woocommerce-product-attributes tr+tr {
+    border-top: none;
+    margin-top: 10px;
+}
+.product-info .woocommerce-product-attributes th, .product-info .woocommerce-product-attributes td {
+    border-bottom: none;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    padding: 0;
+}
+.product-info .woocommerce-product-attributes-item__label {
+    text-transform: none;
+    font-weight: bold;
+}
+.product-info .woocommerce-product-attributes-item__label:after {
+    content: ':';
+}
+.woocommerce-product-attributes p {
+    margin: 0;
+}
+.uni-stock {
+    font-size: 1.125rem;
+    margin-bottom: 1em;
 }
