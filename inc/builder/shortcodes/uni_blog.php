@@ -21,7 +21,7 @@ function uni_ux_builder_blog(){
             'number' => array(
                 'type' => 'slider',
                 'heading' => __('Total posts','shtheme'),
-                'default' => 15,
+                'default' => 10,
                 'max' => 50,
                 'min' => 1,
             ),
