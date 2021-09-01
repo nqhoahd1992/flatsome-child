@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-07-09 10:11+0700\n"
+"POT-Creation-Date: 2021-09-01 17:01+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -39,8 +39,6 @@ msgstr ""
 
 #: inc/builder/shortcodes/uni_blog.php:5
 #: inc/builder/shortcodes/uni_custom_menu.php:15
-#: inc/builder/shortcodes/uni_product.php:5
-#: inc/builder/shortcodes/uni_title_product.php:5
 #: inc/builder/shortcodes/uni_wg_fb.php:5
 #: inc/builder/shortcodes/uni_wg_information.php:5
 msgid "Uni Creation"
@@ -99,9 +97,8 @@ msgstr ""
 #: inc/shortcodes/shortcode-blog-slide.php:42
 #: inc/shortcodes/shortcode-blog-slide.php:104
 #: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:389
-#: inc/shortcodes/uni_blog.php:10 inc/widgets/wg-post-list.php:59
-#: template-parts/posts/archive-2-col.php:24
-#: template-parts/posts/archive-3-col.php:24
+#: inc/shortcodes/uni_blog.php:10 template-parts/posts/archive-2-col.php:28
+#: template-parts/posts/archive-3-col.php:28
 msgid "Read more"
 msgstr ""
 
@@ -125,6 +122,11 @@ msgstr ""
 msgid "Uni - Product"
 msgstr ""
 
+#: inc/builder/shortcodes/uni_product.php:5
+#: inc/builder/shortcodes/uni_title_product.php:5
+msgid "Uni Creation - Woocommerce"
+msgstr ""
+
 #: inc/builder/shortcodes/uni_product.php:28
 msgid "Column Spacing"
 msgstr ""
@@ -145,7 +147,7 @@ msgstr ""
 msgid "Box"
 msgstr ""
 
-#: inc/builder/shortcodes/uni_product.php:64 inc/widgets/wg-post-list.php:105
+#: inc/builder/shortcodes/uni_product.php:64 inc/widgets/wg-post-list.php:113
 #: inc/widgets/wg-product-slider.php:122
 msgid "Category"
 msgstr ""
@@ -154,9 +156,9 @@ msgstr ""
 #: inc/builder/shortcodes/uni_wg_fb.php:9
 #: inc/builder/shortcodes/uni_wg_information.php:9
 #: inc/widgets/wg-fblikebox.php:42 inc/widgets/wg-information.php:81
-#: inc/widgets/wg-page.php:40 inc/widgets/wg-post-list.php:95
+#: inc/widgets/wg-page.php:40 inc/widgets/wg-post-list.php:103
 #: inc/widgets/wg-product-slider.php:97 inc/widgets/wg-support.php:61
-#: inc/widgets/wg-view-post-list.php:105
+#: inc/widgets/wg-view-post-list.php:110
 msgid "Title"
 msgstr ""
 
@@ -165,7 +167,7 @@ msgid "Rating"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_product.php:79
-#: inc/woocommerce/function-woo.php:114
+#: inc/woocommerce/function-woo.php:130
 msgid "Price"
 msgstr ""
 
@@ -412,38 +414,37 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
-#: inc/widgets/wg-page.php:53 inc/widgets/wg-post-list.php:113
-#: inc/widgets/wg-view-post-list.php:121
+#: inc/widgets/wg-page.php:53 inc/widgets/wg-post-list.php:121
+#: inc/widgets/wg-view-post-list.php:126
 msgid "Show Featured Image"
 msgstr ""
 
-#: inc/widgets/wg-page.php:57 inc/widgets/wg-post-list.php:127
-#: inc/widgets/wg-product-slider.php:139 inc/widgets/wg-view-post-list.php:135
+#: inc/widgets/wg-page.php:57 inc/widgets/wg-post-list.php:134
+#: inc/widgets/wg-product-slider.php:139 inc/widgets/wg-view-post-list.php:139
 msgid "Image Size"
 msgstr ""
 
-#: inc/widgets/wg-page.php:69 inc/widgets/wg-post-list.php:117
-#: inc/widgets/wg-product-slider.php:129 inc/widgets/wg-view-post-list.php:125
+#: inc/widgets/wg-page.php:69 inc/widgets/wg-post-list.php:125
+#: inc/widgets/wg-product-slider.php:129 inc/widgets/wg-view-post-list.php:130
 msgid "Image Alignment"
 msgstr ""
 
-#: inc/widgets/wg-page.php:71 inc/widgets/wg-post-list.php:119
-#: inc/widgets/wg-product-slider.php:131 inc/widgets/wg-view-post-list.php:127
+#: inc/widgets/wg-page.php:71 inc/widgets/wg-product-slider.php:131
 msgid "None"
 msgstr ""
 
-#: inc/widgets/wg-page.php:72 inc/widgets/wg-post-list.php:120
-#: inc/widgets/wg-product-slider.php:132 inc/widgets/wg-view-post-list.php:128
+#: inc/widgets/wg-page.php:72 inc/widgets/wg-post-list.php:127
+#: inc/widgets/wg-product-slider.php:132 inc/widgets/wg-view-post-list.php:132
 msgid "Left"
 msgstr ""
 
-#: inc/widgets/wg-page.php:73 inc/widgets/wg-post-list.php:121
-#: inc/widgets/wg-product-slider.php:133 inc/widgets/wg-view-post-list.php:129
+#: inc/widgets/wg-page.php:73 inc/widgets/wg-post-list.php:128
+#: inc/widgets/wg-product-slider.php:133 inc/widgets/wg-view-post-list.php:133
 msgid "Right"
 msgstr ""
 
-#: inc/widgets/wg-page.php:74 inc/widgets/wg-post-list.php:122
-#: inc/widgets/wg-product-slider.php:134 inc/widgets/wg-view-post-list.php:130
+#: inc/widgets/wg-page.php:74 inc/widgets/wg-post-list.php:129
+#: inc/widgets/wg-product-slider.php:134 inc/widgets/wg-view-post-list.php:134
 msgid "Center"
 msgstr ""
 
@@ -471,40 +472,24 @@ msgstr ""
 msgid "Displays featured posts with thumbnails"
 msgstr ""
 
-#: inc/widgets/wg-post-list.php:100 inc/widgets/wg-view-post-list.php:110
+#: inc/widgets/wg-post-list.php:108 inc/widgets/wg-view-post-list.php:115
 msgid "Number of Posts to Show"
 msgstr ""
 
-#: inc/widgets/wg-post-list.php:107 inc/widgets/wg-product-slider.php:124
+#: inc/widgets/wg-post-list.php:115 inc/widgets/wg-product-slider.php:124
 msgid "Select category"
 msgstr ""
 
-#: inc/widgets/wg-post-list.php:139 inc/widgets/wg-view-post-list.php:147
+#: inc/widgets/wg-post-list.php:146 inc/widgets/wg-view-post-list.php:151
 msgid "Content Type"
 msgstr ""
 
-#: inc/widgets/wg-post-list.php:141 inc/widgets/wg-view-post-list.php:149
-msgid "Show Content"
-msgstr ""
-
-#: inc/widgets/wg-post-list.php:142 inc/widgets/wg-view-post-list.php:150
-msgid "Show Excerpt"
-msgstr ""
-
-#: inc/widgets/wg-post-list.php:143 inc/widgets/wg-view-post-list.php:151
+#: inc/widgets/wg-post-list.php:148 inc/widgets/wg-view-post-list.php:153
 msgid "Show Content Limit"
 msgstr ""
 
-#: inc/widgets/wg-post-list.php:144 inc/widgets/wg-view-post-list.php:152
+#: inc/widgets/wg-post-list.php:149 inc/widgets/wg-view-post-list.php:154
 msgid "No Content"
-msgstr ""
-
-#: inc/widgets/wg-post-list.php:149 inc/widgets/wg-view-post-list.php:157
-msgid "Limit content to"
-msgstr ""
-
-#: inc/widgets/wg-post-list.php:151 inc/widgets/wg-view-post-list.php:159
-msgid "character"
 msgstr ""
 
 #: inc/widgets/wg-product-slider.php:13
@@ -583,11 +568,7 @@ msgstr ""
 msgid "Top list posts by views"
 msgstr ""
 
-#: inc/widgets/wg-view-post-list.php:68
-msgid "View more"
-msgstr ""
-
-#: inc/widgets/wg-view-post-list.php:115
+#: inc/widgets/wg-view-post-list.php:120
 msgid "Post date"
 msgstr ""
 
@@ -619,22 +600,34 @@ msgstr ""
 msgid "Quick buy"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:128
+#: inc/woocommerce/function-woo.php:144
 msgid "Discount"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:136
-#: template-parts/header/partials/element-contact-mobile.php:39
-#: template-parts/header/partials/element-contact.php:36
+#: inc/woocommerce/function-woo.php:152
+#: template-parts/header/partials/element-contact-mobile.php:33
+#: template-parts/header/partials/element-contact.php:33
 msgid "Contact"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:180
+#: inc/woocommerce/function-woo.php:196
 msgid "Choose quantity"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:196 inc/woocommerce/function-woo.php:197
+#: inc/woocommerce/function-woo.php:212 inc/woocommerce/function-woo.php:213
 msgid "View detail"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:232
+#: template-parts/header/partials/element-cart.php:35
+#, php-format
+msgid "%d product"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:232
+#: template-parts/header/partials/element-cart.php:35
+#, php-format
+msgid "%d products"
 msgstr ""
 
 #: inc/woocommerce/grid-list-toggle.php:39
@@ -645,8 +638,16 @@ msgstr ""
 msgid "List view"
 msgstr ""
 
-#: template-parts/header/partials/element-contact-mobile.php:48
-#: template-parts/header/partials/element-contact.php:53
+#: template-parts/header/partials/element-cart.php:20
+#: template-parts/header/partials/element-cart.php:23
+#: template-parts/header/partials/element-cart.php:28
+#: template-parts/header/partials/element-cart.php:43
+#: template-parts/header/partials/element-cart.php:80
+msgid "Cart"
+msgstr ""
+
+#: template-parts/header/partials/element-contact-mobile.php:41
+#: template-parts/header/partials/element-contact.php:49
 msgid "Location"
 msgstr ""
 
@@ -720,6 +721,10 @@ msgstr ""
 
 #: template-parts/posts/partials/archive-title.php:50
 msgid "Links"
+msgstr ""
+
+#: woocommerce/single-product/related.php:46
+msgid "Related products"
 msgstr ""
 
 #. Theme Name of the plugin/theme

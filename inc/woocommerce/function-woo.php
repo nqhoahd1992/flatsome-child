@@ -87,9 +87,25 @@ function woocommerce_custom_single_add_to_cart_text() {
  * Add Button Quick Buy Simple Product In Single Product
  */
 function insert_btn_quick_buy() {
-	global $post, $product;
+	global $product;
 	if ( $product->is_type( 'simple' ) ) {
-		echo '<a class="button buy_now ml-3" href="?quick_buy=1&add-to-cart='. $post->ID .'" class="qn_btn">'. __('Quick buy','shtheme') .'</a>';
+		echo '<a class="button buy_now ml-3" href="?quick_buy=1&add-to-cart='. $product->ID .'&quantity=1" class="qn_btn" data-product_id="'. $product->ID .'">'. __('Quick buy','shtheme') .'</a>';
+		?>
+		<script type="text/javascript">
+			jQuery(function($) { 
+		        jQuery( ".product-summary" ).on( "click", ".quantity input", function() {
+		            return false;
+		        } );
+		        jQuery( ".product-summary" ).on( "change input", ".quantity .qty", function() {
+		            var add_to_cart_button = jQuery( this ).parents('form').find( ".buy_now" );
+		            // For AJAX add-to-cart actions
+		            add_to_cart_button.attr( "data-quantity", jQuery( this ).val() );
+		            // For non-AJAX add-to-cart actions
+		            add_to_cart_button.attr( "href", "?quick_buy=1&add-to-cart=" + add_to_cart_button.attr( "data-product_id" ) + "&quantity=" + jQuery( this ).val() );
+		        } );
+			});
+		</script>
+		<?php
 	}
 }
 // add_action( 'woocommerce_after_add_to_cart_button', 'insert_btn_quick_buy', 1 );
@@ -133,7 +149,7 @@ function uni_formatted_sale_price( $price, $regular_price, $sale_price ) {
 
 function uni_custom_contact_for_price( $html ) {
 	if ( ! is_admin() ) {
-	    $html = __( 'Contact', 'shtheme' );
+	    $html = '<span class="amout">'.__( 'Contact', 'shtheme' ).'</div>';
 	}
     return $html;
 }
@@ -200,6 +216,27 @@ function insert_btn_detail(){
 	<?php
 }
 // add_action( 'woocommerce_after_shop_loop_item', 'insert_btn_detail', 15 );
+
+if ( ! function_exists( 'uni_header_add_to_cart_fragment_count' ) ) {
+	/**
+	 * Update cart number when default cart icon is selected
+	 *
+	 * @param $fragments
+	 *
+	 * @return mixed
+	 */
+	function uni_header_add_to_cart_fragment_count( $fragments ) {
+		ob_start();
+		?>
+		<span class="uni-count-cart lowercase">
+		    <?php echo sprintf ( _n( __('%d product','shtheme'), __('%d products','shtheme'), WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?>
+	  	</span>
+		<?php
+		$fragments['.header .uni-count-cart'] = ob_get_clean();
+		return $fragments;
+	}
+}
+// add_filter( 'woocommerce_add_to_cart_fragments', 'uni_header_add_to_cart_fragment_count' );
 
 /**
  * Hook Woocommerce

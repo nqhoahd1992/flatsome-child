@@ -2,7 +2,7 @@
 function uni_ux_builder_product(){
     add_ux_builder_shortcode('uni_product', array(
         'name'      => __('Uni - Product','shtheme'),
-        'category'  => __('Uni Creation','shtheme'),
+        'category'  => __('Uni Creation - Woocommerce','shtheme'),
         'options'   => array(
             'cat' => array(
                 'type'          => 'select',

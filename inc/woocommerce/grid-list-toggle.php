@@ -17,7 +17,7 @@ if ( ! class_exists( 'WC_List_Grid' ) ) {
 			if ( is_shop() || is_product_category() || is_product_tag() || is_product_taxonomy() ) {
 				add_action( 'wp_enqueue_scripts', array( $this, 'setup_scripts_script' ), 20 );
 				add_action( 'uni_frontend_wc_listgrid', array( $this, 'gridlist_toggle_button' ), 10 );
-				add_action( 'woocommerce_after_shop_loop_item', array( $this, 'gridlist_description' ), 9);
+				// add_action( 'woocommerce_after_shop_loop_item', array( $this, 'gridlist_description' ), 9);
 				add_action( 'woocommerce_archive_description', array( $this, 'frontend_wc_listgrid' ), 9 );
 			}
 		}

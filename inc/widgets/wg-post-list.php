@@ -25,8 +25,10 @@ class Uni_Post_Widget extends WP_Widget {
 
         if ($instance['title']) echo $before_title . apply_filters('widget_title', $instance['title']) . $after_title;
         ?>
-        <ul class="list-post-item">
+        <div class="widget_list_posts__<?php echo $instance['image_alignment'];?>">
             <?php
+            // Create IDS
+            $ids = array();
             $args = array(
                 'post_type' => 'post',
                 'tax_query' => array(
@@ -41,34 +43,41 @@ class Uni_Post_Widget extends WP_Widget {
             $the_query = new WP_Query($args);
             while($the_query->have_posts()):
             $the_query->the_post();
-            ?>
-                <li id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
-                    <?php if ( ! empty( $instance['show_image'] ) ) { ?>
-                        <a class="img <?php echo $instance['image_alignment'];?>" href="<?php the_permalink();?>" title="<?php the_title();?>">
-                            <?php if( has_post_thumbnail() ) the_post_thumbnail( $instance['image_size'] ,array( "alt" => get_the_title() ) );?>
-                        </a>
-                    <?php } ?>
-                    <h3><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
-                    <?php
-                    if ( $instance['show_content'] ) {
-                        echo '<div class="entry-content">';
-                            if ( 'excerpt' == $instance['show_content'] ) {
-                                the_excerpt();
-                            }
-                            elseif ( 'content-limit' == $instance['show_content'] ) {
-                                the_content_limit( (int) $instance['content_limit'], __( 'Read more', 'shtheme' ) );
-                            }
-                            else {
-                                the_content();
-                            }
-                        echo '</div>';
-                    }
-                    ?>
-                </li>
-            <?php
+                array_push($ids, get_the_ID());
             endwhile;
-            wp_reset_postdata(); ?>
-        </ul>
+            $ids = implode(',', $ids);
+            wp_reset_postdata();
+            ?>
+
+            <?php
+            $style = ( $instance['image_alignment'] == 'aligncenter' ) ? '' : 'vertical';
+            $image_width = ( $instance['image_alignment'] == 'aligncenter' ) ? '' : '30';
+            $excerpt = ( $instance['show_content'] == '' ) ? 'false' : 'visible';
+
+            echo flatsome_apply_shortcode( 'blog_posts', array(
+                'type'        => 'row',
+                'image_size'  => $instance['image_size'],
+                'image_hover' => 'zoom',
+                'image_width' => $image_width,
+                'image_height' => '80%',
+                'depth'       => get_theme_mod( 'blog_posts_depth', 0 ),
+                'depth_hover' => get_theme_mod( 'blog_posts_depth_hover', 0 ),
+                'text_align'  => get_theme_mod( 'blog_posts_title_align', 'center' ),
+                'style'       => $style,
+                'columns'     => '1',
+                'columns__sm' => '1',
+                'columns__md' => '1',
+                'show_date'   => 'false', // badge, text
+                'ids'         => $ids,
+                'excerpt' => 'false',
+                'show_category' => 'false',
+                'excerpt' => $excerpt,
+                'excerpt_length' => 6,
+                // 'readmore' => __('Read more','shtheme'),
+                // 'readmore_style' => 'link',
+            ) );
+            ?>
+        </div>
         <?php
         echo $after_widget;
     }
@@ -84,10 +93,9 @@ class Uni_Post_Widget extends WP_Widget {
             		'numpro' 			=> '3',  
             		'cat' 				=> '',
                     'show_image'        => '',
-                    'image_alignment'   => '',
+                    'image_alignment'   => 'alignleft',
                     'image_size'        => '',
-                    'show_content'      => 'content-limit',
-                    'content_limit'     => '',
+                    'show_content'      => '',
         		) 
         	);
         ?>
@@ -116,7 +124,6 @@ class Uni_Post_Widget extends WP_Widget {
         <p>
             <label for="<?php echo $this->get_field_id( 'image_alignment' ); ?>"><?php _e( 'Image Alignment', 'shtheme' ); ?>:</label>
             <select id="<?php echo $this->get_field_id( 'image_alignment' ); ?>" name="<?php echo $this->get_field_name( 'image_alignment' ); ?>">
-                <option value="alignnone">- <?php _e( 'None', 'shtheme' ); ?> -</option>
                 <option value="alignleft" <?php selected( 'alignleft', $instance['image_alignment'] ); ?>><?php _e( 'Left', 'shtheme' ); ?></option>
                 <option value="alignright" <?php selected( 'alignright', $instance['image_alignment'] ); ?>><?php _e( 'Right', 'shtheme' ); ?></option>
                 <option value="aligncenter" <?php selected( 'aligncenter', $instance['image_alignment'] ); ?>><?php _e( 'Center', 'shtheme' ); ?></option>
@@ -138,18 +145,9 @@ class Uni_Post_Widget extends WP_Widget {
         <p>
             <label for="<?php echo esc_attr( $this->get_field_id( 'show_content' ) ); ?>"><?php _e( 'Content Type', 'shtheme' ); ?>:</label>
             <select id="<?php echo esc_attr( $this->get_field_id( 'show_content' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'show_content' ) ); ?>">
-                <option value="content" <?php selected( 'content', $instance['show_content'] ); ?>><?php _e( 'Show Content', 'shtheme' ); ?></option>
-                <option value="excerpt" <?php selected( 'excerpt', $instance['show_content'] ); ?>><?php _e( 'Show Excerpt', 'shtheme' ); ?></option>
                 <option value="content-limit" <?php selected( 'content-limit', $instance['show_content'] ); ?>><?php _e( 'Show Content Limit', 'shtheme' ); ?></option>
                 <option value="" <?php selected( '', $instance['show_content'] ); ?>><?php _e( 'No Content', 'shtheme' ); ?></option>
             </select>
-        </p>
-        
-        <p>
-            <label for="<?php echo esc_attr( $this->get_field_id( 'content_limit' ) ); ?>"><?php _e( 'Limit content to', 'shtheme' ); ?>
-                <input type="text" id="<?php echo esc_attr( $this->get_field_id( 'content_limit' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'content_limit' ) ); ?>" value="<?php echo esc_attr( intval( $instance['content_limit'] ) ); ?>" size="3" />
-                <?php _e( 'character', 'shtheme' ); ?>
-            </label>
         </p>
 
     <?php
