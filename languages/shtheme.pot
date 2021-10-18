@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-09-01 17:01+0700\n"
+"POT-Creation-Date: 2021-10-18 11:36+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -97,8 +97,8 @@ msgstr ""
 #: inc/shortcodes/shortcode-blog-slide.php:42
 #: inc/shortcodes/shortcode-blog-slide.php:104
 #: inc/shortcodes/shortcode-blog.php:33 inc/shortcodes/shortcode-blog.php:389
-#: inc/shortcodes/uni_blog.php:10 template-parts/posts/archive-2-col.php:28
-#: template-parts/posts/archive-3-col.php:28
+#: inc/shortcodes/uni_blog.php:10 template-parts/posts/archive-2-col.php:30
+#: template-parts/posts/archive-3-col.php:30
 msgid "Read more"
 msgstr ""
 
@@ -167,7 +167,7 @@ msgid "Rating"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_product.php:79
-#: inc/woocommerce/function-woo.php:130
+#: inc/woocommerce/function-woo.php:158
 msgid "Price"
 msgstr ""
 
@@ -262,6 +262,7 @@ msgstr ""
 #: inc/shortcodes/uni_wg_information.php:58 inc/widgets/wg-information.php:48
 #: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
 #: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
+#: woocommerce/single-product-reviews.php:168
 msgid "Email"
 msgstr ""
 
@@ -540,7 +541,7 @@ msgstr ""
 msgid "Save change"
 msgstr ""
 
-#: inc/widgets/wg-support.php:98
+#: inc/widgets/wg-support.php:98 woocommerce/single-product-reviews.php:162
 msgid "Name"
 msgstr ""
 
@@ -600,31 +601,31 @@ msgstr ""
 msgid "Quick buy"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:144
+#: inc/woocommerce/function-woo.php:172
 msgid "Discount"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:152
+#: inc/woocommerce/function-woo.php:180
 #: template-parts/header/partials/element-contact-mobile.php:33
 #: template-parts/header/partials/element-contact.php:33
 msgid "Contact"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:196
+#: inc/woocommerce/function-woo.php:224
 msgid "Choose quantity"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:212 inc/woocommerce/function-woo.php:213
+#: inc/woocommerce/function-woo.php:240 inc/woocommerce/function-woo.php:241
 msgid "View detail"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:232
+#: inc/woocommerce/function-woo.php:260
 #: template-parts/header/partials/element-cart.php:35
 #, php-format
 msgid "%d product"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:232
+#: inc/woocommerce/function-woo.php:260
 #: template-parts/header/partials/element-cart.php:35
 #, php-format
 msgid "%d products"
@@ -649,6 +650,11 @@ msgstr ""
 #: template-parts/header/partials/element-contact-mobile.php:41
 #: template-parts/header/partials/element-contact.php:49
 msgid "Location"
+msgstr ""
+
+#: template-parts/header/partials/element-menu-icon.php:4
+#: template-parts/header/partials/element-menu-icon.php:12
+msgid "Menu"
 msgstr ""
 
 #: template-parts/posts/content-single.php:13
@@ -723,6 +729,89 @@ msgstr ""
 msgid "Links"
 msgstr ""
 
+#: woocommerce/single-product-reviews.php:61
+msgid "Review for"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:66
+msgid "Average Rating Score"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Have you used this product?"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Submit your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:135
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:147
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:147
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:149
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:154
+msgid "Submit"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:193
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:197
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:198
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:199
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:200
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:201
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:202
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:203
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:207
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:219
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
 #: woocommerce/single-product/related.php:46
 msgid "Related products"
 msgstr ""
@@ -741,4 +830,12 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "Quang Hoa"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page - Right Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page - Left Sidebar"
 msgstr ""

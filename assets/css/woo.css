@@ -59,6 +59,8 @@ span.amount {
     max-height: 2.8em;
     width: auto;
 }
+
+/* Single Product */
 .product .badge-container {
     margin-top: 0;
 }
@@ -102,4 +104,188 @@ span.amount {
 .uni-stock {
     font-size: 1.125rem;
     margin-bottom: 1em;
+}
+.uni-imf--review {
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #eee;
+}
+span.uni-label--count {
+    margin-left: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px;
+    min-width: 39px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.uni-point--wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uni-point--wrap span.uni-point {
+    font-size: 2.75rem;
+    line-height: 1.2;
+    color: #cb1c22;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.uni-progress--item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uni-progress--item label {
+    font-size: 0.9375rem;
+    font-weight: normal;
+    width: 30px;
+}
+.uni-progress--item label .fa-star {
+    font-size: .875rem;
+    color: #ea9d02;
+    margin-left: 3px;
+}
+.uni-progress--bar {
+    background-color: #e9ecef;
+    border-radius: 20px;
+    width: 85%;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 4px 0 5px;
+}
+span.uni-value--rate {
+    background-color: #28a745;
+    -webkit-transition: .3s all linear;
+    -o-transition: .3s all linear;
+    transition: .3s all linear;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+}
+.uni-review--wrap #review_form_wrapper {
+    display: none;
+}
+.woocommerce-Reviews, .woocommerce-Reviews label {
+    font-size: .875rem;
+}
+.review-form-inner {
+    padding: 15px;
+    background: #f5f8fd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.review-form-inner input[type=submit] {
+    margin-bottom: 0;
+}
+html .star-rating span:before, html .star-rating:before {
+    color: #ea9d02;
+}
+/* Account Page */
+.woocommerce-MyAccount-content ul.dashboard-links {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.woocommerce-MyAccount-content ul.dashboard-links li {
+    margin-left: 0;
+}
+#customer_login {
+    max-width: 1200px;
+    margin: 75px auto;
+    min-height: 300px;
+}
+@media (max-width: 549px) {
+    #customer_login {
+        margin-top: 20px;
+    }
+}
+#customer_login .nav > li {
+    margin: 0;
+}
+#customer_login .nav > li > a {
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-transform: none;
+    color: #777;
+    text-transform: capitalize;
+}
+#customer_login .nav > li.active > a {
+    color: #000;
+}
+#customer_login .nav > li:not(:first-child) > a:before {
+    content: '/';
+    margin: 0 20px;
+    color: #777;
+    opacity: 1;
+}
+@media (max-width: 849px) {
+    #customer_login .nav > li > a {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 549px) {
+    #customer_login .nav > li > a {
+        font-size: 1.5rem;
+    }
+    #customer_login .nav > li:not(:first-child) > a:before {
+        margin: 0 10px;
+    }
+}
+.account-login-inner > h3, .account-register-inner > h3 {
+    text-align: center;
+}
+#customer_login .button {
+    width: 100%;
+    margin-right: 0;
+    min-height: 50px;
+}
+#customer_login .woocommerce-form-login .button {
+    margin-bottom: 2em;
+}
+.woocommerce form .password-input, .woocommerce-page form .password-input {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+}
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
+    position: absolute;
+    right: .7em;
+    top: .5em;
+    cursor: pointer;
+}
+.woocommerce form .show-password-input::after, .woocommerce-page form .show-password-input::after {
+    font-family: 'Font Awesome 5 Pro';
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-left: .618em;
+    content: "\f06e";
+    text-decoration: none;
+}
+#customer_login .woocommerce-form-login__rememberme {
+    font-weight: normal;
+}
+#customer_login .woocommerce-LostPassword {
+    position: absolute;
+    right: 0;
+    bottom: 9px;
+    font-size: .9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+html #wrapper>.message-wrapper {
+    font-size: 1rem;
 }

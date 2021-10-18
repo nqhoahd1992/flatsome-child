@@ -123,6 +123,34 @@ function redirect_to_checkout( $checkout_url ) {
 // add_filter( 'woocommerce_add_to_cart_redirect', 'redirect_to_checkout' );
 
 /**
+ * Count Rating Product
+ */
+function count_ratings( $product_id, $rating ) {
+	$args = array(
+		'post_id' => $product_id,
+		'status' => 'approve',
+		'parent' => 0,
+		'count' => true
+	);
+	if( 0 === $rating ) {
+		$args['meta_query'][] = array(
+			'key' => 'rating',
+			'value'   => 0,
+			'compare' => '>',
+			'type'    => 'numeric'
+		);
+	} else if( $rating > 0 ){
+		$args['meta_query'][] = array(
+			'key' => 'rating',
+			'value'   => $rating,
+			'compare' => '=',
+			'type'    => 'numeric'
+		);
+	}
+	return get_comments( $args );
+}
+
+/**
  * Add text before price html
  */
 function add_text_before_price_html( $price ) {
@@ -149,7 +177,7 @@ function uni_formatted_sale_price( $price, $regular_price, $sale_price ) {
 
 function uni_custom_contact_for_price( $html ) {
 	if ( ! is_admin() ) {
-	    $html = '<span class="amout">'.__( 'Contact', 'shtheme' ).'</div>';
+	    $html = '<span class="amount">'.__( 'Contact', 'shtheme' ).'</span>';
 	}
     return $html;
 }

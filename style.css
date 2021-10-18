@@ -28,7 +28,7 @@ td {
     margin: 0 auto;
 }
 .button, input[type=submit], input[type=submit].button, input[type=reset].button, input[type=button].button {
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 0;
 }
 .button.is-outline, input[type=submit].is-outline, input[type=reset].is-outline, input[type=button].is-outline {
@@ -124,6 +124,24 @@ td {
 .menu-item-design-default > .nav-dropdown.nav-dropdown-default .nav-dropdown-col .menu-item-has-children {
     margin-top: 0;
 }
+
+/* Header Template Element */
+.nav-click {position: relative;width: 32px;height: 32px;cursor: pointer;display: block;z-index: 999;}
+.nav-click span, .nav-click::after, .nav-click::before {content: '';background-color: #000;position: absolute;height: 3px;transition: all .3s ease-in-out;pointer-events: none;}
+.nav-dark .nav-click span, .nav-dark .nav-click::after, .nav-dark .nav-click::before {background-color: #FFF;}
+.nav-click::after,.nav-click::before{top:6px;right:0;width:18px;transform-origin:50% 50%}
+.nav-click::after{top:23px;width:30px}
+.nav-click span{top:15px;right:0;width:24px}
+@media (min-width:850px) {
+    .nav-click{width:38px;height:38px}
+    .nav-click span, .nav-click::after, .nav-click::before{height:3px}
+    .nav-click::after, .nav-click::before{top:9px; width:25px}
+    .nav-click::after{top:27px;width:35px}
+    .nav-click span{top:18px;width:31px}
+}
+.has-off-canvas .current-lightbox-clicked .nav-click span{opacity:0}
+.has-off-canvas .current-lightbox-clicked .nav-click::before{width:70%;left:17%;transform:rotate3d(0,0,1,45deg);top:43%}
+.has-off-canvas .current-lightbox-clicked .nav-click::after{width:70%;left:15%;transform:rotate3d(0,0,1,-45deg);top:41%}
 
 /*--------------------------------------------------------------
 ## Widget 

@@ -23,7 +23,7 @@ class uni_blog_shortcode {
 	 * @param  string $content Content between shortcode
 	 * @return string		  HTML output
 	 */
-	function render( $atts, $content = null) {
+	function render( $atts, $content = null ) {
 		$css_class = $el_class = '';
 
 		extract( shortcode_atts( array(

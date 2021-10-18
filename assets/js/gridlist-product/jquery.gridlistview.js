@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
         });
         jQuery(".products.row").fadeOut(300, function() {
             jQuery('.product-small').removeClass('box-vertical');
-            jQuery('.product-small .box-text-products').addClass('text-center');
+            // jQuery('.product-small .box-text-products').addClass('text-center');
             jQuery(this).removeClass('columns-list').fadeIn(300);
         });
         return false;
@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
         });
         jQuery(".products.row").fadeOut(300, function() {
             jQuery('.product-small').addClass('box-vertical');
-            jQuery('.product-small .box-text-products').removeClass('text-center');
+            // jQuery('.product-small .box-text-products').removeClass('text-center');
             jQuery(this).addClass('columns-list').fadeIn(300);
         });
         return false;
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
         jQuery(".view-mode-switcher #list").removeClass("active");
 
         jQuery('.product-small').removeClass('box-vertical');
-        jQuery('.product-small .box-text-products').addClass('text-center');
+        // jQuery('.product-small .box-text-products').addClass('text-center');
         jQuery('.products.row').remove('columns-list').fadeIn(300);
     }
     else if (jQuery.cookie("gridcookie") == "list") {
@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
         jQuery(".view-mode-switcher #grid").removeClass("active");
 
         jQuery('.product-small').addClass('box-vertical');
-        jQuery('.product-small .box-text-products').removeClass('text-center');
+        // jQuery('.product-small .box-text-products').removeClass('text-center');
         jQuery('.products.row').addClass('columns-list').fadeIn(300);
     }
 

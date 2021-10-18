@@ -21,6 +21,8 @@
 		'col_spacing' => '',
 		'show_date'   => get_theme_mod( 'blog_badge', 1 ) ? 'true' : 'false', // badge, text
 		'ids'         => $ids,
+		// 'excerpt' => 'false',
+		// 'excerpt_length' => 20,
 		'image_size'  => 'large',
 		'image_width' => '',
 		'image_height' => '62%',

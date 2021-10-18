@@ -25,7 +25,8 @@
 		'columns__md' => '1',
 		'show_date'   => 'text', // badge, text
 		'ids'         => $ids,
-		'excerpt' => 'false',
+		// 'excerpt' => 'false',
+		// 'excerpt_length' => 20,
 		'show_category' => 'true',
 		// 'readmore' => __('Read more','shtheme'),
 		// 'readmore_style' => 'link',

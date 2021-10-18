@@ -30,7 +30,7 @@ if ( ! class_exists( 'WC_List_Grid' ) ) {
 		// Scripts & styles
 		function setup_scripts_script() {
 			wp_enqueue_script( 'cookie', UNI_DIR . '/assets/js/jquery.cookie.min.js', array( 'jquery' ), '1.4.1', true );
-			wp_enqueue_script( 'grid-list-scripts', UNI_DIR . '/assets/js/gridlist-product/jquery.gridlistview.min.js', array( 'jquery' ), '1.0', true );
+			wp_enqueue_script( 'grid-list-scripts', UNI_DIR . '/assets/js/gridlist-product/jquery.gridlistview.js', array( 'jquery' ), '1.0', true );
 		}
 
 		// Toggle button
