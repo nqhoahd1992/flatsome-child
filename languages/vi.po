@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-10-18 11:36+0700\n"
-"PO-Revision-Date: 2021-10-18 11:41+0700\n"
+"POT-Creation-Date: 2021-10-26 14:52+0700\n"
+"PO-Revision-Date: 2021-10-26 14:52+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -167,7 +167,7 @@ msgid "Rating"
 msgstr "Đánh giá"
 
 #: inc/builder/shortcodes/uni_product.php:79
-#: inc/woocommerce/function-woo.php:158
+#: inc/woocommerce/function-woo.php:166
 msgid "Price"
 msgstr "Giá"
 
@@ -262,7 +262,7 @@ msgstr "Fax"
 #: inc/shortcodes/uni_wg_information.php:58 inc/widgets/wg-information.php:48
 #: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
 #: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
-#: woocommerce/single-product-reviews.php:168
+#: woocommerce/single-product-reviews.php:155
 msgid "Email"
 msgstr "Email"
 
@@ -545,7 +545,7 @@ msgstr "Giao diện"
 msgid "Save change"
 msgstr "Lưu thay đổi"
 
-#: inc/widgets/wg-support.php:98 woocommerce/single-product-reviews.php:162
+#: inc/widgets/wg-support.php:98 woocommerce/single-product-reviews.php:149
 msgid "Name"
 msgstr "Tên"
 
@@ -577,63 +577,67 @@ msgstr "Danh sách bài viết nhiều lượt xem"
 msgid "Post date"
 msgstr "Ngày đăng bài"
 
-#: inc/woocommerce/function-woo.php:33
+#: inc/woocommerce/function-woo.php:41
 msgid "Continue Shopping"
 msgstr "Tiếp tục mua hàng"
 
-#: inc/woocommerce/function-woo.php:62
+#: inc/woocommerce/function-woo.php:70
 msgid "Information"
 msgstr "Thông tin"
 
-#: inc/woocommerce/function-woo.php:63
+#: inc/woocommerce/function-woo.php:71
 msgid "Gallery"
 msgstr "Thư viện ảnh"
 
-#: inc/woocommerce/function-woo.php:64
+#: inc/woocommerce/function-woo.php:72
 msgid "Video"
 msgstr "Video"
 
-#: inc/woocommerce/function-woo.php:65
+#: inc/woocommerce/function-woo.php:73
 msgid "Attachments"
 msgstr "Tệp đính kèm"
 
-#: inc/woocommerce/function-woo.php:82
+#: inc/woocommerce/function-woo.php:90
 msgid "Add to cart"
 msgstr "Thêm vào giỏ"
 
-#: inc/woocommerce/function-woo.php:92
+#: inc/woocommerce/function-woo.php:100
 msgid "Quick buy"
 msgstr "Mua ngay"
 
-#: inc/woocommerce/function-woo.php:172
+#: inc/woocommerce/function-woo.php:180
 msgid "Discount"
 msgstr "Giảm"
 
-#: inc/woocommerce/function-woo.php:180
+#: inc/woocommerce/function-woo.php:188
 #: template-parts/header/partials/element-contact-mobile.php:33
 #: template-parts/header/partials/element-contact.php:33
 msgid "Contact"
 msgstr "Liên hệ"
 
-#: inc/woocommerce/function-woo.php:224
+#: inc/woocommerce/function-woo.php:232
 msgid "Choose quantity"
 msgstr "Chọn số lượng"
 
-#: inc/woocommerce/function-woo.php:240 inc/woocommerce/function-woo.php:241
+#: inc/woocommerce/function-woo.php:248 inc/woocommerce/function-woo.php:249
 msgid "View detail"
 msgstr "Xem chi tiết"
 
-#: inc/woocommerce/function-woo.php:260
+#: inc/woocommerce/function-woo.php:268
 #: template-parts/header/partials/element-cart.php:35
 #, php-format
 msgid "%d product"
 msgstr "%d sản phẩm"
 
-#: inc/woocommerce/function-woo.php:260
+#: inc/woocommerce/function-woo.php:268
 #: template-parts/header/partials/element-cart.php:35
 #, php-format
 msgid "%d products"
 msgstr "%d sản phẩm"
+
+#: inc/woocommerce/function-woo.php:293
+msgid "Logout"
+msgstr "Đăng xuất"
 
 #: inc/woocommerce/grid-list-toggle.php:39
 msgid "Grid view"
@@ -735,90 +739,149 @@ msgstr "Quotes"
 msgid "Links"
 msgstr "Liên kết"
 
-#: woocommerce/single-product-reviews.php:61
+#: woocommerce/myaccount/form-login.php:36
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:116
+msgid "Register"
+msgstr "Đăng ký"
+
+#: woocommerce/myaccount/form-login.php:52
+msgid "Username or email address"
+msgstr "Tên đăng nhập hoặc địa chỉ email"
+
+#: woocommerce/myaccount/form-login.php:56
+#: woocommerce/myaccount/form-login.php:102
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: woocommerce/myaccount/form-login.php:65
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "Remember me"
+msgstr "Ghi nhớ tôi"
+
+#: woocommerce/myaccount/form-login.php:69
+msgid "Lost your password?"
+msgstr "Quên mật khẩu?"
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+#: woocommerce/myaccount/form-login.php:108
+msgid "A password will be sent to your email address."
+msgstr "Một mật khẩu sẽ được gửi đến địa chỉ email của bạn."
+
+#: woocommerce/single-product-reviews.php:62
 msgid "Review for"
 msgstr "Đánh giá cho"
 
-#: woocommerce/single-product-reviews.php:66
+#: woocommerce/single-product-reviews.php:67
 msgid "Average Rating Score"
 msgstr "Điểm Đánh Giá Trung Bình"
 
-#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:78
+msgid "There are no reviews yet"
+msgstr "Hiện tại không có đánh giá nào."
+
+#: woocommerce/single-product-reviews.php:80
+msgid "review"
+msgstr "đánh giá"
+
+#: woocommerce/single-product-reviews.php:82
+msgid "reviews"
+msgstr "đánh giá"
+
+#: woocommerce/single-product-reviews.php:115
 msgid "Have you used this product?"
 msgstr "Bạn đã dùng sản phẩm này?"
 
-#: woocommerce/single-product-reviews.php:99
+#: woocommerce/single-product-reviews.php:116
 msgid "Submit your review"
 msgstr "Gửi đánh giá của bạn"
 
-#: woocommerce/single-product-reviews.php:135
-msgid "There are no reviews yet."
-msgstr "Hiện tại không có đánh giá nào."
-
 #. translators: %s is product title
-#: woocommerce/single-product-reviews.php:147
+#: woocommerce/single-product-reviews.php:134
 msgid "Add a review"
 msgstr "Thêm một bài đánh giá"
 
-#: woocommerce/single-product-reviews.php:147
+#: woocommerce/single-product-reviews.php:134
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
 msgstr "Hãy là người đầu tiên đánh giá &ldquo;%s&rdquo;"
 
 #. translators: %s is product title
-#: woocommerce/single-product-reviews.php:149
+#: woocommerce/single-product-reviews.php:136
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Để lại một trả lời cho %s"
 
-#: woocommerce/single-product-reviews.php:154
+#: woocommerce/single-product-reviews.php:141
 msgid "Submit"
 msgstr "Gửi đi"
 
 #. translators: %s opening and closing link tags respectively
-#: woocommerce/single-product-reviews.php:193
+#: woocommerce/single-product-reviews.php:180
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a review."
 msgstr "Bạn phải %1$s đăng nhập %2$s để đăng bài đánh giá."
 
-#: woocommerce/single-product-reviews.php:197
+#: woocommerce/single-product-reviews.php:184
 msgid "Your rating"
 msgstr "Đánh giá của bạn"
 
-#: woocommerce/single-product-reviews.php:198
-msgid "Rate&hellip;"
-msgstr "Tỷ lệ&hellip;"
-
-#: woocommerce/single-product-reviews.php:199
-msgid "Perfect"
-msgstr "Hoàn hảo"
-
-#: woocommerce/single-product-reviews.php:200
-msgid "Good"
-msgstr "Rất tốt"
-
-#: woocommerce/single-product-reviews.php:201
-msgid "Average"
-msgstr "Trung bình"
-
-#: woocommerce/single-product-reviews.php:202
-msgid "Not that bad"
-msgstr "Không tệ lắm"
-
-#: woocommerce/single-product-reviews.php:203
+#: woocommerce/single-product-reviews.php:188
+#: woocommerce/single-product-reviews.php:213
 msgid "Very poor"
 msgstr "Rất tồi"
 
-#: woocommerce/single-product-reviews.php:207
+#: woocommerce/single-product-reviews.php:192
+#: woocommerce/single-product-reviews.php:212
+msgid "Not that bad"
+msgstr "Không tệ lắm"
+
+#: woocommerce/single-product-reviews.php:196
+#: woocommerce/single-product-reviews.php:211
+msgid "Average"
+msgstr "Trung bình"
+
+#: woocommerce/single-product-reviews.php:200
+#: woocommerce/single-product-reviews.php:210
+msgid "Good"
+msgstr "Rất tốt"
+
+#: woocommerce/single-product-reviews.php:204
+#: woocommerce/single-product-reviews.php:209
+msgid "Perfect"
+msgstr "Hoàn hảo"
+
+#: woocommerce/single-product-reviews.php:208
+msgid "Rate&hellip;"
+msgstr "Tỷ lệ&hellip;"
+
+#: woocommerce/single-product-reviews.php:217
 msgid "Your review"
 msgstr "Đánh giá của bạn"
 
-#: woocommerce/single-product-reviews.php:219
+#: woocommerce/single-product-reviews.php:229
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 "Chỉ những khách hàng đã đăng nhập đã mua sản phẩm này mới có thể để lại đánh "
 "giá."
+
+#: woocommerce/single-product-reviews.php:263
+msgid "There are no reviews yet."
+msgstr "Hiện tại không có đánh giá nào."
 
 #: woocommerce/single-product/related.php:46
 msgid "Related products"
@@ -928,9 +991,6 @@ msgstr "Page - Left Sidebar"
 
 #~ msgid "Your comment"
 #~ msgstr "Bình luận của bạn"
-
-#~ msgid "Login"
-#~ msgstr "Đăng nhập"
 
 #~ msgid "to comment."
 #~ msgstr "để bình luận."
@@ -1233,17 +1293,8 @@ msgstr "Page - Left Sidebar"
 #~ msgid "Type: TLS / SSL"
 #~ msgstr "Định dạng: TLS / SSL"
 
-#~ msgid "SMTP Username"
-#~ msgstr "SMTP Username"
-
-#~ msgid "SMTP Password"
-#~ msgstr "SMTP Password"
-
 #~ msgid "From Name"
 #~ msgstr "From Name"
-
-#~ msgid "From Email Address"
-#~ msgstr "From Email Address"
 
 #~ msgid "Section via hook"
 #~ msgstr "Section via hook"

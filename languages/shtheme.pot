@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Web3B\n"
-"POT-Creation-Date: 2021-10-18 11:36+0700\n"
+"POT-Creation-Date: 2021-10-26 14:51+0700\n"
 "PO-Revision-Date: 2018-01-18 17:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -167,7 +167,7 @@ msgid "Rating"
 msgstr ""
 
 #: inc/builder/shortcodes/uni_product.php:79
-#: inc/woocommerce/function-woo.php:158
+#: inc/woocommerce/function-woo.php:166
 msgid "Price"
 msgstr ""
 
@@ -262,7 +262,7 @@ msgstr ""
 #: inc/shortcodes/uni_wg_information.php:58 inc/widgets/wg-information.php:48
 #: inc/widgets/wg-information.php:105 inc/widgets/wg-support.php:86
 #: inc/widgets/wg-support.php:111 inc/widgets/wg-support.php:226
-#: woocommerce/single-product-reviews.php:168
+#: woocommerce/single-product-reviews.php:155
 msgid "Email"
 msgstr ""
 
@@ -541,7 +541,7 @@ msgstr ""
 msgid "Save change"
 msgstr ""
 
-#: inc/widgets/wg-support.php:98 woocommerce/single-product-reviews.php:162
+#: inc/widgets/wg-support.php:98 woocommerce/single-product-reviews.php:149
 msgid "Name"
 msgstr ""
 
@@ -573,62 +573,66 @@ msgstr ""
 msgid "Post date"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:33
+#: inc/woocommerce/function-woo.php:41
 msgid "Continue Shopping"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:62
+#: inc/woocommerce/function-woo.php:70
 msgid "Information"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:63
+#: inc/woocommerce/function-woo.php:71
 msgid "Gallery"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:64
+#: inc/woocommerce/function-woo.php:72
 msgid "Video"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:65
+#: inc/woocommerce/function-woo.php:73
 msgid "Attachments"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:82
+#: inc/woocommerce/function-woo.php:90
 msgid "Add to cart"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:92
+#: inc/woocommerce/function-woo.php:100
 msgid "Quick buy"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:172
+#: inc/woocommerce/function-woo.php:180
 msgid "Discount"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:180
+#: inc/woocommerce/function-woo.php:188
 #: template-parts/header/partials/element-contact-mobile.php:33
 #: template-parts/header/partials/element-contact.php:33
 msgid "Contact"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:224
+#: inc/woocommerce/function-woo.php:232
 msgid "Choose quantity"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:240 inc/woocommerce/function-woo.php:241
+#: inc/woocommerce/function-woo.php:248 inc/woocommerce/function-woo.php:249
 msgid "View detail"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:260
+#: inc/woocommerce/function-woo.php:268
 #: template-parts/header/partials/element-cart.php:35
 #, php-format
 msgid "%d product"
 msgstr ""
 
-#: inc/woocommerce/function-woo.php:260
+#: inc/woocommerce/function-woo.php:268
 #: template-parts/header/partials/element-cart.php:35
 #, php-format
 msgid "%d products"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:293
+msgid "Logout"
 msgstr ""
 
 #: inc/woocommerce/grid-list-toggle.php:39
@@ -729,87 +733,146 @@ msgstr ""
 msgid "Links"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:61
+#: woocommerce/myaccount/form-login.php:36
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:116
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:52
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:56
+#: woocommerce/myaccount/form-login.php:102
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:65
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:69
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:108
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
 msgid "Review for"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:66
+#: woocommerce/single-product-reviews.php:67
 msgid "Average Rating Score"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:78
+msgid "There are no reviews yet"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:115
 msgid "Have you used this product?"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:99
+#: woocommerce/single-product-reviews.php:116
 msgid "Submit your review"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:135
-msgid "There are no reviews yet."
-msgstr ""
-
 #. translators: %s is product title
-#: woocommerce/single-product-reviews.php:147
+#: woocommerce/single-product-reviews.php:134
 msgid "Add a review"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:147
+#: woocommerce/single-product-reviews.php:134
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
 msgstr ""
 
 #. translators: %s is product title
-#: woocommerce/single-product-reviews.php:149
+#: woocommerce/single-product-reviews.php:136
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:154
+#: woocommerce/single-product-reviews.php:141
 msgid "Submit"
 msgstr ""
 
 #. translators: %s opening and closing link tags respectively
-#: woocommerce/single-product-reviews.php:193
+#: woocommerce/single-product-reviews.php:180
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a review."
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:197
+#: woocommerce/single-product-reviews.php:184
 msgid "Your rating"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:198
-msgid "Rate&hellip;"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:199
-msgid "Perfect"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:200
-msgid "Good"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:201
-msgid "Average"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:202
-msgid "Not that bad"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:203
+#: woocommerce/single-product-reviews.php:188
+#: woocommerce/single-product-reviews.php:213
 msgid "Very poor"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:207
+#: woocommerce/single-product-reviews.php:192
+#: woocommerce/single-product-reviews.php:212
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:196
+#: woocommerce/single-product-reviews.php:211
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:200
+#: woocommerce/single-product-reviews.php:210
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:204
+#: woocommerce/single-product-reviews.php:209
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:208
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:217
 msgid "Your review"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:219
+#: woocommerce/single-product-reviews.php:229
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:263
+msgid "There are no reviews yet."
 msgstr ""
 
 #: woocommerce/single-product/related.php:46

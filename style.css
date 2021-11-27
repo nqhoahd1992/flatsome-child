@@ -473,6 +473,15 @@ ul.links li {
     min-width: 100px;
     margin-bottom: 0;
 }
+.wpcf7 .wpcf7-response-output {
+    border-radius: 0;
+}
+.wpcf7-not-valid-tip, .wpcf7 form .wpcf7-response-output {
+    font-size: .9em;
+}
+.wpcf7 form .wpcf7-response-output {
+    margin: 1em 0 1em;
+}
 /* Template - Header */
 .header-cart-title {
     line-height: 1.4;

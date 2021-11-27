@@ -4,11 +4,19 @@ require PARENT_DIR . '/inc/woocommerce/grid-list-toggle.php';
 require PARENT_DIR . '/inc/shortcodes/uni_product.php';
 require PARENT_DIR . '/inc/shortcodes/uni_title_product.php';
 
+/**
+ * Optimize Woocommerce
+ */
 function uni_wc_lib_scripts(){
 	wp_dequeue_style( 'wc-block-style' );
 	wp_enqueue_style( 'woo-style', UNI_DIR .'/assets/css/woo.css' );
 }
 add_action( 'wp_enqueue_scripts', 'uni_wc_lib_scripts', 1 );
+
+add_action( 'admin_head', function() {
+	remove_action( 'in_admin_header', array( 'Automattic\WooCommerce\Admin\Loader', 'embed_page_header' ) ); 
+	echo '<style>#wpadminbar + #wpbody { margin-top:0; }</style>';
+});
 
 /**
  * Display feature image of category product
@@ -264,7 +272,47 @@ if ( ! function_exists( 'uni_header_add_to_cart_fragment_count' ) ) {
 		return $fragments;
 	}
 }
-// add_filter( 'woocommerce_add_to_cart_fragments', 'uni_header_add_to_cart_fragment_count' );
+add_filter( 'woocommerce_add_to_cart_fragments', 'uni_header_add_to_cart_fragment_count' );
+
+/**
+ * Customizer Page Account
+ */
+function add_my_account_menu(){
+	$current_user = wp_get_current_user();
+	?>
+	<div id="my-account-menu" class="uni-wcmap position-vertical-left layout-simple position-left">
+		<div class="user-profile">
+			<div class="user-avatar">
+				<?php echo get_avatar( $current_user->ID, $avatar_size ); ?>
+			</div>
+			<div class="user-info">
+				<span class="username"><?php echo esc_html( $current_user->display_name ); ?> </span>
+				<span class="user-email"><?php echo esc_html( $current_user->user_email ); ?></span>
+				<?php if ( isset( $current_user ) && $current_user->ID ) : ?>
+					<span class="logout">
+						<a href="<?php echo wc_logout_url(); ?>"><?php _e( 'Logout', 'shtheme' ); ?></a>
+					</span>
+				<?php endif; ?>
+			</div>
+		</div>
+		<ul class="myaccount-menu">
+			<?php if(function_exists('wc_get_account_menu_items') && flatsome_option('wc_account_links')){ ?>
+			<?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
+			    <li class="<?php echo wc_get_account_menu_item_classes( $endpoint ); ?>">
+			      <a href="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>"><?php echo esc_html( $label ); ?></a>
+			    </li>
+		  	<?php endforeach; ?>
+		  	<?php do_action('flatsome_account_links'); ?>
+			<?php } ?>
+		</ul>
+	</div>
+	<?php
+}
+add_action( 'woocommerce_account_navigation', 'add_my_account_menu', 10 );
+
+add_action( 'init', function() {
+	remove_action('woocommerce_account_dashboard','flatsome_my_account_dashboard');
+});
 
 /**
  * Hook Woocommerce
