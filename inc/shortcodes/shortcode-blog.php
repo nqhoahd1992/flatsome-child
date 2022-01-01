@@ -41,15 +41,18 @@ class uni_blog_shortcode {
 
 		$args = array(
 			'post_type' => 'post',
-			'tax_query' => array(
+			'posts_per_page' => $posts_per_page,
+		);
+
+		if( $categories ) {
+			$args['tax_query'] = array(
 				array(
 					'taxonomy' 	=> 'category',
 					'field'     => 'id',
 					'terms' 	=> $categories
 				)
-			),
-			'posts_per_page'	=> $posts_per_page,
-		);
+			);
+		}
 
 		$the_query = new WP_Query( $args );
 		// The Loop

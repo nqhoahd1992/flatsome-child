@@ -17,7 +17,7 @@ td {
 }
 .text-box .text {
     -webkit-backface-visibility: visible;
-    backface-visibility: visible
+    backface-visibility: visible;
 }
 .uni-breadcrumbs {
 	margin-bottom: 30px;

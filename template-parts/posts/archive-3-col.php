@@ -15,7 +15,7 @@
 		'depth'       => get_theme_mod( 'blog_posts_depth', 0 ),
 		'depth_hover' => get_theme_mod( 'blog_posts_depth_hover', 0 ),
 		'text_align'  => get_theme_mod( 'blog_posts_title_align', 'center' ),
-		'columns'     => '2',
+		'columns'     => '3',
 		'columns__sm' => '1',
 		'columns__md' => '2',
 		'col_spacing' => '',
