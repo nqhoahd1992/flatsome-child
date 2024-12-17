@@ -1,0 +1,2273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UniCreation\n"
+"POT-Creation-Date: 2024-06-28 09:16+0700\n"
+"PO-Revision-Date: 2024-06-28 09:19+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:29
+msgid "Primary Sidebar"
+msgstr "Primary Sidebar"
+
+#: functions.php:31 functions.php:41
+msgid "Add widgets here."
+msgstr "Thêm widgets tại đây."
+
+#: functions.php:39
+msgid "Secondary Sidebar"
+msgstr "Secondary Sidebar"
+
+#: inc/admin/advanced/options.php:23
+msgid "Restrict Capabilities"
+msgstr "Hạn chế quyền"
+
+#: inc/admin/advanced/options.php:26
+msgid "Disble Restrict Capabilities"
+msgstr "Tắt hạn chế quyền"
+
+#: inc/admin/advanced/options.php:28
+msgid "Disble restrict capabilities for the customer's account"
+msgstr "Tắt hạn chế quyền đối với tài khoản của khách hàng"
+
+#: inc/admin/advanced/options.php:37
+msgid "Customizer Element Ux Builder"
+msgstr "Tùy biến Element Ux Builder"
+
+#: inc/admin/advanced/options.php:41 inc/shortcodes/uni_col.php:5
+msgid "Column"
+msgstr "Column"
+
+#: inc/admin/advanced/options.php:43
+msgid "Enable additional options for element Column"
+msgstr "Thêm các tính năng cho phần tử Column"
+
+#: inc/admin/advanced/options.php:51
+msgid "Library"
+msgstr "Thư viện"
+
+#: inc/admin/advanced/options.php:55
+msgid "Slick Slider"
+msgstr "Slick Slider"
+
+#: inc/admin/advanced/options.php:57
+msgid "Enable Slick Slider"
+msgstr "Kích hoạt Slick Slider"
+
+#: inc/admin/advanced/options.php:63
+msgid "AOS Animate"
+msgstr "AOS Animate"
+
+#: inc/admin/advanced/options.php:65
+msgid "Enable AOS Animate"
+msgstr "Kích hoạt AOS Animate"
+
+#: inc/builder/shortcodes.php:23 inc/template-functions/init.php:280
+msgid "Original"
+msgstr "Original"
+
+#: inc/builder/shortcodes/uni_blog.php:4
+msgid "Uni - Blog"
+msgstr "Uni - Blog"
+
+#: inc/builder/shortcodes/uni_blog.php:5
+#: inc/builder/shortcodes/uni_count_up.php:5
+#: inc/builder/shortcodes/uni_custom_menu.php:15
+#: inc/builder/shortcodes/uni_wg_fb.php:5
+#: inc/builder/shortcodes/uni_wg_information.php:5
+#: inc/template-functions/breadcrumbs.php:12
+msgid "Uni Creation"
+msgstr "Uni Creation"
+
+#: inc/builder/shortcodes/uni_blog.php:23
+#: inc/builder/shortcodes/uni_product.php:21
+msgid "Total posts"
+msgstr "Số bài viết"
+
+#: inc/builder/shortcodes/uni_blog.php:30
+msgid "Style"
+msgstr "Giao diện"
+
+#: inc/builder/shortcodes/uni_blog.php:33
+msgid "Style 1"
+msgstr "Giao diện 1"
+
+#: inc/builder/shortcodes/uni_blog.php:34
+msgid "Style 2"
+msgstr "Giao diện 2"
+
+#: inc/builder/shortcodes/uni_blog.php:35
+msgid "Style 3"
+msgstr "Giao diện 3"
+
+#: inc/builder/shortcodes/uni_blog.php:36
+msgid "Style 4"
+msgstr "Giao diện 4"
+
+#: inc/builder/shortcodes/uni_blog.php:37
+msgid "Style 5"
+msgstr "Giao diện 5"
+
+#: inc/builder/shortcodes/uni_blog.php:38
+msgid "Style 6"
+msgstr "Giao diện 6"
+
+#: inc/builder/shortcodes/uni_blog.php:39
+msgid "Style 7"
+msgstr "Giao diện 7"
+
+#: inc/builder/shortcodes/uni_blog.php:40
+msgid "Style 8"
+msgstr "Giao diện 8"
+
+#: inc/builder/shortcodes/uni_blog.php:45
+msgid "Show categories"
+msgstr "Hiển thị chuyên mục"
+
+#: inc/builder/shortcodes/uni_blog.php:54
+msgid "Show button viewmore"
+msgstr "Hiển thị nút xem thêm"
+
+#: inc/builder/shortcodes/uni_blog.php:65 inc/shortcodes/shortcode-blog.php:33
+#: inc/shortcodes/shortcode-blog.php:408 inc/shortcodes/uni_blog.php:10
+#: template-parts/posts/archive-2-col.php:37
+#: template-parts/posts/archive-3-col.php:37
+msgid "Read more"
+msgstr "Xem thêm"
+
+#: inc/builder/shortcodes/uni_blog.php:69
+msgid "Show meta"
+msgstr "Hiển thị ngày tháng đăng bài"
+
+#: inc/builder/shortcodes/uni_blog.php:78
+msgid "Show thumbnail"
+msgstr "Hiển thị ảnh đại diện"
+
+#: inc/builder/shortcodes/uni_blog.php:87
+msgid "Show description"
+msgstr "Hiển thị nội dung"
+
+#: inc/builder/shortcodes/uni_blog.php:104
+msgid "Show pagination"
+msgstr "Hiển thị phân trang"
+
+#: inc/builder/shortcodes/uni_count_up.php:4
+msgid "Uni - Count Up"
+msgstr "Uni - Count Up"
+
+#: inc/builder/shortcodes/uni_count_up.php:9
+#: inc/builder/shortcodes/uni_product.php:69
+#: inc/builder/shortcodes/uni_wg_fb.php:9
+#: inc/builder/shortcodes/uni_wg_information.php:9
+#: inc/widgets/wg-information.php:81 inc/widgets/wg-post-list.php:105
+#: inc/widgets/wg-view-post-list.php:111
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: inc/builder/shortcodes/uni_count_up.php:15
+msgid "Number"
+msgstr "Số"
+
+#: inc/builder/shortcodes/uni_custom_menu.php:14
+msgid "Uni - Custom Menu"
+msgstr "Uni - Thanh điều hướng"
+
+#: inc/builder/shortcodes/uni_product.php:4
+msgid "Uni - Product"
+msgstr "Uni - Sản phẩm"
+
+#: inc/builder/shortcodes/uni_product.php:5
+#: inc/builder/shortcodes/uni_title_product.php:5
+msgid "Uni Creation - Woocommerce"
+msgstr "Uni Creation - Woocommerce"
+
+#: inc/builder/shortcodes/uni_product.php:28
+msgid "Column Spacing"
+msgstr "Khoảng cách giữa các cột"
+
+#: inc/builder/shortcodes/uni_product.php:40
+msgid "Columns"
+msgstr "Số cột"
+
+#: inc/builder/shortcodes/uni_product.php:48 inc/shortcodes/uni_col.php:6
+msgid "Layout"
+msgstr "Giao diện"
+
+#: inc/builder/shortcodes/uni_product.php:52
+msgid "Animate"
+msgstr "Hiệu ứng"
+
+#: inc/builder/shortcodes/uni_product.php:60
+msgid "Box"
+msgstr "Box"
+
+#: inc/builder/shortcodes/uni_product.php:64 inc/widgets/wg-post-list.php:115
+msgid "Category"
+msgstr "Chuyên mục"
+
+#: inc/builder/shortcodes/uni_product.php:74
+msgid "Rating"
+msgstr "Đánh giá"
+
+#: inc/builder/shortcodes/uni_product.php:79
+#: inc/woocommerce/function-woo.php:196 woocommerce/cart/cart.php:54
+#: woocommerce/cart/cart.php:141
+msgid "Price"
+msgstr "Giá"
+
+#: inc/builder/shortcodes/uni_product.php:84
+msgid "Add To Cart"
+msgstr "Thêm vào giỏ"
+
+#: inc/builder/shortcodes/uni_product.php:89
+msgid "Quick View"
+msgstr "Xem nhanh"
+
+#: inc/builder/shortcodes/uni_product.php:94
+msgid "Equalize Items"
+msgstr "Equalize Items"
+
+#: inc/builder/shortcodes/uni_product.php:101
+msgid "Filter Posts"
+msgstr "Lọc bài viết"
+
+#: inc/builder/shortcodes/uni_product.php:106
+msgid "Order By"
+msgstr "Sắp xếp theo"
+
+#: inc/builder/shortcodes/uni_product.php:118
+msgid "Order"
+msgstr "Sắp xếp theo thứ tự"
+
+#: inc/builder/shortcodes/uni_product.php:127
+msgid "Show"
+msgstr "Hiển thị"
+
+#: inc/builder/shortcodes/uni_product.php:137
+msgid "Out Of Stock"
+msgstr "Hết hàng"
+
+#: inc/builder/shortcodes/uni_title_product.php:4
+msgid "Uni - Title Products"
+msgstr "Uni - Tiêu đề sản phẩm"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:4
+msgid "Uni - Fanpage Facebook"
+msgstr "Uni - Fanpage Facebook"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:27
+msgid "Link Fanpage"
+msgstr "Link Fanpage"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:33
+#: inc/builder/shortcodes/uni_wg_information.php:63
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: inc/builder/shortcodes/uni_wg_fb.php:37
+msgid "Include root"
+msgstr "Bao gồm phần tử root"
+
+#: inc/builder/shortcodes/uni_wg_information.php:4
+#: inc/widgets/wg-information.php:14
+msgid "Uni - Information contact"
+msgstr "Uni - Thông tin liên hệ"
+
+#: inc/builder/shortcodes/uni_wg_information.php:28
+#: inc/widgets/wg-information.php:85
+msgid "Company"
+msgstr "Công ty"
+
+#: inc/builder/shortcodes/uni_wg_information.php:33
+#: inc/shortcodes/uni_wg_information.php:46 inc/widgets/wg-information.php:36
+#: inc/widgets/wg-information.php:89
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: inc/builder/shortcodes/uni_wg_information.php:38
+#: inc/shortcodes/uni_wg_information.php:49 inc/widgets/wg-information.php:39
+#: inc/widgets/wg-information.php:93
+msgid "Telephone"
+msgstr "Số điện thoại"
+
+#: inc/builder/shortcodes/uni_wg_information.php:43
+#: inc/shortcodes/uni_wg_information.php:52 inc/widgets/wg-information.php:42
+#: inc/widgets/wg-information.php:97
+msgid "Hotline"
+msgstr "Hotline"
+
+#: inc/builder/shortcodes/uni_wg_information.php:48
+#: inc/shortcodes/uni_wg_information.php:55 inc/widgets/wg-information.php:45
+#: inc/widgets/wg-information.php:101
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/builder/shortcodes/uni_wg_information.php:53
+#: inc/shortcodes/uni_wg_information.php:58 inc/widgets/wg-information.php:48
+#: inc/widgets/wg-information.php:105
+#: woocommerce/single-product-reviews.php:161
+msgid "Email"
+msgstr "Email"
+
+#: inc/builder/shortcodes/uni_wg_information.php:58
+#: inc/shortcodes/uni_wg_information.php:61 inc/widgets/wg-information.php:51
+#: inc/widgets/wg-information.php:109
+msgid "Website"
+msgstr "Website"
+
+#: inc/builder/shortcodes/uni_wg_information.php:67
+#: inc/widgets/wg-information.php:114
+msgid "Hide label"
+msgstr "Không hiển thị nhãn"
+
+#: inc/builder/shortcodes/uni_wg_information.php:72
+#: inc/widgets/wg-information.php:118
+msgid "Hide icon"
+msgstr "Không hiển thị biểu tượng"
+
+#: inc/shortcodes/uni_col.php:18 inc/woocommerce/function-woo.php:28
+msgid "Default"
+msgstr "Mặc định"
+
+#: inc/shortcodes/uni_col.php:85
+msgid "Image"
+msgstr "Ảnh"
+
+#: inc/shortcodes/uni_col.php:99
+msgid "Position"
+msgstr "Vị trí"
+
+#: inc/shortcodes/uni_col.php:103
+msgid "Bg Color"
+msgstr "Bg Color"
+
+#: inc/shortcodes/uni_col.php:111
+msgid "Bg Radius"
+msgstr "Bg Radius"
+
+#: inc/shortcodes/uni_col.php:147
+msgid "Text Shadow"
+msgstr "Text Shadow"
+
+#: inc/shortcodes/uni_title_product.php:39
+msgid "View all"
+msgstr "Xem tất cả"
+
+#: inc/shortcodes/uni_title_product.php:45
+msgid "Categories"
+msgstr "Chuyên mục"
+
+#: inc/shortcodes/uni_wg_fb.php:35
+msgid "en_US"
+msgstr "vi_VN"
+
+#: inc/template-functions/breadcrumbs.php:11
+msgid "Uni - Breadcrumb"
+msgstr "Uni - Breadcrumb"
+
+#: inc/template-functions/cpt/cpt.php:43
+#, php-format
+msgid "%s cha"
+msgstr "%s cha"
+
+#: inc/template-functions/cpt/cpt.php:44
+#, php-format
+msgid "Tất cả %s"
+msgstr "Tất cả %s"
+
+#: inc/template-functions/cpt/cpt.php:45
+#, php-format
+msgid "Thêm mới %s"
+msgstr "Thêm mới %s"
+
+#: inc/template-functions/cpt/cpt.php:46
+msgctxt "shtheme"
+msgid "Thêm mới"
+msgstr "Thêm mới"
+
+#: inc/template-functions/cpt/cpt.php:47
+#, php-format
+msgid "%s mới"
+msgstr "%s mới"
+
+#: inc/template-functions/cpt/cpt.php:48
+msgid "Chỉnh sửa"
+msgstr "Chỉnh sửa"
+
+#: inc/template-functions/cpt/cpt.php:49
+#, php-format
+msgid "Xem %s"
+msgstr "Xem %s"
+
+#: inc/template-functions/cpt/cpt.php:50
+#, php-format
+msgid "Tìm kiếm %s"
+msgstr "Tìm kiếm %s"
+
+#: inc/template-functions/cpt/cpt.php:51 inc/template-functions/cpt/cpt.php:52
+#, php-format
+msgid "Không tìm thấy %s nào"
+msgstr "Không tìm thấy %s nào"
+
+#: inc/template-functions/cpt/khach-hang.php:9
+msgctxt "Post Type General Name"
+msgid "Khách hàng"
+msgstr "Khách hàng"
+
+#: inc/template-functions/cpt/khach-hang.php:10
+msgctxt "Post Type Singular Name"
+msgid "Khách hàng"
+msgstr "Khách hàng"
+
+#: inc/template-functions/init.php:109 inc/template-functions/init.php:111
+msgid "views"
+msgstr "lượt xem"
+
+#: inc/template-functions/init.php:240
+msgid "Duplicate this item"
+msgstr "Nhân đôi bài viết này"
+
+#: inc/template-functions/init.php:240
+msgid "Duplicate"
+msgstr "Nhân đôi bài viết"
+
+#: inc/template-functions/init.php:253
+#, php-format
+msgid ""
+"Copyright belong to <span>%s</span><span class=\"hide-for-medium\"> - </"
+"span><br class=\"show-for-medium\"><a href=\"https://univn.vn/thiet-ke-"
+"website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Design</a> by <a "
+"href=\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</"
+"a>"
+msgstr ""
+"Bản quyền thuộc về <span>%s</span><span class=\"hide-for-medium\"> - </"
+"span><br class=\"show-for-medium\"><a href=\"https://univn.vn/thiet-ke-"
+"website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Thiết kế</a> bởi <a "
+"href=\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</"
+"a>"
+
+#: inc/template-functions/taxonomies/khach-hang-cat.php:17
+#: inc/template-functions/taxonomies/khach-hang-cat.php:18
+msgid "Danh mục"
+msgstr "Danh mục"
+
+#: inc/widgets/wg-information.php:16
+msgid "Display information contact"
+msgstr "Hiển thị thông tin liên hệ"
+
+#: inc/widgets/wg-post-list.php:14
+msgid "Uni - Featured Posts"
+msgstr "Uni - Danh sách bài viết"
+
+#: inc/widgets/wg-post-list.php:16
+msgid "Displays featured posts with thumbnails"
+msgstr "Hiển thị danh sách bài viết theo chuyên mục"
+
+#: inc/widgets/wg-post-list.php:110 inc/widgets/wg-view-post-list.php:116
+msgid "Number of Posts to Show"
+msgstr "Số bài viết hiển thị"
+
+#: inc/widgets/wg-post-list.php:117
+msgid "Select category"
+msgstr "Chọn chuyên mục"
+
+#: inc/widgets/wg-post-list.php:123 inc/widgets/wg-view-post-list.php:127
+msgid "Show Featured Image"
+msgstr "Hiển thị ảnh đại diện"
+
+#: inc/widgets/wg-post-list.php:127 inc/widgets/wg-view-post-list.php:131
+msgid "Image Alignment"
+msgstr "Căn lề ảnh"
+
+#: inc/widgets/wg-post-list.php:129 inc/widgets/wg-view-post-list.php:133
+msgid "Left"
+msgstr "Trái"
+
+#: inc/widgets/wg-post-list.php:130 inc/widgets/wg-view-post-list.php:134
+msgid "Right"
+msgstr "Phải"
+
+#: inc/widgets/wg-post-list.php:131 inc/widgets/wg-view-post-list.php:135
+msgid "Center"
+msgstr "Chính giữa"
+
+#: inc/widgets/wg-post-list.php:136 inc/widgets/wg-view-post-list.php:140
+msgid "Image Size"
+msgstr "Kích thước ảnh"
+
+#: inc/widgets/wg-post-list.php:147 inc/widgets/wg-view-post-list.php:151
+msgid "Image Height"
+msgstr "Chiều cao ảnh"
+
+#: inc/widgets/wg-post-list.php:152 inc/widgets/wg-view-post-list.php:156
+msgid "Content Type"
+msgstr "Chọn 1 lựa chọn"
+
+#: inc/widgets/wg-post-list.php:154 inc/widgets/wg-view-post-list.php:158
+msgid "Show Content Limit"
+msgstr "Hiển thị nội dung tóm tắt"
+
+#: inc/widgets/wg-post-list.php:155 inc/widgets/wg-view-post-list.php:159
+msgid "No Content"
+msgstr "Không hiển thị"
+
+#: inc/widgets/wg-view-post-list.php:14
+msgid "Uni - Top view posts"
+msgstr "Uni - Danh sách bài viết nhiều lượt xem"
+
+#: inc/widgets/wg-view-post-list.php:16
+msgid "Top list posts by views"
+msgstr "Danh sách bài viết nhiều lượt xem"
+
+#: inc/widgets/wg-view-post-list.php:121
+msgid "Post date"
+msgstr "Ngày đăng bài"
+
+#: inc/woocommerce/function-woo.php:29
+msgid "Best seller"
+msgstr "Bán chạy nhất"
+
+#: inc/woocommerce/function-woo.php:30
+msgid "Rating score"
+msgstr "Điểm đánh giá"
+
+#: inc/woocommerce/function-woo.php:31
+msgid "Low to high price"
+msgstr "Giá thấp đến cao"
+
+#: inc/woocommerce/function-woo.php:32
+msgid "High to low price"
+msgstr "Giá cao đến thấp"
+
+#: inc/woocommerce/function-woo.php:63
+msgid "Full name"
+msgstr "Họ và tên"
+
+#: inc/woocommerce/function-woo.php:85
+msgid "Information"
+msgstr "Thông tin"
+
+#: inc/woocommerce/function-woo.php:86
+msgid "Gallery"
+msgstr "Thư viện ảnh"
+
+#: inc/woocommerce/function-woo.php:87
+msgid "Video"
+msgstr "Video"
+
+#: inc/woocommerce/function-woo.php:88
+msgid "Attachments"
+msgstr "Tệp đính kèm"
+
+#: inc/woocommerce/function-woo.php:105
+msgid "Add to cart"
+msgstr "Thêm vào giỏ"
+
+#: inc/woocommerce/function-woo.php:114
+msgid "Choose quantity"
+msgstr "Chọn số lượng"
+
+#: inc/woocommerce/function-woo.php:129
+msgid "Quick buy"
+msgstr "Mua ngay"
+
+#: inc/woocommerce/function-woo.php:210
+msgid "Discount"
+msgstr "Giảm"
+
+#: inc/woocommerce/function-woo.php:218
+#: template-parts/header/partials/element-contact-mobile.php:47
+#: template-parts/header/partials/element-contact.php:44
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: inc/woocommerce/function-woo.php:284 inc/woocommerce/function-woo.php:285
+msgid "View detail"
+msgstr "Xem chi tiết"
+
+#: inc/woocommerce/function-woo.php:304
+#: template-parts/header/partials/element-cart.php:57
+#, php-format
+msgid "%d product"
+msgstr "%d sản phẩm"
+
+#: inc/woocommerce/function-woo.php:304
+#: template-parts/header/partials/element-cart.php:57
+#, php-format
+msgid "%d products"
+msgstr "%d sản phẩm"
+
+#: inc/woocommerce/function-woo.php:329
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: inc/woocommerce/grid-list-toggle.php:39
+msgid "Grid view"
+msgstr "Hiển thị dạng lưới"
+
+#: inc/woocommerce/grid-list-toggle.php:40
+msgid "List view"
+msgstr "Hiển thị dạng danh sách"
+
+#: template-parts/header/partials/element-cart.php:29
+#: template-parts/header/partials/element-cart.php:50
+#: template-parts/header/partials/element-cart.php:65
+#: template-parts/header/partials/element-cart.php:102
+msgid "Cart"
+msgstr "Giỏ hàng"
+
+#: template-parts/header/partials/element-contact-mobile.php:56
+#: template-parts/header/partials/element-contact.php:61
+msgid "Location"
+msgstr "Vị trí"
+
+#: template-parts/header/partials/element-contact-mobile.php:81
+#: template-parts/header/partials/element-contact.php:92
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: template-parts/header/partials/element-menu-icon.php:13
+#: template-parts/header/partials/element-menu-icon.php:21
+msgid "Menu"
+msgstr "Menu"
+
+#: template-parts/posts/content-single.php:22
+msgid "Share&#58;"
+msgstr "Chia sẻ&#58;"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/posts/content-single.php:31
+#: template-parts/posts/content-single.php:34
+msgid ", "
+msgstr ", "
+
+#: template-parts/posts/content-single.php:39
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Bài này đã được đăng trong %1$s và được gắn thẻ %2$s."
+
+#: template-parts/posts/content-single.php:41
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Bài này đã được đăng trong %1$s. Đánh dấu trang <a href=\"%3$s\" "
+"title=\"Liên kết tới %4$s\" rel=\"bookmark\">liên kết </a> này ."
+
+#: template-parts/posts/partials/archive-title.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag: %s"
+
+#: template-parts/posts/partials/archive-title.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: template-parts/posts/partials/archive-title.php:30
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Lưu trữ tác giả: %s"
+
+#: template-parts/posts/partials/archive-title.php:38
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: template-parts/posts/partials/archive-title.php:41
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#: template-parts/posts/partials/archive-title.php:44
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ hàng năm: %s"
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Asides"
+msgstr "Asides"
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Images"
+msgstr "Các ảnh"
+
+#: template-parts/posts/partials/archive-title.php:53
+msgid "Videos"
+msgstr "Videos"
+
+#: template-parts/posts/partials/archive-title.php:56
+msgid "Quotes"
+msgstr "Quotes"
+
+#: template-parts/posts/partials/archive-title.php:59
+msgid "Links"
+msgstr "Links"
+
+#: woocommerce/cart/cart.php:53 woocommerce/cart/cart.php:108
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: woocommerce/cart/cart.php:55 woocommerce/cart/cart.php:147
+msgid "Quantity"
+msgstr "Số lượng"
+
+#: woocommerce/cart/cart.php:56 woocommerce/cart/cart.php:173
+msgid "Subtotal"
+msgstr "Tổng phụ"
+
+#. translators: %s is the product name
+#: woocommerce/cart/cart.php:87
+#, php-format
+msgid "Remove %s from cart"
+msgstr "Xóa %s khỏi giỏ hàng"
+
+#: woocommerce/cart/cart.php:128
+msgid "Available on backorder"
+msgstr "Có sẵn khi đặt hàng trước"
+
+#: woocommerce/cart/cart.php:191
+msgid "Update cart"
+msgstr "Cập nhật giỏ hàng"
+
+#: woocommerce/cart/cart.php:223
+msgid "Coupon"
+msgstr "Phiếu mua hàng"
+
+#: woocommerce/cart/cart.php:223
+msgid "Coupon:"
+msgstr "Phiếu mua hàng:"
+
+#: woocommerce/cart/cart.php:223
+msgid "Coupon code"
+msgstr "Mã giảm giá"
+
+#: woocommerce/cart/cart.php:223
+msgid "Apply coupon"
+msgstr "Áp dụng phiếu giảm giá"
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"Rất tiếc, đơn đặt hàng của bạn không thể được xử lý vì ngân hàng/người bán "
+"ban đầu đã từ chối giao dịch của bạn. Vui lòng thử lại việc mua hàng của bạn."
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr "Thanh toán"
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My account"
+msgstr "Tài khoản của bạn"
+
+#: woocommerce/checkout/thankyou.php:60 woocommerce/checkout/thankyou.php:118
+msgid "Thank you. Your order has been received."
+msgstr "Cảm ơn. Đơn đặt hàng của bạn đã được nhận."
+
+#: woocommerce/checkout/thankyou.php:67
+msgid "Order number:"
+msgstr "Số đơn hàng:"
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Date:"
+msgstr "Ngày tháng:"
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Email:"
+msgstr "Email:"
+
+#: woocommerce/checkout/thankyou.php:84
+msgid "Total:"
+msgstr "Tổng cộng:"
+
+#: woocommerce/checkout/thankyou.php:90
+msgid "Payment method:"
+msgstr "Phương thức thanh toán:"
+
+#: woocommerce/loop/filter-button.php:22
+msgid "Filter"
+msgstr "Lọc"
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr "Shop order"
+
+#: woocommerce/myaccount/form-login.php:37
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:117
+msgid "Register"
+msgstr "Đăng ký"
+
+#: woocommerce/myaccount/form-login.php:53
+msgid "Username or email address"
+msgstr "Tên đăng nhập hoặc địa chỉ email"
+
+#: woocommerce/myaccount/form-login.php:57
+#: woocommerce/myaccount/form-login.php:103
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: woocommerce/myaccount/form-login.php:68
+msgid "Remember me"
+msgstr "Ghi nhớ tôi"
+
+#: woocommerce/myaccount/form-login.php:70
+msgid "Lost your password?"
+msgstr "Quên mật khẩu?"
+
+#: woocommerce/myaccount/form-login.php:89
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+#: woocommerce/myaccount/form-login.php:109
+msgid "A password will be sent to your email address."
+msgstr "Một mật khẩu sẽ được gửi đến địa chỉ email của bạn."
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Review for"
+msgstr "Đánh giá cho"
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Average Rating Score"
+msgstr "Điểm Đánh Giá Trung Bình"
+
+#: woocommerce/single-product-reviews.php:84
+msgid "There are no reviews yet"
+msgstr "Hiện tại không có đánh giá nào"
+
+#: woocommerce/single-product-reviews.php:86
+msgid "review"
+msgstr "đánh giá"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "reviews"
+msgstr "đánh giá"
+
+#: woocommerce/single-product-reviews.php:121
+msgid "Have you used this product?"
+msgstr "Bạn đã dùng sản phẩm này?"
+
+#: woocommerce/single-product-reviews.php:122
+msgid "Submit your review"
+msgstr "Gửi đánh giá của bạn"
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:140
+msgid "Add a review"
+msgstr "Thêm một bài đánh giá"
+
+#: woocommerce/single-product-reviews.php:140
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Hãy là người đầu tiên đánh giá &ldquo;%s&rdquo;"
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:142
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Để lại một trả lời cho %s"
+
+#: woocommerce/single-product-reviews.php:147
+msgid "Submit"
+msgstr "Gửi đi"
+
+#: woocommerce/single-product-reviews.php:155
+msgid "Name"
+msgstr "Tên"
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:186
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "Bạn phải %1$s đăng nhập %2$s để đăng bài đánh giá."
+
+#: woocommerce/single-product-reviews.php:190
+msgid "Your rating"
+msgstr "Đánh giá của bạn"
+
+#: woocommerce/single-product-reviews.php:194
+#: woocommerce/single-product-reviews.php:219
+msgid "Very poor"
+msgstr "Rất tồi"
+
+#: woocommerce/single-product-reviews.php:198
+#: woocommerce/single-product-reviews.php:218
+msgid "Not that bad"
+msgstr "Không tệ lắm"
+
+#: woocommerce/single-product-reviews.php:202
+#: woocommerce/single-product-reviews.php:217
+msgid "Average"
+msgstr "Trung bình"
+
+#: woocommerce/single-product-reviews.php:206
+#: woocommerce/single-product-reviews.php:216
+msgid "Good"
+msgstr "Rất tốt"
+
+#: woocommerce/single-product-reviews.php:210
+#: woocommerce/single-product-reviews.php:215
+msgid "Perfect"
+msgstr "Hoàn hảo"
+
+#: woocommerce/single-product-reviews.php:214
+msgid "Rate&hellip;"
+msgstr "Tỷ lệ&hellip;"
+
+#: woocommerce/single-product-reviews.php:222
+msgid "Your review"
+msgstr "Đánh giá của bạn"
+
+#: woocommerce/single-product-reviews.php:234
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Chỉ những khách hàng đã đăng nhập đã mua sản phẩm này mới có thể để lại đánh "
+"giá."
+
+#: woocommerce/single-product-reviews.php:268
+msgid "There are no reviews yet."
+msgstr "Hiện tại không có đánh giá nào."
+
+#: woocommerce/single-product/related.php:47
+msgid "Related products"
+msgstr "Sản phẩm tương tự"
+
+#. Theme Name of the plugin/theme
+msgid "Flatsome Child"
+msgstr "Flatsome Child"
+
+#. Theme URI of the plugin/theme
+msgid "univn.vn"
+msgstr "univn.vn"
+
+#. Description of the plugin/theme
+msgid "This is a child theme for Flatsome Theme"
+msgstr "Đây là một chủ đề con cho Flatsome Theme"
+
+#. Author of the plugin/theme
+msgid "Quang Hoa"
+msgstr "Quang Hoa"
+
+#. Author URI of the plugin/theme
+msgid "hoanqhd@gmail.com"
+msgstr "hoanqhd@gmail.com"
+
+#. Template Name of the plugin/theme
+msgid "Page - Right Sidebar"
+msgstr "Page - Right Sidebar"
+
+#. Template Name of the plugin/theme
+msgid "WooCommerce - My Account"
+msgstr "WooCommerce - My Account"
+
+#. Template Name of the plugin/theme
+msgid "Page - Left Sidebar"
+msgstr "Page - Left Sidebar"
+
+#~ msgid "Permisson"
+#~ msgstr "Permisson"
+
+#~ msgid "Uni - Facebook Like Box"
+#~ msgstr "Uni - Facebook Like Box"
+
+#~ msgid "Display like box fanpage Facebook"
+#~ msgstr "Hiển thị Like Box Facebook"
+
+#~ msgid "Like Facebook"
+#~ msgstr "Like Facebook"
+
+#~ msgid "Uni - Support"
+#~ msgstr "Uni - Hỗ trợ trực tuyến"
+
+#~ msgid "Display list support for website"
+#~ msgstr "Hiển thị danh sách hỗ trợ trực tuyến"
+
+#~ msgid "Support Online"
+#~ msgstr "Hỗ trợ trực tuyến"
+
+#~ msgid "Number supporter"
+#~ msgstr "Số hỗ trợ trực tuyến"
+
+#~ msgid "Appearance"
+#~ msgstr "Giao diện"
+
+#~ msgid "Save change"
+#~ msgstr "Lưu thay đổi"
+
+#~ msgid "Phone"
+#~ msgstr "Số điện thoại"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Zalo"
+#~ msgstr "Zalo"
+
+#~ msgid "Viber"
+#~ msgstr "Viber"
+
+#, php-format
+#~ msgid "Shipping to %s."
+#~ msgstr "Giao hàng tới %s"
+
+#~ msgid "Change address"
+#~ msgstr "Thay đổi địa chỉ"
+
+#~ msgid "Shipping options will be updated during checkout."
+#~ msgstr "Tùy chọn vận chuyển sẽ được cập nhật trong quá trình thanh toán."
+
+#~ msgid "Shipping costs are calculated during checkout."
+#~ msgstr "Chi phí vận chuyển được tính toán trong quá trình thanh toán."
+
+#~ msgid "Enter your address to view shipping options."
+#~ msgstr "Nhập địa chỉ của bạn để xem các tùy chọn vận chuyển."
+
+#~ msgid ""
+#~ "There are no shipping options available. Please ensure that your address "
+#~ "has been entered correctly, or contact us if you need any help."
+#~ msgstr ""
+#~ "Không có tùy chọn vận chuyển có sẵn. Hãy đảm bảo rằng địa chỉ của bạn đã "
+#~ "được nhập chính xác hoặc liên hệ với chúng tôi nếu bạn cần bất kỳ trợ "
+#~ "giúp nào."
+
+#, php-format
+#~ msgid "No shipping options were found for %s."
+#~ msgstr "Không tìm thấy tùy chọn vận chuyển nào cho %s."
+
+#~ msgid "Enter a different address"
+#~ msgstr "Nhập một địa chỉ khác"
+
+#~ msgid "Continue Shopping"
+#~ msgstr "Tiếp tục mua hàng"
+
+#~ msgid "Remove this item"
+#~ msgstr "Xóa sản phẩm này"
+
+#~ msgid "Search for keyword"
+#~ msgstr "Tìm kiếm cho từ khóa"
+
+#~ msgid "404 Not Found"
+#~ msgstr "404 - Trang không tồn tại"
+
+#~ msgid "Products"
+#~ msgstr "Sản phẩm"
+
+#~ msgid "Uni - Featured Page"
+#~ msgstr "Uni - Trang"
+
+#~ msgid "Display featured page"
+#~ msgstr "Hiển thị một trang bất kỳ"
+
+#~ msgid "Page"
+#~ msgstr "Trang"
+
+#~ msgid "None"
+#~ msgstr "Không"
+
+#~ msgid "Show Page Title"
+#~ msgstr "Hiển thị tiêu đề trang"
+
+#~ msgid "Show Page Content"
+#~ msgstr "Hiển thị nội dung trang"
+
+#~ msgid "Content Character Limit"
+#~ msgstr "Số ký tự tối đa"
+
+#~ msgid "More Text"
+#~ msgstr "Ký tự thêm"
+
+#~ msgid "Uni - Products Slider"
+#~ msgstr "Uni - Slider sản phẩm"
+
+#~ msgid "Display slide list product"
+#~ msgstr "Hiển thị 1 slider sản phẩm"
+
+#~ msgid "Select type slider"
+#~ msgstr "Chọn kiểu slide"
+
+#~ msgid "Vertical Slider"
+#~ msgstr "Slider chạy dọc"
+
+#~ msgid "Horizontal Slider"
+#~ msgstr "Slider chạy ngang"
+
+#~ msgid "Enter the product number in the view"
+#~ msgstr "Nhập số sản phẩm trong khung nhìn"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Information contact"
+#~ msgstr "Thông tin liên hệ"
+
+#~ msgid "Show Content"
+#~ msgstr "Hiển thị nội dung đầy đủ"
+
+#~ msgid "Show Excerpt"
+#~ msgstr "Hiển thị tóm tắt"
+
+#~ msgid "Limit content to"
+#~ msgstr "Số ký tự tối đa"
+
+#~ msgid "character"
+#~ msgstr "ký tự"
+
+#~ msgid "Uni - Social"
+#~ msgstr "Uni - Mạng xã hội"
+
+#~ msgid "Display information social"
+#~ msgstr "Hiển thị thông tin mạng xã hội"
+
+#~ msgid ""
+#~ "<p>This widget content is displayed from <strong>Theme Options -> Social</"
+#~ "strong></p>"
+#~ msgstr ""
+#~ "<p>Nội dung widget này được hiển thị từ mục <strong>Theme Options -> "
+#~ "Social</strong></p>"
+
+#~ msgid "Category:"
+#~ msgid_plural "Categories:"
+#~ msgstr[0] "Danh mục:"
+
+#~ msgid "Tag:"
+#~ msgid_plural "Tags:"
+#~ msgstr[0] "Tag:"
+
+#~ msgid "Close"
+#~ msgstr "Đóng"
+
+#~ msgid "Uni Title News"
+#~ msgstr "Uni Title News"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Không tìm thấy trang này."
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "Có vẻ như không có gì được tìm thấy tại vị trí này. Có thể thử một trong "
+#~ "các liên kết dưới đây hoặc tìm kiếm?"
+
+#~ msgid "The content is being updated"
+#~ msgstr "Nội dung đang cập nhật"
+
+#~ msgctxt ""
+#~ msgid "1 comment"
+#~ msgid_plural "%1$s comment"
+#~ msgstr[0] "%1$s bình luận"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Bình luận đã được đóng lại."
+
+#~ msgid "&larr; previous"
+#~ msgstr "&larr; trước đó"
+
+#~ msgid "Next &rarr;"
+#~ msgstr "Tiếp theo &rarr;"
+
+#~ msgid "Your comment"
+#~ msgstr "Bình luận của bạn"
+
+#~ msgid "to comment."
+#~ msgstr "để bình luận."
+
+#~ msgid "Comment with the name:"
+#~ msgstr "Bình luận với tên:"
+
+#~ msgid "Send"
+#~ msgstr "Gửi"
+
+#~ msgid "Top Header"
+#~ msgstr "Top Header"
+
+#~ msgid "Top Header widget area"
+#~ msgstr "Top Header widget area"
+
+#~ msgid "Footer %d"
+#~ msgstr "Footer %d"
+
+#~ msgid "Footer %d widget area"
+#~ msgstr "Footer %d widget area"
+
+#~ msgid "Call now"
+#~ msgstr "Gọi ngay"
+
+#~ msgid "Theme Options"
+#~ msgstr "Theme Options"
+
+#~ msgid "General Settings"
+#~ msgstr "Cài đặt chung"
+
+#~ msgid "Select layout website"
+#~ msgstr "Chọn kiểu giao diện cho website"
+
+#~ msgid "Full Width Layout"
+#~ msgstr "Giao diện tràn màn hình"
+
+#~ msgid "Boxed Layout"
+#~ msgstr "Giao diện trong khung"
+
+#~ msgid "Main Appearance"
+#~ msgstr "Giao diện chính"
+
+#~ msgid "Logo, Favicon"
+#~ msgstr "Logo, Favicon"
+
+#~ msgid "Logo Image"
+#~ msgstr "Ảnh logo"
+
+#~ msgid "Favicon Image"
+#~ msgstr "Ảnh favicon"
+
+#~ msgid "Website Functions"
+#~ msgstr "Chức năng website"
+
+#~ msgid "Plugin Chat"
+#~ msgstr "Plugin Chat"
+
+#~ msgid "Enter telephone number"
+#~ msgstr "Nhập số điện thoại"
+
+#~ msgid "Phone Ring Style"
+#~ msgstr "Kiểu giao diện điện thoại rung"
+
+#~ msgid "Phone Ring Color"
+#~ msgstr "Màu sắc điện thoại rung"
+
+#~ msgid "Enter zalo number"
+#~ msgstr "Nhập số Zalo"
+
+#~ msgid "Header"
+#~ msgstr "Header"
+
+#~ msgid "Header Layout"
+#~ msgstr "Chọn giao diện Header"
+
+#~ msgid "Enable Page Title Bar"
+#~ msgstr "Bật Page Title Bar"
+
+#~ msgid "Enable"
+#~ msgstr "Bật"
+
+#~ msgid "Disable"
+#~ msgstr "Tắt"
+
+#~ msgid "Enable Top Header Widget"
+#~ msgstr "Bật Top Header Widget"
+
+#~ msgid "Footer"
+#~ msgstr "Footer"
+
+#~ msgid "Enter number column footer"
+#~ msgstr "Nhập số cột Footer"
+
+#~ msgid "Copyright"
+#~ msgstr "Copyright"
+
+#~ msgid "Slider"
+#~ msgstr "Slider ảnh"
+
+#~ msgid "Gallery Slide"
+#~ msgstr "Thư viện ảnh"
+
+#~ msgid "Photo list"
+#~ msgstr "Danh sách ảnh"
+
+#~ msgid "Slider autoplay"
+#~ msgstr "Tự động chạy"
+
+#~ msgid "Slider interval"
+#~ msgstr "Thời gian chuyển slide"
+
+#~ msgid "Slider hover pause"
+#~ msgstr "Dừng slider khi hover chuột"
+
+#~ msgid "Slider animate"
+#~ msgstr "Hiệu ứng slider"
+
+#~ msgid "Home Page"
+#~ msgstr "Trang chủ"
+
+#~ msgid "News"
+#~ msgstr "Tin tức"
+
+#~ msgid "Blog Layout"
+#~ msgstr "Chọn giao diện Blog"
+
+#~ msgid "Enter number product"
+#~ msgstr "Nhập số sản phẩm"
+
+#~ msgid "Enter number product per row"
+#~ msgstr "Nhập số sản phẩm mỗi hàng"
+
+#~ msgid "Post"
+#~ msgstr "Bài viết"
+
+#~ msgid "Single post"
+#~ msgstr "Chi tiết bài viết"
+
+#~ msgid "Setting General"
+#~ msgstr "Cài đặt chung"
+
+#~ msgid "Display time and view post"
+#~ msgstr "Hiển thị ngày đăng và số lượt xem bài viết"
+
+#~ msgid "Display buttons share social"
+#~ msgstr "Hiển thị nút chia sẻ mạng xã hội"
+
+#~ msgid "Display post navigation"
+#~ msgstr "Hiển thị thanh điều hướng bài viết"
+
+#~ msgid "Display related post"
+#~ msgstr "Hiển thị bài viết liên quan"
+
+#~ msgid "Category post"
+#~ msgstr "Danh mục bài viết"
+
+#~ msgid "Display hierarchy category"
+#~ msgstr "Hiển thị phân cấp danh mục"
+
+#~ msgid "Main Settings"
+#~ msgstr "Cài đặt chung"
+
+#~ msgid "Enable Hover Flip Image Of Product"
+#~ msgstr "Bật chức năng hover lật ảnh sản phẩm"
+
+#~ msgid "Tooltip"
+#~ msgstr "Tooltip"
+
+#~ msgid "Category Product"
+#~ msgstr "Danh mục sản phẩm"
+
+#~ msgid "Enter number product per page"
+#~ msgstr "Nhập số sản phẩm mỗi trang"
+
+#~ msgid "Display attributes product"
+#~ msgstr "Hiển thị thuộc tính sản phẩm"
+
+#~ msgid "Gallery Product"
+#~ msgstr "Thư viện ảnh sản phẩm"
+
+#~ msgid "Choose style of slider gallery product"
+#~ msgstr "Chọn kiểu slider sản phẩm"
+
+#~ msgid "Horizontal"
+#~ msgstr "Ngang"
+
+#~ msgid "Vertical"
+#~ msgstr "Dọc"
+
+#~ msgid "Enter the number of product images in the view"
+#~ msgstr "Nhập số ảnh của thư viện ảnh trong khung nhìn"
+
+#~ msgid "Enable Zoom"
+#~ msgstr "Bật chức năng soi ảnh"
+
+#~ msgid "Enable Lightbox"
+#~ msgstr "Bật chức năng phóng ảnh"
+
+#~ msgid "Enable autoplay for gallery"
+#~ msgstr "Bật tự động chạy cho thư viện ảnh"
+
+#~ msgid "Related Product"
+#~ msgstr "Sản phẩm liên quan"
+
+#~ msgid "Display related products"
+#~ msgstr "Hiển thị sản phẩm liên quan"
+
+#~ msgid "Enter number related product"
+#~ msgstr "Nhập số sản phẩm liên quan"
+
+#~ msgid "Social"
+#~ msgstr "Mạng xã hội"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Linkedin"
+#~ msgstr "Linkedin"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Telephone number"
+#~ msgstr "Số điện thoại"
+
+#~ msgid "Google Maps"
+#~ msgstr "Google Maps"
+
+#~ msgid "Insert code"
+#~ msgstr "Nhúng code"
+
+#~ msgid "Insert code to header"
+#~ msgstr "Chèn code vào Header"
+
+#~ msgid "Insert code to footer"
+#~ msgstr "Chèn code vào Footer"
+
+#~ msgid "Uni Developer"
+#~ msgstr "Uni Developer"
+
+#~ msgid "User Functions"
+#~ msgstr "Chức năng người dùng"
+
+#~ msgid "Restrict user"
+#~ msgstr "Hạn chế chức năng người dùng"
+
+#~ msgid "Restrict user in admin page"
+#~ msgstr "Hạn chế chức năng của người dùng trong trang quản trị"
+
+#~ msgid "Hidden information"
+#~ msgstr "Ẩn thông tin"
+
+#~ msgid "Hidden information dashboard & login page"
+#~ msgstr ""
+#~ "Ẩn thông tin ở bảng điều khiển trong trang quản trị và trang đăng nhập"
+
+#~ msgid "SMTP Setup"
+#~ msgstr "Cài đặt SMTP"
+
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "SMTP Host"
+#~ msgstr "SMTP Host"
+
+#~ msgid "Ex: smtp.gmail.com"
+#~ msgstr "Ví dụ: smtp.gmail.com"
+
+#~ msgid "SMTP Port"
+#~ msgstr "Cổng SMTP"
+
+#~ msgid "Port 587 / 465 / 25"
+#~ msgstr "Cổng 587 / 465 / 25"
+
+#~ msgid "Type of Encryption"
+#~ msgstr "Loại mã hóa"
+
+#~ msgid "Type: TLS / SSL"
+#~ msgstr "Định dạng: TLS / SSL"
+
+#~ msgid "From Name"
+#~ msgstr "From Name"
+
+#~ msgid "Section via hook"
+#~ msgstr "Section via hook"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is a section created by adding a filter to "
+#~ "the sections array. Can be used by child themes to add/remove sections "
+#~ "from the options.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\">Đây là một phần được tạo ra bằng cách thêm một "
+#~ "bộ lọc vào mảng các phần. Có thể được sử dụng bởi các chủ đề con để "
+#~ "thêm / gỡ bỏ các phần từ các tùy chọn.</p>"
+
+#~ msgid "Unauthorized access is denied!"
+#~ msgstr "Truy cập bị từ chối!"
+
+#~ msgid "Edit"
+#~ msgstr "Chỉnh sửa"
+
+#~ msgid "The field is required."
+#~ msgstr "Trường thông tin bắt buộc."
+
+#~ msgid "MENU"
+#~ msgstr "MENU"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Cài đặt các gói mở rộng bắt buộc"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Cài đặt gói mở rộng"
+
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "Cài đặt gói mở rộng: %s"
+
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "Cập nhật gói mở rộng: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Có lỗi nào đó xảy ra với API mở rộng."
+
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "Theme này yêu cầu bắt buộc các plugin sau: %1$s."
+
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "Chủ đề này đề xuất những plugin sau: %1$s."
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "Plugin sau cần phải được cập nhật lên phiên bản mới nhất của nó để đảm "
+#~ "bảo khả năng tương thích tối đa với chủ đề này: %1$s."
+
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "Có sẵn bản cập nhật cho: %1$s."
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "Plugin yêu cầu sau đây hiện không hoạt động: %1$s."
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "Plugin được đề xuất sau đây hiện không hoạt động: %1$s."
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "Bắt đầu cài đặt gói mở rộng"
+
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "Bắt đầu cập nhật gói mở rộng"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "Bắt đầu kích hoạt gói mở rộng"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "Trở lại trang Các gói mở rộng cần cài đặt"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "Trở lại trang Dashboard"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Gói mở rộng kích hoạt thành công."
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "Các gói mở rộng sau đã được kích hoạt thành công:"
+
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "Không có hành động. Gói mở rộng %1$s đã hoạt động."
+
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "Gói mở rộng không kích hoạt. Một phiên bản cao hơn của %s là cần thiết "
+#~ "cho chủ đề này. Hãy cập nhật gói mở rộng."
+
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "Tất cả gói mở rộng đã được cài đặt và kích hoạt thành công. %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "Ẩn thông báo này"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "Có một hoặc nhiều plugin được yêu cầu hoặc được yêu cầu để cài đặt, cập "
+#~ "nhật hoặc kích hoạt."
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr ""
+#~ "Vui lòng liên hệ với quản trị viên của trang web này để được giúp đỡ."
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr "Gói mở rộng này cần được cập nhật để tương thích với theme của bạn."
+
+#~ msgid "Update Required"
+#~ msgstr "Cập nhật bắt buộc"
+
+#~ msgid "Set the parent_slug config variable instead."
+#~ msgstr "Đặt biến cấu hình parent_slug thay thế."
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr ""
+#~ "Gói plugin từ xa không chứa thư mục có slug mong muốn và đổi tên không "
+#~ "hoạt động."
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "Vui lòng liên hệ với nhà cung cấp gói mở rộng và yêu cầu họ đóng gói gói "
+#~ "mở rộng của họ theo hướng dẫn của WordPress."
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "Gói mở rộng từ xa bao gồm nhiều tệp, nhưng các tệp không được đóng gói "
+#~ "trong một thư mục."
+
+#~ msgctxt "plugin A *and* plugin B"
+#~ msgid "and"
+#~ msgstr "và"
+
+#~ msgid "TGMPA v%s"
+#~ msgstr "TGMPA v%s"
+
+#~ msgid "Required"
+#~ msgstr "Bắt buộc"
+
+#~ msgid "Recommended"
+#~ msgstr "Đề nghị"
+
+#~ msgid "WordPress Repository"
+#~ msgstr "Kho WordPress"
+
+#~ msgid "External Source"
+#~ msgstr "Nguồn ngoài"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "Gói có sẵn"
+
+#~ msgid "Not Installed"
+#~ msgstr "Đang chưa được cài đặt"
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "Đã cài đặt nhưng chưa được kích hoạt"
+
+#~ msgid "Active"
+#~ msgstr "Kích hoạt"
+
+#~ msgid "Required Update not Available"
+#~ msgstr "Cập nhật bắt buộc không khả dụng"
+
+#~ msgid "Requires Update"
+#~ msgstr "Cập nhật bắt buộc"
+
+#~ msgid "Update recommended"
+#~ msgstr "Cập nhật khuyến nghị"
+
+#~ msgctxt "Install/Update Status"
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s, %2$s"
+
+#~ msgctxt "plugins"
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgid_plural "All <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Tất cả <span class=\"count\">(%s)</span>"
+
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Tới cài đặt <span class=\"count\">(%s)</span>"
+
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Cập nhật có sẵn <span class=\"count\">(%s)</span>"
+
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Tới kích hoạt <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "as in: \"version nr unknown\""
+#~ msgid "unknown"
+#~ msgstr "không rõ"
+
+#~ msgid "Installed version:"
+#~ msgstr "Phiên bản đã được kích hoạt:"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "Phiên bản bắt buộc tối thiểu:"
+
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "Không có plugin để cài đặt, cập nhật hoặc kích hoạt."
+
+#~ msgid "Plugin"
+#~ msgstr "Gói mở rộng"
+
+#~ msgid "Source"
+#~ msgstr "Nguồn"
+
+#~ msgid "Type"
+#~ msgstr "Loại"
+
+#~ msgid "Version"
+#~ msgstr "Phiên bản"
+
+#~ msgid "Status"
+#~ msgstr "Trạng thái"
+
+#~ msgid "Install %2$s"
+#~ msgstr "Cài đặt %2$s"
+
+#~ msgid "Update %2$s"
+#~ msgstr "Cập nhật %2$s"
+
+#~ msgid "Activate %2$s"
+#~ msgstr "Kích hoạt %2$s"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "Nâng cấp thông báo từ tác giả plugin:"
+
+#~ msgid "Install"
+#~ msgstr "Cài đặt"
+
+#~ msgid "Activate"
+#~ msgstr "Kích hoạt"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr "Không có plugin nào được chọn để cài đặt. Không có hành động."
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr "Không có plugin nào được chọn để cập nhật. Không có hành động."
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "Không có plugin nào sẵn có để được cài đặt tại thời điểm này."
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "Không có plugin nào sẵn có để được cập nhật tại thời điểm này."
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr "Không có plugin nào được chọn để kích hoạt. Không có hành động."
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "Không có trình cắm nào có sẵn để được kích hoạt tại thời điểm này."
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "Kích hoạt plugin không thành công."
+
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Đang cập nhật Plugin %1$s (%2$d/%3$d)"
+
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "Đã xảy ra lỗi khi cài đặt %1$s: <strong>%2$s</strong>."
+
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "Không thể cài đặt %1$s."
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "Quá trình cài đặt và kích hoạt đang bắt đầu. Quá trình này có thể mất một "
+#~ "thời gian đối với một số máy chủ, vì vậy hãy kiên nhẫn."
+
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s đã cài đặt và kích hoạt thành công."
+
+#~ msgid "Hide Details"
+#~ msgstr "Ẩn thông tin chi tiết"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "Tất cả các cài đặt và kích hoạt đã hoàn thành."
+
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Cài đặt và kích hoạt gói mở rộng %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "Quá trình cài đặt đang bắt đầu. Quá trình này có thể mất một thời gian "
+#~ "đối với một số máy chủ, vì vậy hãy kiên nhẫn."
+
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s cài đặt thành công."
+
+#~ msgid "All installations have been completed."
+#~ msgstr "Tất cả cài đặt đã hoàn thành."
+
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Cài đặt gói mở rộng %1$s (%2$d/%3$d)"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Author"
+#~ msgstr "Tác giả"
+
+#~ msgid "Modified"
+#~ msgstr "Modified"
+
+#~ msgid "Random"
+#~ msgstr "Ngẫu nhiên"
+
+#~ msgid "Comment count"
+#~ msgstr "Số lượt bình luận"
+
+#~ msgid "Menu order"
+#~ msgstr "Thứ tự"
+
+#~ msgid "Descending"
+#~ msgstr "Giảm dần"
+
+#~ msgid "Ascending"
+#~ msgstr "Tăng dần"
+
+#~ msgid "Extra class name"
+#~ msgstr "Thêm class"
+
+#~ msgid ""
+#~ "If you wish to style particular content element differently, then use "
+#~ "this field to add a class name and then refer to it in your css file."
+#~ msgstr ""
+#~ "Nếu bạn muốn tạo kiểu phần tử nội dung cụ thể khác nhau, hãy sử dụng "
+#~ "trường này để thêm tên class và sau đó tham chiếu đến nó trong tệp css "
+#~ "của bạn."
+
+#~ msgid "Choose a category"
+#~ msgstr "Chọn một chuyên mục"
+
+#~ msgid "Static Block"
+#~ msgstr "Block"
+
+#~ msgid "Add New %s"
+#~ msgstr "Thêm mới %s"
+
+#~ msgid "Edit %s"
+#~ msgstr "Chỉnh sửa %s"
+
+#~ msgid "New %s"
+#~ msgstr "%s mới"
+
+#~ msgid "View %s"
+#~ msgstr "Xem %s"
+
+#~ msgid "Search %s"
+#~ msgstr "Tìm kiếm %s"
+
+#~ msgid "No %s found"
+#~ msgstr "Không tìm thấy %s"
+
+#~ msgid "No %s found in Trash"
+#~ msgstr "Không tìm thấy %s trong thùng rác"
+
+#~ msgid "Show multiple posts in a category"
+#~ msgstr "Hiển thị các bài viết trong chuyên mục"
+
+#~ msgid "Advanced Element"
+#~ msgstr "Advanced Element"
+
+#~ msgid "Posts Count"
+#~ msgstr "Số lượng bài viết muốn lấy"
+
+#~ msgid "Select how to sort retrieved products_category. More at %s."
+#~ msgstr "Select how to sort retrieved products_category. More at %s."
+
+#~ msgid "Order way"
+#~ msgstr "Kiểu sắp xếp"
+
+#~ msgid "Designates the ascending or descending order. More at %s."
+#~ msgstr "Designates the ascending or descending order. More at %s."
+
+#~ msgid "CSS box"
+#~ msgstr "CSS box"
+
+#~ msgid "Design Options"
+#~ msgstr "Design Options"
+
+#~ msgid "Blog Slider"
+#~ msgstr "Blog Slider"
+
+#~ msgid "Show posts slider in a category"
+#~ msgstr "Hiển thị slide bài viết trong chuyên mục"
+
+#~ msgid "Number Column on Extra large screen (>= 1200px)"
+#~ msgstr "Số cột trên màn hình thiết bị (> 1200px)"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Number Column on Large screen (992px - 1199px)"
+#~ msgstr "Số cột trên màn hình thiết bị (992px - 1199px)"
+
+#~ msgid "Number Column on Medium screen (769px - 991px)"
+#~ msgstr "Số cột trên màn hình thiết bị (769px - 991px)"
+
+#~ msgid "Number Column on Small screen (577px - 767px)"
+#~ msgstr "Số cột trên màn hình thiết bị (577px - 767px)"
+
+#~ msgid "Number Column on Extra small screen (< 576px)"
+#~ msgstr "Số cột trên màn hình thiết bị (< 576px)"
+
+#~ msgid "Image size"
+#~ msgstr "Kích thước ảnh"
+
+#~ msgid ""
+#~ "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" "
+#~ "or other sizes defined by theme). Alternatively enter size in pixels "
+#~ "(Example: 200x100 (Width x Height))."
+#~ msgstr ""
+#~ "Nhập kích thước ảnh (Ví dụ: \"thumbnail\", \"medium\", \"large\", "
+#~ "\"full\" hoặc kích thước khác)"
+
+#~ msgid "Yes"
+#~ msgstr "Có"
+
+#~ msgid "Show content limit"
+#~ msgstr "Hiển thị nội dung tóm tắt"
+
+#~ msgid "Number character limit"
+#~ msgstr "Số ký tự tối đa"
+
+#~ msgid "View more text"
+#~ msgstr "Chữ nút xem thêm"
+
+#~ msgid "Dots Navigation"
+#~ msgstr "Dots Navigation"
+
+#~ msgid "No"
+#~ msgstr "Không"
+
+#~ msgid "Arrows Navigation"
+#~ msgstr "Arrows Navigation"
+
+#~ msgid "Carousel Images"
+#~ msgstr "Slide ảnh"
+
+#~ msgid "Show one carousel images"
+#~ msgstr "Hiển thị một slide ảnh"
+
+#~ msgid "Select images from media library."
+#~ msgstr "Chọn hình ảnh từ thư viện phương tiện."
+
+#~ msgid "On click action"
+#~ msgstr "Hành động khi click"
+
+#~ msgid "Lightbox"
+#~ msgstr "Phóng ảnh Lightbox"
+
+#~ msgid "Open in new tab"
+#~ msgstr "Mở trong 1 tab mới"
+
+#~ msgid "Custom links"
+#~ msgstr "Link tùy chỉnh"
+
+#~ msgid ""
+#~ "Enter links for each slide (Note: divide links with linebreaks (Enter))."
+#~ msgstr ""
+#~ "Nhập liên kết cho mỗi ảnh slide (Lưu ý: chia liên kết với ngắt dòng "
+#~ "(Enter))."
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "Infobox"
+#~ msgstr "Box thông tin"
+
+#~ msgid "Show infobox width heading, image and content"
+#~ msgstr "Hiển thị một box thông tin gồm tiêu đề, ảnh và nội dung"
+
+#~ msgid "Box Style"
+#~ msgstr "Box Style"
+
+#~ msgid "Icon at Left with heading"
+#~ msgstr "Icon ở bên trái cùng tiêu đề"
+
+#~ msgid "Icon at Right with heading"
+#~ msgstr "Icon ở bên phải cùng tiêu đề"
+
+#~ msgid "Icon at Left"
+#~ msgstr "Icon ở bên trái"
+
+#~ msgid "Icon at Right"
+#~ msgstr "Icon ở bên phải"
+
+#~ msgid "Icon at Top"
+#~ msgstr "Icon ở trên cùng"
+
+#~ msgid ""
+#~ "Select icon position. Icon box style will be changed according to the "
+#~ "icon position."
+#~ msgstr ""
+#~ "Chọn vị trí biểu tượng. Kiểu box thông tin sẽ được thay đổi theo vị trí "
+#~ "biểu tượng."
+
+#~ msgid "Upload Image Icon:"
+#~ msgstr "Tải ảnh icon:"
+
+#~ msgid "Upload the custom image icon."
+#~ msgstr "Tài lên một ảnh tùy ý."
+
+#~ msgid "Image Width (px)"
+#~ msgstr "Chiều rộng ảnh (px)"
+
+#~ msgid "Provide image width (px)"
+#~ msgstr "Nhập chiều rộng ảnh (px)"
+
+#~ msgid "Provide the title for this icon box."
+#~ msgstr "Nhập tiêu đề cho box thông tin."
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "H1"
+#~ msgstr "H1"
+
+#~ msgid "H2"
+#~ msgstr "H2"
+
+#~ msgid "H4"
+#~ msgstr "H4"
+
+#~ msgid "H5"
+#~ msgstr "H5"
+
+#~ msgid "H6"
+#~ msgstr "H6"
+
+#~ msgid "Div"
+#~ msgstr "Div"
+
+#~ msgid "p"
+#~ msgstr "p"
+
+#~ msgid "span"
+#~ msgstr "span"
+
+#~ msgid "Default is H3"
+#~ msgstr "Mặc định là H3"
+
+#~ msgid "Provide the description for this icon box."
+#~ msgstr "Nhập nội dung cho box thông tin."
+
+#~ msgid "Apply link to:"
+#~ msgstr "Đặt link tới:"
+
+#~ msgid "Complete Box"
+#~ msgstr "Complete Box"
+
+#~ msgid "Box Title"
+#~ msgstr "Box Title"
+
+#~ msgid "Display Read More"
+#~ msgstr "Display Read More"
+
+#~ msgid "Select whether to use color for icon or not."
+#~ msgstr "Select whether to use color for icon or not."
+
+#~ msgid "Add Link"
+#~ msgstr "Add Link"
+
+#~ msgid ""
+#~ "Add a custom link or select existing page. You can remove existing link "
+#~ "as well."
+#~ msgstr ""
+#~ "Add a custom link or select existing page. You can remove existing link "
+#~ "as well."
+
+#~ msgid "Read More Text"
+#~ msgstr "Read More Text"
+
+#~ msgid "Customize the read more text."
+#~ msgstr "Customize the read more text."
+
+#~ msgid "Choose a block to display"
+#~ msgstr "Chọn block để hiển thị"
+
+#~ msgid "Show static block"
+#~ msgstr "Hiển thị block"
+
+#~ msgid "Show multiple products in a category"
+#~ msgstr "Hiển thị các sản phẩm trong chuyên mục"
+
+#~ msgid "Number of products per row"
+#~ msgstr "Số sản phẩm mỗi hàng"
+
+#~ msgid "Product Slider"
+#~ msgstr "Slider sản phẩm"
+
+#~ msgid "Show products slider in a category"
+#~ msgstr "Hiển thị slide sản phẩm trong chuyên mục"
+
+#~ msgid "Number Column on Desktop Large (> 1200px)"
+#~ msgstr "Số cột trên màn Desktop Large (> 1200px)"
+
+#~ msgid "Number Column on Desktop"
+#~ msgstr "Số cột trên màn Desktop"
+
+#~ msgid "Number Column on Tablets"
+#~ msgstr "Số cột trên màn Tablets"
+
+#~ msgid "Number Column on Mobile"
+#~ msgstr "Số cột trên màn Mobile"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Không tìm thấy"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr "Sẵn sang đăng bài viết đầu tiên? <a href=\"%1$s\">Bắt đầu ngay</a>."
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Xin lỗi, nhưng không có gì phù hợp với cụm từ tìm kiếm của bạn. Vui lòng "
+#~ "thử lại với từ khóa khác."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Có vẻ như chúng tôi không thể&rsquo; tìm thấy những gì bạn&rsquo;re đang "
+#~ "tìm kiếm. Có lẽ tìm kiếm có thể giúp đỡ bạn."
+
+#~ msgid "Pages:"
+#~ msgstr "Trang:"
+
+#~ msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Đọc tiếp %s <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Next Post"
+#~ msgstr "Bài viết trước đó"
+
+#~ msgid "Previous Post"
+#~ msgstr "Bài viết sau đó"
+
+#~ msgid "Related posts"
+#~ msgstr "Bài viết liên quan"
+
+#~ msgid "No products in the cart."
+#~ msgstr "Không có sản phẩm nào trong giỏ hàng."
+
+#~ msgid "Return To Shop"
+#~ msgstr "Trở về cửa hàng"
+
+#~ msgid "SKU:"
+#~ msgstr "SKU:"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "Placeholder"
+#~ msgstr "Placeholder"
+
+#~ msgid "UniTheme"
+#~ msgstr "UniTheme"
+
+#~ msgid "Định dạng: TLS / SSL"
+#~ msgstr "Định dạng: TLS / SSL"
+
+#~ msgid "Metaslider"
+#~ msgstr "Metaslider"
+
+#~ msgid "Google +"
+#~ msgstr "Google +"
+
+#~ msgid "Woocommerce"
+#~ msgstr "Woocommerce"
+
+#~ msgid "Enable customizer gallery product"
+#~ msgstr "Kích hoạt chức năng tùy chỉnh thư viện ảnh"
+
+#~ msgid "Awaiting product image"
+#~ msgstr "Ảnh sản phẩm đang cập nhật"
+
+#~ msgid "Additional information"
+#~ msgstr "Thông tin đính kèm"
+
+#~ msgid "You may also like&hellip;"
+#~ msgstr "Bạn cũng có thể thích&hellip;"
+
+#~ msgid "Designed by"
+#~ msgstr "Thiết kế bởi"
+
+#~ msgid "Viet Nam"
+#~ msgstr "Việt Nam"
+
+#~ msgid "Web3B"
+#~ msgstr "Web3B"
+
+#~ msgid "thietkeweb3b.com"
+#~ msgstr "thietkeweb3b.com"
+
+#, fuzzy
+#~| msgctxt "plugins"
+#~| msgid "All <span class=\"count\">(%s)</span>"
+#~| msgid_plural "All <span class=\"count\">(%s)</span>"
+#~ msgid "<p class=\"fn\">%s</p>"
+#~ msgstr "Tất cả <span class=\"count\">(%s)</span>"
+
+#~ msgid "Comment"
+#~ msgstr "Bình luận của bạn"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Điều hướng bình luận"
+
+#~ msgid "Newer Comments"
+#~ msgstr "Bình luận mới hơn"
+
+#~ msgid "Weight"
+#~ msgstr "Cân nặng"
+
+#~ msgid "Dimensions"
+#~ msgstr "Kích thước"
+
+#~ msgid "en-US"
+#~ msgstr "vi"
+
+#~ msgid "Category ID"
+#~ msgstr "ID chuyên mục"
+
+#~ msgid "Navigation Arrows"
+#~ msgstr "Navigation Arrows"
+
+#~ msgid "Google map embed"
+#~ msgstr "Mã google map"
+
+#~ msgid "Display Widget Shop Sidebar"
+#~ msgstr "Hiển thị Widget Shop Sidebar"
+
+#~ msgid "Display horizontal slide list product"
+#~ msgstr "Hiển thị 1 slide sản phẩm chạy ngang"

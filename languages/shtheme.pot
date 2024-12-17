@@ -1,0 +1,984 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web3B\n"
+"POT-Creation-Date: 2024-06-28 09:16+0700\n"
+"PO-Revision-Date: 2018-01-18 17:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:29
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:31 functions.php:41
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:39
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: inc/admin/advanced/options.php:23
+msgid "Restrict Capabilities"
+msgstr ""
+
+#: inc/admin/advanced/options.php:26
+msgid "Disble Restrict Capabilities"
+msgstr ""
+
+#: inc/admin/advanced/options.php:28
+msgid "Disble restrict capabilities for the customer's account"
+msgstr ""
+
+#: inc/admin/advanced/options.php:37
+msgid "Customizer Element Ux Builder"
+msgstr ""
+
+#: inc/admin/advanced/options.php:41 inc/shortcodes/uni_col.php:5
+msgid "Column"
+msgstr ""
+
+#: inc/admin/advanced/options.php:43
+msgid "Enable additional options for element Column"
+msgstr ""
+
+#: inc/admin/advanced/options.php:51
+msgid "Library"
+msgstr ""
+
+#: inc/admin/advanced/options.php:55
+msgid "Slick Slider"
+msgstr ""
+
+#: inc/admin/advanced/options.php:57
+msgid "Enable Slick Slider"
+msgstr ""
+
+#: inc/admin/advanced/options.php:63
+msgid "AOS Animate"
+msgstr ""
+
+#: inc/admin/advanced/options.php:65
+msgid "Enable AOS Animate"
+msgstr ""
+
+#: inc/builder/shortcodes.php:23 inc/template-functions/init.php:280
+msgid "Original"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:4
+msgid "Uni - Blog"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:5
+#: inc/builder/shortcodes/uni_count_up.php:5
+#: inc/builder/shortcodes/uni_custom_menu.php:15
+#: inc/builder/shortcodes/uni_wg_fb.php:5
+#: inc/builder/shortcodes/uni_wg_information.php:5
+#: inc/template-functions/breadcrumbs.php:12
+msgid "Uni Creation"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:23
+#: inc/builder/shortcodes/uni_product.php:21
+msgid "Total posts"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:30
+msgid "Style"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:33
+msgid "Style 1"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:34
+msgid "Style 2"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:35
+msgid "Style 3"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:36
+msgid "Style 4"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:37
+msgid "Style 5"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:38
+msgid "Style 6"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:39
+msgid "Style 7"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:40
+msgid "Style 8"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:45
+msgid "Show categories"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:54
+msgid "Show button viewmore"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:65 inc/shortcodes/shortcode-blog.php:33
+#: inc/shortcodes/shortcode-blog.php:408 inc/shortcodes/uni_blog.php:10
+#: template-parts/posts/archive-2-col.php:37
+#: template-parts/posts/archive-3-col.php:37
+msgid "Read more"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:69
+msgid "Show meta"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:78
+msgid "Show thumbnail"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:87
+msgid "Show description"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_blog.php:104
+msgid "Show pagination"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_count_up.php:4
+msgid "Uni - Count Up"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_count_up.php:9
+#: inc/builder/shortcodes/uni_product.php:69
+#: inc/builder/shortcodes/uni_wg_fb.php:9
+#: inc/builder/shortcodes/uni_wg_information.php:9
+#: inc/widgets/wg-information.php:81 inc/widgets/wg-post-list.php:105
+#: inc/widgets/wg-view-post-list.php:111
+msgid "Title"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_count_up.php:15
+msgid "Number"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_custom_menu.php:14
+msgid "Uni - Custom Menu"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:4
+msgid "Uni - Product"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:5
+#: inc/builder/shortcodes/uni_title_product.php:5
+msgid "Uni Creation - Woocommerce"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:28
+msgid "Column Spacing"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:40
+msgid "Columns"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:48 inc/shortcodes/uni_col.php:6
+msgid "Layout"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:52
+msgid "Animate"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:60
+msgid "Box"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:64 inc/widgets/wg-post-list.php:115
+msgid "Category"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:74
+msgid "Rating"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:79
+#: inc/woocommerce/function-woo.php:196 woocommerce/cart/cart.php:54
+#: woocommerce/cart/cart.php:141
+msgid "Price"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:84
+msgid "Add To Cart"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:89
+msgid "Quick View"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:94
+msgid "Equalize Items"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:101
+msgid "Filter Posts"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:106
+msgid "Order By"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:118
+msgid "Order"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:127
+msgid "Show"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_product.php:137
+msgid "Out Of Stock"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_title_product.php:4
+msgid "Uni - Title Products"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:4
+msgid "Uni - Fanpage Facebook"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:27
+msgid "Link Fanpage"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:33
+#: inc/builder/shortcodes/uni_wg_information.php:63
+msgid "Advanced"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_fb.php:37
+msgid "Include root"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:4
+#: inc/widgets/wg-information.php:14
+msgid "Uni - Information contact"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:28
+#: inc/widgets/wg-information.php:85
+msgid "Company"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:33
+#: inc/shortcodes/uni_wg_information.php:46 inc/widgets/wg-information.php:36
+#: inc/widgets/wg-information.php:89
+msgid "Address"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:38
+#: inc/shortcodes/uni_wg_information.php:49 inc/widgets/wg-information.php:39
+#: inc/widgets/wg-information.php:93
+msgid "Telephone"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:43
+#: inc/shortcodes/uni_wg_information.php:52 inc/widgets/wg-information.php:42
+#: inc/widgets/wg-information.php:97
+msgid "Hotline"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:48
+#: inc/shortcodes/uni_wg_information.php:55 inc/widgets/wg-information.php:45
+#: inc/widgets/wg-information.php:101
+msgid "Fax"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:53
+#: inc/shortcodes/uni_wg_information.php:58 inc/widgets/wg-information.php:48
+#: inc/widgets/wg-information.php:105
+#: woocommerce/single-product-reviews.php:161
+msgid "Email"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:58
+#: inc/shortcodes/uni_wg_information.php:61 inc/widgets/wg-information.php:51
+#: inc/widgets/wg-information.php:109
+msgid "Website"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:67
+#: inc/widgets/wg-information.php:114
+msgid "Hide label"
+msgstr ""
+
+#: inc/builder/shortcodes/uni_wg_information.php:72
+#: inc/widgets/wg-information.php:118
+msgid "Hide icon"
+msgstr ""
+
+#: inc/shortcodes/uni_col.php:18 inc/woocommerce/function-woo.php:28
+msgid "Default"
+msgstr ""
+
+#: inc/shortcodes/uni_col.php:85
+msgid "Image"
+msgstr ""
+
+#: inc/shortcodes/uni_col.php:99
+msgid "Position"
+msgstr ""
+
+#: inc/shortcodes/uni_col.php:103
+msgid "Bg Color"
+msgstr ""
+
+#: inc/shortcodes/uni_col.php:111
+msgid "Bg Radius"
+msgstr ""
+
+#: inc/shortcodes/uni_col.php:147
+msgid "Text Shadow"
+msgstr ""
+
+#: inc/shortcodes/uni_title_product.php:39
+msgid "View all"
+msgstr ""
+
+#: inc/shortcodes/uni_title_product.php:45
+msgid "Categories"
+msgstr ""
+
+#: inc/shortcodes/uni_wg_fb.php:35
+msgid "en_US"
+msgstr ""
+
+#: inc/template-functions/breadcrumbs.php:11
+msgid "Uni - Breadcrumb"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:43
+#, php-format
+msgid "%s cha"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:44
+#, php-format
+msgid "Tất cả %s"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:45
+#, php-format
+msgid "Thêm mới %s"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:46
+msgctxt "shtheme"
+msgid "Thêm mới"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:47
+#, php-format
+msgid "%s mới"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:48
+msgid "Chỉnh sửa"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:49
+#, php-format
+msgid "Xem %s"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:50
+#, php-format
+msgid "Tìm kiếm %s"
+msgstr ""
+
+#: inc/template-functions/cpt/cpt.php:51 inc/template-functions/cpt/cpt.php:52
+#, php-format
+msgid "Không tìm thấy %s nào"
+msgstr ""
+
+#: inc/template-functions/cpt/khach-hang.php:9
+msgctxt "Post Type General Name"
+msgid "Khách hàng"
+msgstr ""
+
+#: inc/template-functions/cpt/khach-hang.php:10
+msgctxt "Post Type Singular Name"
+msgid "Khách hàng"
+msgstr ""
+
+#: inc/template-functions/init.php:109 inc/template-functions/init.php:111
+msgid "views"
+msgstr ""
+
+#: inc/template-functions/init.php:240
+msgid "Duplicate this item"
+msgstr ""
+
+#: inc/template-functions/init.php:240
+msgid "Duplicate"
+msgstr ""
+
+#: inc/template-functions/init.php:253
+#, php-format
+msgid ""
+"Copyright belong to <span>%s</span><span class=\"hide-for-medium\"> - </"
+"span><br class=\"show-for-medium\"><a href=\"https://univn.vn/thiet-ke-"
+"website-tron-goi/\" target=\"_blank\" rel=\"nofollow\">Design</a> by <a "
+"href=\"https://univn.vn/\" target=\"_blank\" rel=\"nofollow\">Uni Creation</"
+"a>"
+msgstr ""
+
+#: inc/template-functions/taxonomies/khach-hang-cat.php:17
+#: inc/template-functions/taxonomies/khach-hang-cat.php:18
+msgid "Danh mục"
+msgstr ""
+
+#: inc/widgets/wg-information.php:16
+msgid "Display information contact"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:14
+msgid "Uni - Featured Posts"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:16
+msgid "Displays featured posts with thumbnails"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:110 inc/widgets/wg-view-post-list.php:116
+msgid "Number of Posts to Show"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:117
+msgid "Select category"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:123 inc/widgets/wg-view-post-list.php:127
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:127 inc/widgets/wg-view-post-list.php:131
+msgid "Image Alignment"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:129 inc/widgets/wg-view-post-list.php:133
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:130 inc/widgets/wg-view-post-list.php:134
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:131 inc/widgets/wg-view-post-list.php:135
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:136 inc/widgets/wg-view-post-list.php:140
+msgid "Image Size"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:147 inc/widgets/wg-view-post-list.php:151
+msgid "Image Height"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:152 inc/widgets/wg-view-post-list.php:156
+msgid "Content Type"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:154 inc/widgets/wg-view-post-list.php:158
+msgid "Show Content Limit"
+msgstr ""
+
+#: inc/widgets/wg-post-list.php:155 inc/widgets/wg-view-post-list.php:159
+msgid "No Content"
+msgstr ""
+
+#: inc/widgets/wg-view-post-list.php:14
+msgid "Uni - Top view posts"
+msgstr ""
+
+#: inc/widgets/wg-view-post-list.php:16
+msgid "Top list posts by views"
+msgstr ""
+
+#: inc/widgets/wg-view-post-list.php:121
+msgid "Post date"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:29
+msgid "Best seller"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:30
+msgid "Rating score"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:31
+msgid "Low to high price"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:32
+msgid "High to low price"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:63
+msgid "Full name"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:85
+msgid "Information"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:86
+msgid "Gallery"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:87
+msgid "Video"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:88
+msgid "Attachments"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:105
+msgid "Add to cart"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:114
+msgid "Choose quantity"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:129
+msgid "Quick buy"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:210
+msgid "Discount"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:218
+#: template-parts/header/partials/element-contact-mobile.php:47
+#: template-parts/header/partials/element-contact.php:44
+msgid "Contact"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:284 inc/woocommerce/function-woo.php:285
+msgid "View detail"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:304
+#: template-parts/header/partials/element-cart.php:57
+#, php-format
+msgid "%d product"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:304
+#: template-parts/header/partials/element-cart.php:57
+#, php-format
+msgid "%d products"
+msgstr ""
+
+#: inc/woocommerce/function-woo.php:329
+msgid "Logout"
+msgstr ""
+
+#: inc/woocommerce/grid-list-toggle.php:39
+msgid "Grid view"
+msgstr ""
+
+#: inc/woocommerce/grid-list-toggle.php:40
+msgid "List view"
+msgstr ""
+
+#: template-parts/header/partials/element-cart.php:29
+#: template-parts/header/partials/element-cart.php:50
+#: template-parts/header/partials/element-cart.php:65
+#: template-parts/header/partials/element-cart.php:102
+msgid "Cart"
+msgstr ""
+
+#: template-parts/header/partials/element-contact-mobile.php:56
+#: template-parts/header/partials/element-contact.php:61
+msgid "Location"
+msgstr ""
+
+#: template-parts/header/partials/element-contact-mobile.php:81
+#: template-parts/header/partials/element-contact.php:92
+msgid "WhatsApp"
+msgstr ""
+
+#: template-parts/header/partials/element-menu-icon.php:13
+#: template-parts/header/partials/element-menu-icon.php:21
+msgid "Menu"
+msgstr ""
+
+#: template-parts/posts/content-single.php:22
+msgid "Share&#58;"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/posts/content-single.php:31
+#: template-parts/posts/content-single.php:34
+msgid ", "
+msgstr ""
+
+#: template-parts/posts/content-single.php:39
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr ""
+
+#: template-parts/posts/content-single.php:41
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:30
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:38
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:41
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:44
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Asides"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Images"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:53
+msgid "Videos"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:56
+msgid "Quotes"
+msgstr ""
+
+#: template-parts/posts/partials/archive-title.php:59
+msgid "Links"
+msgstr ""
+
+#: woocommerce/cart/cart.php:53 woocommerce/cart/cart.php:108
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:55 woocommerce/cart/cart.php:147
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:56 woocommerce/cart/cart.php:173
+msgid "Subtotal"
+msgstr ""
+
+#. translators: %s is the product name
+#: woocommerce/cart/cart.php:87
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:191
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:223
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:223
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:223
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:223
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:60 woocommerce/checkout/thankyou.php:118
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:67
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:84
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:90
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/loop/filter-button.php:22
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:117
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:53
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+#: woocommerce/myaccount/form-login.php:103
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:68
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:89
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:109
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Review for"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Average Rating Score"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "There are no reviews yet"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:121
+msgid "Have you used this product?"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "Submit your review"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:140
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:140
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:142
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:147
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:155
+msgid "Name"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:186
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:190
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:194
+#: woocommerce/single-product-reviews.php:219
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:198
+#: woocommerce/single-product-reviews.php:218
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:202
+#: woocommerce/single-product-reviews.php:217
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:206
+#: woocommerce/single-product-reviews.php:216
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:210
+#: woocommerce/single-product-reviews.php:215
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:214
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:222
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:234
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:268
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product/related.php:47
+msgid "Related products"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Flatsome Child"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "univn.vn"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This is a child theme for Flatsome Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quang Hoa"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "hoanqhd@gmail.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page - Right Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "WooCommerce - My Account"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page - Left Sidebar"
+msgstr ""
